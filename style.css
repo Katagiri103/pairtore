@@ -1,0 +1,64 @@
+@charset 'UTF-8';
+/*
+Theme Name: pairtore
+*/
+
+/*body*/
+.top-image img{
+    width:100%;
+    
+}
+.introduction{
+    background-color: #6EC7D9;
+    height:630px;
+    padding-top:80px;
+}
+.introduction-title{
+    display:flex;
+    align-items: flex-end;
+    margin:0px 200px;
+}
+.introduction-title img{
+    
+    width:500px;
+    
+    
+}
+.introduction-title h1{
+    
+    font-size:50px;
+    font-weight:bolder;
+    color:white;
+}
+.introduction-intro{
+    font-size: 40px;
+    font-weight:bolder;
+    color:#6EC7D9;
+    background-color:white;
+    margin: 10px 200px;
+    padding:10px 0px 5px;
+    
+}
+.introduction-intro h1{
+    text-align: center;
+}
+.introduction-body{
+    margin:20px 200px;
+    
+}
+.introduction-body p{
+    line-height: 40px;
+    font-size: 23px;
+    color:white;
+}
+.yellow{
+    color:yellow;
+}
+
+/*footer*/
+.site-footer{
+    background-color: #6EC7D9;
+}
+.site-footer img{
+    
+}
