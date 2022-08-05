@@ -16,7 +16,7 @@ Theme Name: pairtore
 .introduction-title{
     display:flex;
     align-items: flex-end;
-    margin:0px 200px;
+    margin:0px 400px;
 }
 .introduction-title img{
     
@@ -35,7 +35,7 @@ Theme Name: pairtore
     font-weight:bolder;
     color:#6EC7D9;
     background-color:white;
-    margin: 10px 200px;
+    margin: 10px 400px;
     padding:10px 0px 5px;
     
 }
@@ -43,7 +43,7 @@ Theme Name: pairtore
     text-align: center;
 }
 .introduction-body{
-    margin:20px 200px;
+    margin:20px 400px;
     
 }
 .introduction-body p{
@@ -53,6 +53,80 @@ Theme Name: pairtore
 }
 .yellow{
     color:yellow;
+}
+
+.trainer-info{
+    display:flex;
+    height: 550px;
+    padding: 0px 400px;
+    margin-top: 200px;
+    
+}
+.trainer-info img{
+    
+    width:400px;
+    height:400px;
+
+}
+.trainer-info p{
+    font-size:23px;
+    margin-left:50px;
+    line-height: 38px;
+}
+.trainer-info span{
+    font-size: 40px;
+    color:#6EC7D9;
+    font-weight: bolder;
+    border-bottom: solid 4px #6EC7D9;
+    padding-right:130px;
+
+}
+.gleeting{
+    padding: 0px 380px;
+}
+.gleeting-title h1{
+    font-size:60px;
+    color:#6EC7D9;
+    border-left: solid 20px #6EC7D9;
+    padding-left: 20px;
+    font-weight:bolder;
+}
+.gleeting-title h2{
+    margin:30px 20px;
+    color:#6EC7D9;
+    text-align:center;
+    font-size: 45px;
+    border-bottom: solid 4px #6EC7D9;
+}
+.gleeting-self{
+    margin: 40px 20px;
+    display:flex;
+}
+.gleeting-self-title{
+    color:#6EC7D9;
+    font-size:23px;
+
+
+}
+.gleeting-self-name{
+    padding-top:20px;
+    font-size: 45px;
+}
+.gleeting-self-spell{
+    margin-top:10px;
+    font-size:30px;
+}
+.gleeting-self img{
+    width: 130px;
+    margin-left:20px;
+
+}
+.gleeting-image{
+    margin-left:20px;
+    width:400px;
+}
+.gleeting-image img{
+    width:400px;
 }
 
 /*footer*/
