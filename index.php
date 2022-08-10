@@ -190,6 +190,193 @@
                 ⑦とにかく実践で使えるハイレベルな授業と手厚いサポート
             </p>
         </div>
+        <div class="feature01">
+            <div>
+                <h1>01</h1>
+            </div>
+            <div>
+                <div class="feature01-body">
+                    <h2>
+                        講師は全員<br>
+                        <span class="font-color-blue">現役有資格パーソナルトレーナー</span>
+                    </h2>
+                    <p>
+                        最前線で活躍している「現役のプロ」だからこそ、「今どのようなスキルが求めら<br>
+                        れているのか」「どのような知識が必要なのか」といったリアルな内容を皆さん<br>
+                        にお伝えすることができます。講師のアシスタントとして、セッションの現場に<br>
+                        同行することが可能な場合もあります。
+                    </p>
+                </div>
+                <div class="feature01-intro">
+                    <div>
+                        <h3><span class="font-color-blue">Taguchi Yuuki</span></h3>
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/feature01-taguchi.jpeg')); ?>" alt="">
+                        <p>
+                            ■　資格<br>
+                            ・リトモスアシスタントマスタートレーナー<br>
+                            ・プロジェクションワークアウト<br>
+                            プログラムディレクター<br>
+                            ・フィクスドコンディション人材育成業務<br>
+                            ・国際救急救命資格
+                        </p>
+                    </div>
+                    <div>
+                        <h3><span class="font-color-blue">Komai Masanori</span></h3>
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/feature01-komai.jpeg')); ?>" alt="">
+                        <p>
+                            ■　資格<br>
+                            ・日本トレーニング指導者協会認定<br>
+                            上級トレーニング指導者　JATI-ATI<br>
+                            ・日本コアコンディショニング協会認定<br>
+                            ベーシックインストラクター<br>
+                            ・赤十字ベーシックライフサポーター
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feature02">
+            <div>
+                <h1>02</h1>
+            </div>
+            <div class="feature02-body">
+                <div>
+                    <h2><span class="font-color-blue">マンツーマン</span>（1on1）の授業</h2>
+                    <p>
+                        マンツーマンで実際にジムに来て学習します。<br>
+                        しっかりとその人に合った指導を行うので着実に<br>
+                        スキルを身に着けることができます。<br>
+                        わからない事は随時質問できるので、<br>
+                        集団レッスンの何倍ものスピードで成長できます。<br>
+                        また、曜日が固定されていない予約制なので、<br>
+                        仕事が不規則で決まった曜日に通えない人にもオススメです。
+                    </p>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature02.jpeg')); ?>" alt="">
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <div class="feature03">
+            <div>
+                <h1>03</h1>
+            </div>
+            <div class="feature03-body">
+                <div>
+                    <h2>実践を前提とした<br><span class="font-color-blue">アウトプット中心の学習</span></h2>
+                    <p>
+                        パーソナルトレーナーは知識や実技を学ぶだけではなく、<br>
+                        トレーニングメニュー構成やストレッチという工程などもあります。<br>
+                        そしてどれだけ知識やノウハウを頭に入れても、現場で活用できなけ<br>
+                        れば意味がありません。ペアトレではトレーナーとして活躍するため<br>
+                        に、解剖学から実技、メニュー設計、ストレッチまでを一気通貫で学<br>
+                        習し、随時アウトプットしてもらいます。<br>
+                        それにより、すぐに現場に立てる力を身に着けます。
+                    </p>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature03.jpeg')); ?>" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="feature04">
+            <div>
+                <h1>04</h1>
+            </div>
+            <div class="feature04-body">
+                <div>
+                    <h2>手厚い進路サポート<br>提携ジムで<span class="font-color-blue">すぐに働く事も可能</span>！</h2>
+                    <p>
+                        卒業後は、提携先のパーソナルジムですぐに仕事に就くことが<br>
+                        できます。正社員雇用や業務委託など柔軟に対応して<br>
+                        おりますのでカウンセリング時にご相談ください。<br>
+                        マンツーマンのため、責任持って手厚くサポート致します。
+                    </p>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature04.jpeg')); ?>" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="curriculum">
+            <h1>カリキュラム</h1>
+            <h2>実践的なカリキュラムでパーソナルトレーナーへ。</h2>
+            <p>
+                2ヶ月を通して初心者からでも着実にスキルを身につけていき、<br>
+                実際にパーソナルトレーナーとして現場に立てる実践的なカリキュラム
+            </p>
+            <div class="curriculum-body">
+                <div class="curriculum-left">
+                    <h3>Basics -基礎ステージ-<br>1ヶ月目</h3>
+                    <p>
+                        トレーナーの基本となる座学（解剖学等）につい<br>
+                        てマンツーマン授業を通して学習します。<br>
+                        毎回小テストがございます。<br><br>
+                        【 学習内容 】<br><br>
+                        1:オリエンテーション、ヒアリング<br>
+                        2:生理学・栄養学<br>
+                        3:基礎解剖学（下肢）<br>
+                        4:基礎解剖学（体幹)<br>
+                        5:基礎解剖学（体幹・上肢）<br>
+                        6:肩こり・猫背・巻き肩<br>
+                        7:腰痛・脚痩せ<br>
+                        8:中間テスト
+                    </p>
+                </div>
+                <div class="curriculum-right">
+                    <h3>Practice -実践ステージ-<br>2ヶ月目</h3>
+                    <p>
+                        身につけた知識から実技やロープレをしなが<br>
+                        ら、実際に現場で使える生きたトレーナースキル<br>   
+                        やコミュニケーションを身に付けます。<br><br>
+                        【 学習内容 】<br><br>
+                        9:下肢種目＋実践<br>
+                        10:下肢種目＋実践<br>
+                        11:胸種目＋実践<br>
+                        12:上腕三頭筋＋実践<br>
+                        13:上腕二頭筋＋実践<br>
+                        14:食事管理＋カウンセリング<br>
+                        15:ロープレ＋実践プログラム設計<br>
+                        16:最終テスト
+                    </p>
+                </div>
+            </div>
+            <div class="curriculum-content">
+                <h1>カリキュラムの内容</h1>
+                <div class="curriculum-flex">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
+                    <div>    
+                        <h2>
+                            未経験でもつまづかない<br>
+                            ステップアップ型カリキュラム
+                        </h2>
+                        <p>
+                            ペアトレでは未経験から始める方でも、<br>
+                            つまづかないカリキュラムになっています。<br>
+                            基礎ステージでまず基本を身につけることで、<br>
+                            その後の学習をスムーズに進めることができます。<br>
+                            またわからないことはいつでも質問して疑問解消することで<br>
+                            スムーズに進めていくことが可能です。
+                        </p>
+                    </div>
+                </div>
+                <div class="curriculum-flex">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+                    <div>
+                        <h2>
+                            わからないことは講義時や<br>
+                            公式LINE@でいつでも質問できる
+                        </h2>
+                        <p>
+                            課題や宿題はできるようになるまで何度でも講師が<br>
+                            フィードバックします。<br>
+                            オフライン授業なので、やってみてわからないことは<br>
+                            その場で聞ける、見本を見せてもらえる環境を<br>
+                            ご用意しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
         
 
             
