@@ -49,60 +49,77 @@
             </p>
         </div>
     </section>
-    <div class="gleeting">
-
-        <div class="gleeting-title">
-            <h1>代表挨拶</h1>
-            <h2>社会で即活躍できるパートナルトレーナーを輩出する</h2>
-        </div>
-        <div class="gleeting-self-body">
-            <div>
+    <section class="gleeting-container">
+        <div class="gleeting-main">
+            <div class="gleeting-title">
+                <h1>代表挨拶</h1>
+                <h2>社会で即活躍できるパートナルトレーナーを輩出する</h2>
+            </div>
+            <div class="gleeting-self-body">
                 <div class="gleeting-self">
-                    <div>
-                        <p class="gleeting-self-title">ペアトレ代表</p>
-                        <p class="gleeting-self-name">田口 優喜</p>
-                        <p class="gleeting-self-spell">TAGUCHI YUUKI</p>
+                    <div class="gleeting-self-content">
+                        <div>
+                            <p class="gleeting-self-title">ペアトレ代表</p>
+                            <p class="gleeting-self-name">田口 優喜</p>
+                            <p class="gleeting-self-spell">TAGUCHI YUUKI</p>
+                        </div>
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/gleeting-self-image.jpeg')); ?>" alt="">
                     </div>
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/gleeting-self-image.jpeg')); ?>" alt="">
+                    <div class="gleeting-image">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/gleeting-image.jpeg')); ?>" alt="">
+                    </div>
+                    <div class="gleeting-profile">
+                        <p class="gleeting-profile-title">
+                            PROFILE
+                        </p>
+                        <p class="gleeting-profile-body">
+                            10代の頃からミュージカルスクールで
+                            バレエ・JAZZ・声楽を習い、
+                            20歳からフィットネスの仕事に従事する。
+                            <br><br>
+                            アマゾンプライム番組などにも
+                            インストラクターとして出演。
+                            パーソナルトレーニングの他にも、ヨガ、ダンス、
+                            エアロビクス、バレエエクササイズなどの
+                            インストラクターとしても活動中。
+                        </p>
+                    </div>
                 </div>
-                <div class="gleeting-image">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/gleeting-image.jpeg')); ?>" alt="">
+                <div class="gleeting-body">
+                    <p>
+                        パーソナルトレーナー人口が伸び続けている昨今ですが、<br>
+                        一概に資格をとればトレーナーとして安泰、知識があれば<br>
+                        トレーナーとして優秀というわけではありません。<br><br>
+                        お客様にその知識をどう伝えるのか。<br>
+                        その伝え方、ワードチョイスひとつとっても<br>
+                        お客様の理解に差が出ます。<br>
+                        <span class="font-color-blue">"できる"と"教える"とでは全く身に着けるスキルが違うのです。</span><br><br>
+                        パーソナルトレーナーには需要力と供給力<br>
+                        この２つの力が求められます。<br>
+                        <span class="font-color-blue">①需要力 ＝ お客様が求めるもの、目的、悩み、<br>
+                            ニーズを性格に把握する力<br>
+                            ②供給力 ＝ その披露したファクト（事実）に対して、<br>
+                            １番の最適な解決策を提案し、指導する力</span><br>
+                        常に時代は変化しており、それに伴いお客様のニーズも<br>
+                        多様化しています。<br>
+                        そのそれぞれのニーズに対して即座に<br>
+                        適切な解決策の提案ができるトレーナーこそが、<br>
+                        「社会で活躍できるパーソナルトレーナー」です。<br><br>
+                        当スクールが他社に比べて<br>
+                        <span class="font-color-blue">①圧倒的にコストが安く<br>
+                            ②マンツーマン指導を徹底している</span>のには２つの理由があります。<br>
+                        １つ目は金額という障壁をなくすことにより<br>
+                        学ぶハードルが低くなり、トレーナー人口拡大に繋げるため。<br>
+                        ２つ目はパーソナルトレーナーという対人の適応性が<br>
+                        問われる仕事の構造を追及した結果、<br>
+                        最適解はマンツーマン指導にたどり着くと考えたためです。<br><br>
+                        本質的な教育、指導の提供こそが社会的意義になると信じて、<br>
+                        私たちは今日も真摯に業界の課題と向き合ってまいります。
+                    </p>
                 </div>
-            </div>
-            <div class="gleeting-body">
-                <p>
-                    パーソナルトレーナー人口が伸び続けている昨今ですが、<br>
-                    一概に資格をとればトレーナーとして安泰、知識があれば<br>
-                    トレーナーとして優秀というわけではありません。<br><br>
-                    お客様にその知識をどう伝えるのか。<br>
-                    その伝え方、ワードチョイスひとつとっても<br>
-                    お客様の理解に差が出ます。<br>
-                    <span class="font-color-blue">"できる"と"教える"とでは全く身に着けるスキルが違うのです。</span><br><br>
-                    パーソナルトレーナーには需要力と供給力<br>
-                    この２つの力が求められます。<br>
-                    <span class="font-color-blue">①需要力 ＝ お客様が求めるもの、目的、悩み、<br>
-                        ニーズを性格に把握する力<br>
-                        ②供給力 ＝ その披露したファクト（事実）に対して、<br>
-                        １番の最適な解決策を提案し、指導する力</span><br>
-                    常に時代は変化しており、それに伴いお客様のニーズも<br>
-                    多様化しています。<br>
-                    そのそれぞれのニーズに対して即座に<br>
-                    適切な解決策の提案ができるトレーナーこそが、<br>
-                    「社会で活躍できるパーソナルトレーナー」です。<br><br>
-                    当スクールが他社に比べて<br>
-                    <span class="font-color-blue">①圧倒的にコストが安く<br>
-                        ②マンツーマン指導を徹底している</span>のには２つの理由があります。<br>
-                    １つ目は金額という障壁をなくすことにより<br>
-                    学ぶハードルが低くなり、トレーナー人口拡大に繋げるため。<br>
-                    ２つ目はパーソナルトレーナーという対人の適応性が<br>
-                    問われる仕事の構造を追及した結果、<br>
-                    最適解はマンツーマン指導にたどり着くと考えたためです。<br><br>
-                    本質的な教育、指導の提供こそが社会的意義になると信じて、<br>
-                    私たちは今日も真摯に業界の課題と向き合ってまいります。
-                </p>
             </div>
         </div>
-    </div>
+    </section>
     <div class="concept">
         <div>
             <h1>コンセプト</h1>
