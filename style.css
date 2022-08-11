@@ -685,14 +685,121 @@ Theme Name: pairtore
   font-size: 15px;
   line-height: 30px;
 }
-
+.student-voice {
+    margin: 50px 180px;
+}
+.student-voice h1 {
+  
+  font-size: 60px;
+  border-left: solid 20px #6ec7d9;
+  padding-left: 20px;
+  font-weight: bolder;
+}
+.student-voice h2 {
+    margin-top:30px;
+    font-size: 50px;
+    margin-left:50px;
+}
+.student-voice h3 {
+    margin: 20px 50px;
+    font-size: 30px;
+}
+.student-img{
+    display:flex;
+    margin-left:50px;
+    height: 220px;
+    
+}
+.student-img img{
+    margin: 0px 5px;
+}
+.student-voice p {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.difference{
+    margin: 0px 180px;
+    height: 700px;
+    background-color:red;
+}
+.difference h1{
+  font-size: 60px;
+  border-left: solid 20px #6ec7d9;
+  padding-left: 20px;
+  font-weight: bolder;
+  color:#6ec7d9;
+}
+.access{
+    padding: 0px 180px;
+    padding-top:50px;
+    background-color: #EDF7FF;
+    height: 500px;
+}
+.access h1{
+  font-size: 60px;
+  border-left: solid 20px #6ec7d9;
+  padding-left: 20px;
+  font-weight: bolder;
+  color:#6ec7d9;
+}
+.access-body{
+    display:flex;
+    margin-top:30px;
+}
+.access-body img{
+    margin-left: 30px;
+    width:400px;
+}
+.access-body p{
+    margin-top:20px;
+    margin-left:30px;
+    font-size: 15px;
+    
+}
 /*footer*/
 .site-footer {
   background-color: #48c9da;
+  padding: 0px 200px;
+  height:300px;
 }
-
-.site-footer img {
-  font-size: 40px;
-  margin-top: 40px;
-  font-weight: bolder;
+.site-footer h1{
+    font-size:30px;
+    color: white;
+    border-bottom: solid 2px white;
+    text-align:center;
+    padding-top:40px;
+    padding-bottom: 20px;
 }
+.site-footer img{
+    width: 400px;
+}
+.site-footer h2{
+    color:white;
+    text-align: center;
+    font-size:35px;
+}
+.site-footer-body{
+    display:flex;
+}
+.site-footer-body button{
+    margin: 20px 20px;
+    display       : inline-block;
+    border-radius : 69px;          /* 角丸       */
+    font-size     : 22px;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 40px 100px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : #999999;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    opacity       : 0.9;         /* 透明度     */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 1px 1px 4px #666666;  /* 影の設定 */
+    font-weight: bolder;
+  }
+  .button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    opacity       : 1;           /* カーソル時透明度 */
+  }
