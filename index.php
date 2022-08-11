@@ -31,22 +31,24 @@
     <section class="introduction-arrow">
         <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction_arrow.png')); ?>">
     </section>
-    <div class="trainer-info">
-        <img src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info-image.jpeg')); ?>" alt="">
-        <p>
-            <span>パーソナルトレーナーとは？</span><br><br>
+    <section class="trainer-info-container">
+        <div class="trainer-info-main">
+            <img src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info-img.png')); ?>">
+            <p>
+                <span>パーソナルトレーナーとは？</span><br><br>
 
-            パーソナルトレーナーとは、トレーニング指導の<br>
-            専門職業で、一般の方の健康増進や<br>
-            アスリートの競技力向上などを目的に<br>
-            マンツーマンでエクササイズ、トレーニング指導、<br>
-            栄養指導などを行う指導者のことです。<br><br>
+                パーソナルトレーナーとは、トレーニング指導の<br>
+                専門職業で、一般の方の健康増進や<br>
+                アスリートの競技力向上などを目的に<br>
+                マンツーマンでエクササイズ、トレーニング指導、<br>
+                栄養指導などを行う指導者のことです。<br><br>
 
-            トレーニングに関する知識、経験だけではなく、<br>
-            栄養や身体の仕組みに関する知識も必要とされ、<br>
-            自身の鍛錬も大切な要素となります。
-        </p>
-    </div>
+                トレーニングに関する知識、経験だけではなく、<br>
+                栄養や身体の仕組みに関する知識も必要とされ、<br>
+                自身の鍛錬も大切な要素となります。
+            </p>
+        </div>
+    </section>
     <div class="gleeting">
 
         <div class="gleeting-title">
