@@ -342,82 +342,84 @@
             </div>
         </div>
     </section>
-    <div class="curriculum">
-        <h1>カリキュラム</h1>
-        <h2>実践的なカリキュラムでパーソナルトレーナーへ。</h2>
-        <p>
-            2ヶ月を通して初心者からでも着実にスキルを身につけていき、<br>
-            実際にパーソナルトレーナーとして現場に立てる実践的なカリキュラム
-        </p>
-        <div class="curriculum-body">
-            <div class="curriculum-left">
-                <h3>Basics -基礎ステージ-<br>1ヶ月目</h3>
+    <div class="curriculum-container">
+        <div class="curriculum-main">
+            <div class="curriculum-title">
+                <h1>カリキュラム</h1>
+                <h2>実践的なカリキュラムでパーソナルトレーナーへ。</h2>
                 <p>
-                    トレーナーの基本となる座学（解剖学等）につい<br>
-                    てマンツーマン授業を通して学習します。<br>
-                    毎回小テストがございます。<br><br>
-                    【 学習内容 】<br><br>
-                    1:オリエンテーション、ヒアリング<br>
-                    2:生理学・栄養学<br>
-                    3:基礎解剖学（下肢）<br>
-                    4:基礎解剖学（体幹)<br>
-                    5:基礎解剖学（体幹・上肢）<br>
-                    6:肩こり・猫背・巻き肩<br>
-                    7:腰痛・脚痩せ<br>
-                    8:中間テスト
+                    2ヶ月を通して初心者からでも着実にスキルを身につけていき、<br>
+                    実際にパーソナルトレーナーとして現場に立てる実践的なカリキュラム
                 </p>
             </div>
-            <div class="curriculum-right">
-                <h3>Practice -実践ステージ-<br>2ヶ月目</h3>
-                <p>
-                    身につけた知識から実技やロープレをしなが<br>
-                    ら、実際に現場で使える生きたトレーナースキル<br>
-                    やコミュニケーションを身に付けます。<br><br>
-                    【 学習内容 】<br><br>
-                    9:下肢種目＋実践<br>
-                    10:下肢種目＋実践<br>
-                    11:胸種目＋実践<br>
-                    12:上腕三頭筋＋実践<br>
-                    13:上腕二頭筋＋実践<br>
-                    14:食事管理＋カウンセリング<br>
-                    15:ロープレ＋実践プログラム設計<br>
-                    16:最終テスト
-                </p>
-            </div>
-        </div>
-        <div class="curriculum-content">
-            <h1>カリキュラムの内容</h1>
-            <div class="curriculum-flex">
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
-                <div>
-                    <h2>
-                        未経験でもつまづかない<br>
-                        ステップアップ型カリキュラム
-                    </h2>
+            <div class="curriculum-body">
+                <div class="curriculum-left">
+                    <div class="curriculum-body-title">
+                        <h3>Basics -基礎ステージ-<br>1ヶ月目</h3>
+                    </div>
                     <p>
-                        ペアトレでは未経験から始める方でも、<br>
-                        つまづかないカリキュラムになっています。<br>
-                        基礎ステージでまず基本を身につけることで、<br>
-                        その後の学習をスムーズに進めることができます。<br>
-                        またわからないことはいつでも質問して疑問解消することで<br>
-                        スムーズに進めていくことが可能です。
+                        トレーナーの基本となる座学（解剖学等）につい<br>
+                        てマンツーマン授業を通して学習します。<br>
+                        毎回小テストがございます。<br><br>
+                        【 学習内容 】<br>
+                        1:オリエンテーション、ヒアリング<br>
+                        2:生理学・栄養学<br>
+                        3:基礎解剖学（下肢）<br>
+                        4:基礎解剖学（体幹)<br>
+                        5:基礎解剖学（体幹・上肢）<br>
+                        6:肩こり・猫背・巻き肩<br>
+                        7:腰痛・脚痩せ<br>
+                        8:中間テスト
+                    </p>
+                </div>
+                <div class="curriculum-right">
+                    <div class="curriculum-body-title">
+                        <h3>Practice -実践ステージ-<br>2ヶ月目</h3>
+                    </div>
+                    <p>
+                        身につけた知識から実技やロープレをしなが<br>
+                        ら、実際に現場で使える生きたトレーナースキル<br>
+                        やコミュニケーションを身に付けます。<br><br>
+                        【 学習内容 】<br>
+                        9:下肢種目＋実践<br>
+                        10:下肢種目＋実践<br>
+                        11:胸種目＋実践<br>
+                        12:上腕三頭筋＋実践<br>
+                        13:上腕二頭筋＋実践<br>
+                        14:食事管理＋カウンセリング<br>
+                        15:ロープレ＋実践プログラム設計<br>
+                        16:最終テスト
                     </p>
                 </div>
             </div>
-            <div class="curriculum-flex">
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
-                <div>
-                    <h2>
-                        わからないことは講義時や<br>
-                        公式LINE@でいつでも質問できる
-                    </h2>
-                    <p>
-                        課題や宿題はできるようになるまで何度でも講師が<br>
-                        フィードバックします。<br>
-                        オフライン授業なので、やってみてわからないことは<br>
-                        その場で聞ける、見本を見せてもらえる環境を<br>
-                        ご用意しています。
-                    </p>
+            <div class="curriculum-content">
+                <h1>カリキュラムの内容</h1>
+                <div class="curriculum-content-body">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
+                    <div>
+                        <h2>
+                            未経験でもつまづかない<br>
+                            ステップアップ型カリキュラム
+                        </h2>
+                        <p>
+                            ペアトレでは未経験から始める方でも、つまづかないカリキュラムになっています。<br>
+                            基礎ステージでまず基本を身につけることで、その後の学習をスムーズに進めることができます。<br>
+                            またわからないことはいつでも質問して疑問解消することでスムーズに進めていくことが可能です。
+                        </p>
+                    </div>
+                </div>
+                <div class="curriculum-content-body">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+                    <div>
+                        <h2>
+                            わからないことは講義時や<br>
+                            公式LINE@でいつでも質問できる
+                        </h2>
+                        <p>
+                            課題や宿題はできるようになるまで何度でも講師がフィードバックします。<br>
+                            オフライン授業なので、やってみてわからないことはその場で聞ける、見本を見せてもらえる環境をご用意しています。
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -730,14 +730,32 @@ Theme Name: pairtore
   margin-top: 20px;
 }
 
-.curriculum {
+.curriculum-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2000px;
+  display: flex;
   background-color: #48c9da;
-  height: 1800px;
-  padding: 0px 180px;
 }
 
-.curriculum h1 {
-  padding-top: 50px;
+.curriculum-main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.curriculum-title {
+  position: relative;
+  width: 80%;
+}
+
+.curriculum-title > h1 {
   font-size: 60px;
   color: white;
   border-left: solid 20px white;
@@ -745,14 +763,14 @@ Theme Name: pairtore
   font-weight: bolder;
 }
 
-.curriculum h2 {
+.curriculum-title > h2 {
   padding-left: 40px;
   color: white;
   font-size: 30px;
   margin-top: 30px;
 }
 
-.curriculum p {
+.curriculum-title > p {
   padding-left: 40px;
   color: white;
   font-size: 20px;
@@ -761,33 +779,51 @@ Theme Name: pairtore
 }
 
 .curriculum-body {
+  position: relative;
   display: flex;
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 5% 0;
+}
+
+.curriculum-body-title {
+  position: relative;
+  width: 100%;
+  border-bottom: solid 3px;
+  border-color: #48c9da;
+  padding: 3% 0;
 }
 
 .curriculum-left {
+  position: relative;
+  width: 50%;
   background-color: white;
-  padding: 20px 65px;
 }
 
 .curriculum-left h3 {
   font-size: 28px;
+  font-weight: bold;
   text-align: center;
 }
 
 .curriculum-left p {
   margin-top: 5px;
   background-color: white;
-  font-size: 13px;
+  font-size: 18px;
   color: black;
+  padding: 3% 5%;
+  line-height: 1.8;
 }
 
 .curriculum-right {
+  position: relative;
+  width: 50%;
   background-color: #afdfeb;
-  padding: 20px 65px;
 }
 
 .curriculum-right h3 {
+  font-weight: bold;
   font-size: 28px;
   text-align: center;
 }
@@ -795,12 +831,19 @@ Theme Name: pairtore
 .curriculum-right p {
   margin-top: 5px;
   background-color: #afdfeb;
-  font-size: 13px;
+  font-size: 18px;
   color: black;
+  padding: 3% 5%;
+  line-height: 1.8;
 }
 
-.curriculum-content h1 {
-  padding-top: 50px;
+.curriculum-content {
+  position: relative;
+  width: 80%;
+  margin-top: 3%;
+}
+
+.curriculum-content > h1 {
   font-size: 60px;
   color: white;
   border-left: solid 20px white;
@@ -821,32 +864,42 @@ Theme Name: pairtore
   height: 240px;
 }
 
-.curriculum-flex {
+.curriculum-content-body {
+  position: relative;
+  width: 100%;
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background-color: white;
   padding: 40px 40px;
   margin-top: 30px;
 }
 
-.curriculum-flex h2 {
-  margin-top: 0px;
-  font-size: 20px;
+.curriculum-content-body > div {
+  margin-left: 5%;
 }
 
-.curriculum-flex p {
-  font-size: 15px;
+.curriculum-content-body h2 {
+  margin-bottom: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.curriculum-content-body p {
+  font-size: 14px;
   line-height: 30px;
 }
 .student-voice-container {
-  height:850px;
+  height: 1200px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.student-voice-main{
-    position: relative;
+.student-voice-main {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -862,30 +915,27 @@ Theme Name: pairtore
 .student-voice-main h2 {
   margin-top: 30px;
   font-size: 50px;
-  width:70%;
+  width: 70%;
 }
 .student-voice-main h3 {
   font-size: 30px;
-  width:70%;
+  width: 70%;
 }
 .student-img {
-    position: relative;
+  position: relative;
   display: flex;
   align-items: center;
   width: 70%;
-  margin-top:30px;
 }
-.student-img img{
-    width:80%;
-    width: auto;
-    max-width: 80%;
-    height: auto;
-    max-height: 240px;
+.student-img img {
+  width: auto;
+  max-width: 80%;
+  height: auto;
+  max-height: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 20px;
-  
 }
 
 .student-voice-main p {
@@ -893,10 +943,10 @@ Theme Name: pairtore
   margin-left: 30px;
   font-size: 22px;
   line-height: 40px;
-  width: 70%
-  
+  width: 70%;
 }
-.difference-container{
+
+.difference-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -904,25 +954,29 @@ Theme Name: pairtore
   width: 100%;
   height: 800px;
 }
-.difference-main{
-    position: relative;
+
+.difference-main {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 80%;
 }
+
 .difference-main h1 {
   font-size: 60px;
   border-left: solid 20px #6ec7d9;
   padding-left: 20px;
   font-weight: bolder;
   color: #6ec7d9;
-  width:80%;
+  width: 80%;
 }
-.difference-main img{
-    margin-top: 40px;
+
+.difference-main img {
+  margin-top: 40px;
 }
+
 .access-container {
   position: relative;
   display: flex;
@@ -932,6 +986,7 @@ Theme Name: pairtore
   background-color: #edf7ff;
   height: 900px;
 }
+
 .access-main {
   position: relative;
   display: flex;
@@ -940,6 +995,7 @@ Theme Name: pairtore
   flex-direction: column;
   width: 80%;
 }
+
 .access-main h1 {
   font-size: 60px;
   border-left: solid 20px #6ec7d9;
@@ -948,6 +1004,7 @@ Theme Name: pairtore
   position: relative;
   width: 80%;
 }
+
 .access-body {
   display: flex;
   margin-top: 50px;
@@ -955,15 +1012,18 @@ Theme Name: pairtore
   position: relative;
   justify-content: center;
 }
+
 .access-body img {
   margin-left: 30px;
   width: 500px;
 }
+
 .access-body p {
   margin-top: 20px;
   margin-left: 30px;
   font-size: 25px;
 }
+
 /*footer*/
 .footer-container {
   position: relative;
@@ -971,10 +1031,10 @@ Theme Name: pairtore
   justify-content: center;
   align-items: center;
   width: 100%;
-
   background-color: #48c9da;
   height: 350px;
 }
+
 .footer-main {
   position: relative;
   display: flex;
@@ -983,6 +1043,7 @@ Theme Name: pairtore
   flex-direction: column;
   width: 80%;
 }
+
 .site-footer h1 {
   font-size: 30px;
   color: white;
@@ -993,18 +1054,22 @@ Theme Name: pairtore
   padding-left: 250px;
   padding-right: 250px;
 }
+
 .site-footer img {
   width: 400px;
 }
+
 .site-footer h2 {
   color: white;
   text-align: center;
   font-size: 35px;
 }
+
 .site-footer-body {
   display: flex;
   margin-top: 30px;
 }
+
 .site-footer-body button {
   margin: 20px 20px;
   display: inline-block;
@@ -1021,6 +1086,7 @@ Theme Name: pairtore
   box-shadow: 1px 1px 4px #666666; /* 影の設定 */
   font-weight: bolder;
 }
+
 .button:hover {
   box-shadow: none; /* カーソル時の影消去 */
   opacity: 1; /* カーソル時透明度 */
