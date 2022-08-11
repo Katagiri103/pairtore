@@ -425,23 +425,25 @@
         <!-- 写真をもらっていれる予定 -->
         <img src="" alt="">
     </div>
-    <div class="access">
-        <h1>アクセス</h1>
-        <div class="access-body">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8919791113217!2d139.69988051471148!3d35.65503293901684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5a103a3e15%3A0xb899aa7b427b9179!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yZ4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1660191173425!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div>
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/access.jpeg')); ?>" alt="">
-                <p>
-                    【所在地】 <br><br>
-                    〒150-0031<br>
-                    東京都渋谷区桜丘町9-16<br>
-                    幸ビル501<br><br>
-                    【最寄駅】<br>
-                    渋谷駅 徒歩6分
-                </p>
+    <section class="access-container">
+        <div class="access-main">
+            <h1>アクセス</h1>
+            <div class="access-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8185534175386!2d139.70010582019947!3d35.65684182507095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5a103a3e15%3A0xb899aa7b427b9179!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yZ4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1660205913473!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/access.jpeg')); ?>" alt="">
+                    <p>
+                        【所在地】 <br><br>
+                        〒150-0031<br>
+                        東京都渋谷区桜丘町9-16<br>
+                        幸ビル501<br><br>
+                        【最寄駅】<br>
+                        渋谷駅 徒歩6分
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 </main>
 
 <?php get_footer(); ?>
