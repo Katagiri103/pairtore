@@ -487,22 +487,44 @@ Theme Name: pairtore
   line-height: 1.8;
 }
 
-.feature {
-  background-color: #eef7ff;
-  height: 700px;
-  padding: 0px 180px;
+.feature-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ecf7ff;
+  height: 650px;
 }
 
-.feature h1 {
-  padding-top: 50px;
+.feature-main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.feature-title {
+  position: relative;
+  width: 80%;
+}
+
+.feature-title > h1 {
   font-size: 60px;
   color: #48c9da;
   border-left: solid 20px #48c9da;
-  padding-left: 20px;
+  padding-left: 2%;
   font-weight: bolder;
 }
 
-.feature p {
+.feature-body {
+  position: relative;
+  width: 75%;
+}
+
+.feature-body > p {
   margin: 50px 20px;
   font-size: 25px;
   line-height: 50px;
