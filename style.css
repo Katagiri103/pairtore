@@ -369,76 +369,122 @@ Theme Name: pairtore
   margin: 0px 18px;
 }
 
-.course-introduction {
-  padding: 0px 180px;
+.course-introduction-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #48c9da;
   height: 1500px;
 }
 
-.course-introduction h1 {
-  font-size: 60px;
-  color: white;
-  border-left: solid 20px white;
-  padding-left: 20px;
-  font-weight: bolder;
-  padding-top: 40px;
+.course-introduction-main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
 }
 
-.course-introduction p {
+.course-introduction-title {
+  position: relative;
+  width: 80%;
+  color: white;
+}
+
+.course-introduction-title > h1 {
+  font-size: 60px;
+  border-left: solid 20px white;
+  padding-left: 2%;
+  font-weight: bolder;
+  padding-top: 1%;
+}
+
+.course-introduction-title > p {
   color: white;
   margin: 30px 20px;
   font-size: 23px;
   line-height: 35px;
 }
 
-.course-cell {
+.course-body {
+  position: relative;
   display: flex;
-  margin: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.course-cell {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 5% 0;
 }
 
 .course-cell h2 {
   background-color: white;
   text-align: center;
   font-size: 22px;
-  padding-top: 5px;
+  padding: 2% 0;
   border-radius: 40px;
 }
 
 .course-cell img {
-  width: 300px;
-  margin-top: 40px;
+  width: 100%;
+  margin-top: 10%;
 }
 
 .course-cell p {
   text-align: center;
   color: black;
   background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10% 0;
+  line-height: 1.2;
 }
 
 .course1 {
-  margin: 0px 70px;
+  margin: 0px 2%;
 }
 
 .course2 {
-  margin: 0px 70px;
+  margin: 0px 2%;
 }
 
 .course-bottom {
-  background-color: white;
-  padding: 0px 20px;
-  padding-bottom: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
 }
 
-.course-bottom h1 {
+.course-bottom-content {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin: 0 2%;
+  padding: 3% 5%;
+}
+
+.course-bottom-content > h1 {
   color: #48c9da;
-  font-size: 40px;
+  font-size: 42px;
   text-align: center;
   border-bottom: yellow solid 10px;
+  margin-bottom: 3%;
 }
 
-.course-bottom p {
+.course-bottom-content > p {
   color: black;
   font-size: 20px;
+  line-height: 1.8;
 }
 
 .feature {
@@ -780,12 +826,12 @@ Theme Name: pairtore
   font-weight: bolder;
   color: #6ec7d9;
   position: relative;
-  width:80%;
+  width: 80%;
 }
 .access-body {
   display: flex;
   margin-top: 50px;
-  width:80%;
+  width: 80%;
   position: relative;
   justify-content: center;
 }

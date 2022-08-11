@@ -162,50 +162,56 @@
             </div>
         </div>
     </section>
-    <div class="course-introduction">
-        <h1>コース紹介</h1>
-        <p>
-            ペアトレでは、即戦力で活躍できる<br>
-            パーソナルトレーナーになるために2つのコースを用意しています。
-        </p>
-        <div class="course-body">
-            <div class="course-cell">
-                <div class="course1">
-                    <h2>マンツーマンコース</h2>
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/course1.jpeg')); ?>" alt="">
-                    <p>
-                        入学金<br>
-                        33,000円（税込）<br>
-                        +<br>
-                        授業料<br>
-                        220,000円（税込）
-                    </p>
-                </div>
-                <div class="course2">
-                    <h2>オンライン+マンツーコース</h2>
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/course2.jpeg')); ?>" alt="">
-                    <p>
-                        入学金<br>
-                        33,000円（税込）<br>
-                        +<br>
-                        授業料<br>
-                        165,000円（税込）
-                    </p>
-                </div>
+    <section class="course-introduction-container">
+        <div class="course-introduction-main">
+            <div class="course-introduction-title">
+                <h1>コース紹介</h1>
+                <p>
+                    ペアトレでは、即戦力で活躍できる<br>
+                    パーソナルトレーナーになるために2つのコースを用意しています。
+                </p>
             </div>
-            <div class="course-bottom">
-                <h1>\ペアトレは、こんな人におすすめします！/</h1>
-                <p>●即パーソナルトレーナーとして働きたい</p>
-                <p>●パーソナルトレーナーになりたいが、価格が高くて通えない</p>
-                <p>●仕事が不規則で決まった曜日に通えない</p>
-                <p>●運動に関わる仕事がしたいが、どうしたら良いかわからない</p>
-                <p>●独学でボディメイクをしてきたが、活きたトレーニングスキルの習得を必要と感じている</p>
-                <p>●一対一なら良いのだけど、スクールとかそういう団体はちょっと苦手…</p>
-                <p>●副業としてパーソナルトレーナーとして稼ぎたい</p>
+            <div class="course-body">
+                <div class="course-cell">
+                    <div class="course1">
+                        <h2>マンツーマンコース</h2>
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/course1.png')); ?>" alt="">
+                        <p>
+                            入学金<br>
+                            33,000円（税込）<br><br>
+                            +<br><br>
+                            授業料<br>
+                            220,000円（税込）
+                        </p>
+                    </div>
+                    <div class="course2">
+                        <h2>オンライン+マンツーコース</h2>
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/course2.png')); ?>" alt="">
+                        <p>
+                            入学金<br>
+                            33,000円（税込）<br><br>
+                            +<br><br>
+                            授業料<br>
+                            165,000円（税込）
+                        </p>
+                    </div>
+                </div>
+                <div class="course-bottom">
+                    <div class="course-bottom-content">
+                        <h1>&#92;&nbsp;ペアトレは、こんな人におすすめします！/</h1>
+                        <p>●即パーソナルトレーナーとして働きたい</p>
+                        <p>●パーソナルトレーナーになりたいが、価格が高くて通えない</p>
+                        <p>●仕事が不規則で決まった曜日に通えない</p>
+                        <p>●運動に関わる仕事がしたいが、どうしたら良いかわからない</p>
+                        <p>●独学でボディメイクをしてきたが、活きたトレーニングスキルの習得を必要と感じている</p>
+                        <p>●一対一なら良いのだけど、スクールとかそういう団体はちょっと苦手…</p>
+                        <p>●副業としてパーソナルトレーナーとして稼ぎたい</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="feature">
+    </section>
+    <div class=" feature">
         <h1>ペアトレの特徴</h1>
         <p>
             ①現役パーソナルトレーナーから直接マンツーマン指導で学べる<br>
