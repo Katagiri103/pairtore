@@ -6,25 +6,28 @@
             <img src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo.png')); ?>">
         </div>
     </section>
-    <div class="introduction">
-        <div class="introduction-title">
-            <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction-logo.png')); ?>" alt="<?php bloginfo('name'); ?>">
-            <h1>とは、</h1>
+    <section class="introduction-container">
+        <div class="introduction-main">
+            <div class="introduction-title">
+                <h1>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction-logo.png')); ?>">
+                    <span>とは、</span>
+                </h1>
+            </div>
+            <div class="introduction-intro">
+                <h2>1on1型のパーソナルトレーナー養成スクール</h2>
+            </div>
+            <div class="introduction-body">
+                <p>
+                    ペアトレとは、<span class="yellow">アウトプットが5割を占める超実践型の<br>
+                        1on1（マンツーマン）パーソナルトレーナー養成スクール</span>です。<br><br>
+                    一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、<br>
+                    1on1制度を導入し一つ一つ丁寧に指導していくスタイルにする事により、<br>
+                    知識とスキルの定着率を大幅に上げることに成功しています。
+                </p>
+            </div>
         </div>
-        <div class="introduction-intro">
-            <h1>1on1型のパーソナルトレーナー養成スクール</h1>
-        </div>
-        <div class="introduction-body">
-            <p>
-                ペアトレとは、<span class="yellow">アウトプットが5割を占める超実践型の<br>
-                    1on1（マンツーマン）パーソナルトレーナー養成スクール</span>です。<br><br>
-                一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、<br>
-                1on1制度を導入し一つ一つ丁寧に指導していくスタイルにする事により、<br>
-                知識とスキルの定着率を大幅に上げることに成功しています。
-            </p>
-        </div>
-
-    </div>
+    </section>
     <div class="trainer-info">
         <img src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info-image.jpeg')); ?>" alt="">
         <p>

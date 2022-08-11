@@ -32,43 +32,60 @@ Theme Name: pairtore
   width: 80%;
 }
 
-.introduction {
+.introduction-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #6ec7d9;
   height: 630px;
-  padding-top: 80px;
+  width: 100%;
+}
+
+.introduction-main {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .introduction-title {
+  position: relative;
+  width: 80%;
   display: flex;
-  align-items: flex-end;
-  margin: 0px 200px;
-}
-
-.introduction-title img {
-  width: 400px;
+  align-items: flex-start;
 }
 
 .introduction-title h1 {
-  font-size: 50px;
-  font-weight: bolder;
+  font-size: 42px;
+  font-weight: bold;
   color: white;
 }
 
+.introduction-title > h1 > img {
+  width: 400px;
+}
+
 .introduction-intro {
+  position: relative;
+  width: 80%;
   font-size: 30px;
   font-weight: bolder;
   color: #6ec7d9;
   background-color: white;
-  margin: 10px 200px;
-  padding: 10px 0px 5px;
+  margin: 1% 0 1% 0;
 }
 
-.introduction-intro h1 {
+.introduction-intro > h2 {
+  line-height: 1.5;
   text-align: center;
 }
 
 .introduction-body {
-  margin: 20px 200px;
+  position: relative;
+  width: 80%;
 }
 
 .introduction-body p {
