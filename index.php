@@ -211,7 +211,7 @@
             </div>
         </div>
     </section>
-    <div class="feature-container">
+    <section class="feature-container">
         <div class="feature-main">
             <div class="feature-title">
                 <h1>ペアトレの特徴</h1>
@@ -228,112 +228,120 @@
                 </p>
             </div>
         </div>
-    </div>
-    <div class="feature01">
-        <div>
-            <h1>01</h1>
-        </div>
-        <div>
-            <div class="feature01-body">
-                <h2>
-                    講師は全員<br>
-                    <span class="font-color-blue">現役有資格パーソナルトレーナー</span>
-                </h2>
-                <p>
-                    最前線で活躍している「現役のプロ」だからこそ、「今どのようなスキルが求めら<br>
-                    れているのか」「どのような知識が必要なのか」といったリアルな内容を皆さん<br>
-                    にお伝えすることができます。講師のアシスタントとして、セッションの現場に<br>
-                    同行することが可能な場合もあります。
-                </p>
-            </div>
-            <div class="feature01-intro">
-                <div>
-                    <h3><span class="font-color-blue">Taguchi Yuuki</span></h3>
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature01-taguchi.jpeg')); ?>" alt="">
-                    <p>
-                        ■　資格<br>
-                        ・リトモスアシスタントマスタートレーナー<br>
-                        ・プロジェクションワークアウト<br>
-                        プログラムディレクター<br>
-                        ・フィクスドコンディション人材育成業務<br>
-                        ・国際救急救命資格
-                    </p>
-                </div>
-                <div>
-                    <h3><span class="font-color-blue">Komai Masanori</span></h3>
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature01-komai.jpeg')); ?>" alt="">
-                    <p>
-                        ■　資格<br>
-                        ・日本トレーニング指導者協会認定<br>
-                        上級トレーニング指導者　JATI-ATI<br>
-                        ・日本コアコンディショニング協会認定<br>
-                        ベーシックインストラクター<br>
-                        ・赤十字ベーシックライフサポーター
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="feature02">
-        <div>
-            <h1>02</h1>
-        </div>
-        <div class="feature02-body">
+    </section>
+    <section class="feature-detail-container1 feature-detail">
+        <div class="feature-detail-main1">
             <div>
-                <h2><span class="font-color-blue">マンツーマン</span>（1on1）の授業</h2>
-                <p>
-                    マンツーマンで実際にジムに来て学習します。<br>
-                    しっかりとその人に合った指導を行うので着実に<br>
-                    スキルを身に着けることができます。<br>
-                    わからない事は随時質問できるので、<br>
-                    集団レッスンの何倍ものスピードで成長できます。<br>
-                    また、曜日が固定されていない予約制なので、<br>
-                    仕事が不規則で決まった曜日に通えない人にもオススメです。
-                </p>
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/feature02.jpeg')); ?>" alt="">
+                <h1>01</h1>
             </div>
             <div>
+                <div class="feature-detail1-body">
+                    <h2>
+                        講師は全員<br>
+                        <span class="font-color-blue">現役有資格パーソナルトレーナー</span>
+                    </h2>
+                    <p>
+                        最前線で活躍している「現役のプロ」だからこそ、「今どのようなスキルが求めら<br>
+                        れているのか」「どのような知識が必要なのか」といったリアルな内容を皆さん<br>
+                        にお伝えすることができます。講師のアシスタントとして、セッションの現場に<br>
+                        同行することが可能な場合もあります。
+                    </p>
+                </div>
+                <div class="feature-detail1-intro">
+                    <div>
+                        <h3><span class="font-color-blue">Taguchi Yuuki</span></h3>
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/feature01-taguchi.jpeg')); ?>" alt="">
+                        <p>
+                            ■　資格<br>
+                            ・リトモスアシスタントマスタートレーナー<br>
+                            ・プロジェクションワークアウト<br>
+                            プログラムディレクター<br>
+                            ・フィクスドコンディション人材育成業務<br>
+                            ・国際救急救命資格
+                        </p>
+                    </div>
+                    <div>
+                        <h3><span class="font-color-blue">Komai Masanori</span></h3>
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/feature01-komai.jpeg')); ?>" alt="">
+                        <p>
+                            ■　資格<br>
+                            ・日本トレーニング指導者協会認定<br>
+                            上級トレーニング指導者　JATI-ATI<br>
+                            ・日本コアコンディショニング協会認定<br>
+                            ベーシックインストラクター<br>
+                            ・赤十字ベーシックライフサポーター
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature-detail-container2 feature-detail">
+        <div class="feature-detail-main2">
+            <div>
+                <h1>02</h1>
+            </div>
+            <div class="feature-detail2-body">
+                <div>
+                    <h2><span class="font-color-blue">マンツーマン</span>（1on1）の授業</h2>
+                    <p>
+                        マンツーマンで実際にジムに来て学習します。<br>
+                        しっかりとその人に合った指導を行うので着実に<br>
+                        スキルを身に着けることができます。<br>
+                        わからない事は随時質問できるので、<br>
+                        集団レッスンの何倍ものスピードで成長できます。<br>
+                        また、曜日が固定されていない予約制なので、<br>
+                        仕事が不規則で決まった曜日に通えない人にもオススメです。
+                    </p>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature02.jpeg')); ?>" alt="">
+                </div>
+                <div>
 
+                </div>
             </div>
         </div>
-    </div>
-    <div class="feature03">
-        <div>
-            <h1>03</h1>
-        </div>
-        <div class="feature03-body">
+    </section>
+    <section class="feature-detail-container3 feature-detail">
+        <div class="feature-detail-main3">
             <div>
-                <h2>実践を前提とした<br><span class="font-color-blue">アウトプット中心の学習</span></h2>
-                <p>
-                    パーソナルトレーナーは知識や実技を学ぶだけではなく、<br>
-                    トレーニングメニュー構成やストレッチという工程などもあります。<br>
-                    そしてどれだけ知識やノウハウを頭に入れても、現場で活用できなけ<br>
-                    れば意味がありません。ペアトレではトレーナーとして活躍するため<br>
-                    に、解剖学から実技、メニュー設計、ストレッチまでを一気通貫で学<br>
-                    習し、随時アウトプットしてもらいます。<br>
-                    それにより、すぐに現場に立てる力を身に着けます。
-                </p>
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/feature03.jpeg')); ?>" alt="">
+                <h1>03</h1>
+            </div>
+            <div class="feature-detail3-body">
+                <div>
+                    <h2>実践を前提とした<br><span class="font-color-blue">アウトプット中心の学習</span></h2>
+                    <p>
+                        パーソナルトレーナーは知識や実技を学ぶだけではなく、<br>
+                        トレーニングメニュー構成やストレッチという工程などもあります。<br>
+                        そしてどれだけ知識やノウハウを頭に入れても、現場で活用できなけ<br>
+                        れば意味がありません。ペアトレではトレーナーとして活躍するため<br>
+                        に、解剖学から実技、メニュー設計、ストレッチまでを一気通貫で学<br>
+                        習し、随時アウトプットしてもらいます。<br>
+                        それにより、すぐに現場に立てる力を身に着けます。
+                    </p>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature03.jpeg')); ?>" alt="">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="feature04">
-        <div>
-            <h1>04</h1>
-        </div>
-        <div class="feature04-body">
+    </section>
+    <section class="feature-detail-container4 feature-detail">
+        <div class="feature-detail-main4">
             <div>
-                <h2>手厚い進路サポート<br>提携ジムで<span class="font-color-blue">すぐに働く事も可能</span>！</h2>
-                <p>
-                    卒業後は、提携先のパーソナルジムですぐに仕事に就くことが<br>
-                    できます。正社員雇用や業務委託など柔軟に対応して<br>
-                    おりますのでカウンセリング時にご相談ください。<br>
-                    マンツーマンのため、責任持って手厚くサポート致します。
-                </p>
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/feature04.jpeg')); ?>" alt="">
+                <h1>04</h1>
+            </div>
+            <div class="feature-detail4-body">
+                <div>
+                    <h2>手厚い進路サポート<br>提携ジムで<span class="font-color-blue">すぐに働く事も可能</span>！</h2>
+                    <p>
+                        卒業後は、提携先のパーソナルジムですぐに仕事に就くことが<br>
+                        できます。正社員雇用や業務委託など柔軟に対応して<br>
+                        おりますのでカウンセリング時にご相談ください。<br>
+                        マンツーマンのため、責任持って手厚くサポート致します。
+                    </p>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature04.jpeg')); ?>" alt="">
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <div class="curriculum">
         <h1>カリキュラム</h1>
         <h2>実践的なカリキュラムでパーソナルトレーナーへ。</h2>

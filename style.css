@@ -530,146 +530,202 @@ Theme Name: pairtore
   line-height: 50px;
 }
 
-.feature01 {
-  height: 800px;
-  background-color: white;
-  margin: 100px 150px;
+.feature-detail {
+  background-color: #ecf7ff;
+}
+
+.feature-detail-container1 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 1100px;
   display: flex;
 }
 
-.feature01 h1 {
+.feature-detail-main1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  background-color: white;
+  padding: 3% 0;
+}
+
+.feature-detail-main1 h1 {
   font-size: 150px;
 }
 
-.feature01 h2 {
+.feature-detail-main1 h2 {
   font-size: 40px;
   margin-top: 40px;
   font-weight: bolder;
 }
 
-.feature01 p {
+.feature-detail-main1 p {
   font-size: 20px;
   margin-top: 40px;
   line-height: 30px;
 }
 
-.feature01-body {
+.feature-detail1-body {
   margin-left: 30px;
 }
 
-.feature01-intro {
+.feature-detail1-intro {
   display: flex;
 }
 
-.feature01-intro h3 {
+.feature-detail1-intro h3 {
   font-size: 23px;
   margin-top: 20px;
 }
 
-.feature01-intro img {
+.feature-detail1-intro img {
   width: 300px;
 }
 
-.feature01-intro p {
+.feature-detail1-intro p {
   font-size: 15px;
 }
 
-.feature01-intro div {
+.feature-detail1-intro div {
   margin: 0px 20px;
 }
 
-.feature02 {
-  height: 900px;
-  background-color: red;
-  margin: 100px 150px;
+.feature-detail-container2 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 1100px;
   display: flex;
 }
 
-.feature02 h1 {
+.feature-detail-main2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  background-color: white;
+  padding: 3% 0;
+}
+
+.feature-detail-main2 h1 {
   font-size: 150px;
 }
 
-.feature02 h2 {
+.feature-detail-main2 h2 {
   font-size: 40px;
   margin-top: 40px;
   font-weight: bolder;
 }
 
-.feature02 p {
+.feature-detail-main2 p {
   font-size: 20px;
   margin-top: 40px;
   line-height: 45px;
 }
 
-.feature02-body {
+.feature-detail2-body {
   margin-left: 30px;
 }
 
-.feature02 img {
+.feature-detail2-body img {
   width: 700px;
   margin-top: 20px;
 }
 
-.feature03 {
-  height: 950px;
-  background-color: green;
-  margin: 100px 150px;
+.feature-detail-container3 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 1100px;
   display: flex;
 }
 
-.feature03 h1 {
+.feature-detail-main3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  background-color: white;
+  padding: 3% 0;
+}
+
+.feature-detail-main3 h1 {
   font-size: 150px;
 }
 
-.feature03 h2 {
+.feature-detail-main3 h2 {
   font-size: 40px;
   margin-top: 40px;
   font-weight: bolder;
 }
 
-.feature03-body {
+.feature-detail3-body {
   margin-left: 30px;
 }
 
-.feature03 p {
+.feature-detail3-body p {
   font-size: 20px;
   margin-top: 40px;
   line-height: 45px;
 }
 
-.feature03 img {
+.feature-detail3-body img {
   width: 700px;
   margin-top: 20px;
 }
 
-.feature04 {
-  height: 950px;
-  background-color: green;
-  margin: 100px 150px;
+.feature-detail-container4 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 1100px;
   display: flex;
 }
 
-.feature04 h1 {
+.feature-detail-main4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  background-color: white;
+  padding: 3% 0;
+}
+
+.feature-detail-main4 h1 {
   font-size: 150px;
 }
 
-.feature04 h2 {
+.feature-detail-main4 h2 {
   font-size: 40px;
   margin-top: 40px;
   font-weight: bolder;
 }
 
-.feature04-body {
+.feature-detail4-body {
   margin-left: 30px;
 }
 
-.feature04 p {
+.feature-detail4-body p {
   font-size: 20px;
   margin-top: 40px;
   line-height: 45px;
 }
 
-.feature04 img {
+.feature-detail4-body img {
   width: 700px;
   margin-top: 20px;
 }
