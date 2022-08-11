@@ -784,10 +784,24 @@ Theme Name: pairtore
   font-size: 15px;
 }
 /*footer*/
-.site-footer {
+.footer-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
   background-color: #48c9da;
-  padding: 0px 200px;
   height: 300px;
+}
+.footer-main{
+position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
 }
 .site-footer h1 {
   font-size: 30px;
@@ -795,7 +809,9 @@ Theme Name: pairtore
   border-bottom: solid 2px white;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
+  padding-left:250px;
+  padding-right:250px;
 }
 .site-footer img {
   width: 400px;
