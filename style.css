@@ -4,8 +4,32 @@ Theme Name: pairtore
 */
 
 /*body*/
-.top-image img {
+
+.top-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  background: url(./images/top-background.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.top-main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 600px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.top-main > img {
+  width: 80%;
 }
 
 .introduction {

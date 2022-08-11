@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
-<main class="main-contents wrapper">
-    <div class="top-image wrapper">
-        <p class="top-image">
-            <img src="<?php echo esc_url(get_theme_file_uri('/images/top-image.jpg')); ?>" alt="<?php bloginfo('name'); ?>">
-        </p>
-    </div>
+<main class="main-contents">
+    <section class="top-container">
+        <div class="top-main">
+            <img src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo.png')); ?>">
+        </div>
+    </section>
     <div class="introduction">
         <div class="introduction-title">
             <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction-logo.png')); ?>" alt="<?php bloginfo('name'); ?>">
