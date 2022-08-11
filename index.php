@@ -414,29 +414,33 @@
             </div>
         </div>
     </div>
-    <div class="student-voice">
-        <h1 class="font-color-blue">生徒の声</h1>
-        <h2>藤本華奈さん</h2>
-        <h3>KANA FUJIMOTO</h3>
-        <div class="student-img">
-            <img src="<?php echo esc_url(get_theme_file_uri('/images/student1.jpeg')); ?>" alt="">
-            <img src="<?php echo esc_url(get_theme_file_uri('/images/student2.jpeg')); ?>" alt="">
-            <img src="<?php echo esc_url(get_theme_file_uri('/images/student3.jpeg')); ?>" alt="">
+    <section class="student-voice-container">
+        <div class="student-voice-main">
+            <h1 class="font-color-blue">生徒の声</h1>
+            <h2>藤本華奈さん</h2>
+            <h3>KANA FUJIMOTO</h3>
+            <div class="student-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/student1.jpeg')); ?>" alt="">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/student2.jpeg')); ?>" alt="">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/student3.jpeg')); ?>" alt="">
+            </div>
+            <p>
+                私がこのスクールに興味を持ったきっかけは、自分のベストボディジャパンの大会出場の経<br>
+                歴を活かしたかったのと、元々自分がトレーニングが好きだったので、「それで仕事した<br>
+                い！」という理由からでした！そういう意味では、マンツーマンで丁寧に教えてもらえるし、<br>
+                何よりリーズナブル。本当にわかりやすく大満足のスクールでした。<br>
+                今では、モデルの仕事もしながら週2ペースでスクールの提携ジムのトレーナーとして活動<br>
+                しています。
+            </p>
         </div>
-        <p>
-            私がこのスクールに興味を持ったきっかけは、自分のベストボディジャパンの大会出場の経<br>
-            歴を活かしたかったのと、元々自分がトレーニングが好きだったので、「それで仕事した<br>
-            い！」という理由からでした！そういう意味では、マンツーマンで丁寧に教えてもらえるし、<br>
-            何よりリーズナブル。本当にわかりやすく大満足のスクールでした。<br>
-            今では、モデルの仕事もしながら週2ペースでスクールの提携ジムのトレーナーとして活動<br>
-            しています。
-        </p>
-    </div>
-    <div class="difference">
-        <h1>他社との違い</h1>
-        <!-- 写真をもらっていれる予定 -->
-        <img src="" alt="">
-    </div>
+    </section>
+    <section class="difference-container">
+        <div class="difference-main">
+            <h1>他社との違い</h1>
+            <!-- 写真をもらっていれる予定 -->
+            <img src="<?php echo esc_url(get_theme_file_uri('/images/grid.png')); ?>" alt="">
+        </div>
+    </section>
     <section class="access-container">
         <div class="access-main">
             <h1>アクセス</h1>
