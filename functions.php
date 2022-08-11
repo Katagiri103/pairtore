@@ -6,5 +6,7 @@ function add_files(){
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
     //メインのCSS
     wp_enqueue_style('main-style', get_stylesheet_uri());
+    //スマホレスポンシブ用のCSS
+    wp_enqueue_style('main-style', get_theme_file_uri('/sp-style.css'));
 }
 add_action('wp_enqueue_scripts', 'add_files');

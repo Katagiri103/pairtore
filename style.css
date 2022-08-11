@@ -838,7 +838,7 @@ Theme Name: pairtore
   line-height: 30px;
 }
 .student-voice-container {
-  height:1200px;
+  height:850px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -862,19 +862,17 @@ Theme Name: pairtore
 .student-voice-main h2 {
   margin-top: 30px;
   font-size: 50px;
-  width:80%;
-  margin-left: 50px;
+  width:70%;
 }
 .student-voice-main h3 {
   font-size: 30px;
-  width:80%;
-  margin-left: 50px;
+  width:70%;
 }
 .student-img {
     position: relative;
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 70%;
   margin-top:30px;
 }
 .student-img img{
@@ -886,7 +884,7 @@ Theme Name: pairtore
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 20px;
   
 }
 
@@ -895,7 +893,7 @@ Theme Name: pairtore
   margin-left: 30px;
   font-size: 22px;
   line-height: 40px;
-  width: 80%
+  width: 70%
   
 }
 .difference-container{
@@ -975,7 +973,7 @@ Theme Name: pairtore
   width: 100%;
 
   background-color: #48c9da;
-  height: 300px;
+  height: 350px;
 }
 .footer-main {
   position: relative;
@@ -1005,6 +1003,7 @@ Theme Name: pairtore
 }
 .site-footer-body {
   display: flex;
+  margin-top: 30px;
 }
 .site-footer-body button {
   margin: 20px 20px;
