@@ -396,7 +396,7 @@ font-size:15px;
 }
 .curriculum{
     background-color: #6EC7D9;
-    height: 2000px;
+    height: 1800px;
     padding: 0px 180px;
 }
 .curriculum h1{
@@ -469,7 +469,8 @@ font-size:15px;
     color: black;
 }
 .curriculum-content img{
-    width:200px;
+    width:360px;
+    height: 240px;
 }
 .curriculum-flex{
     display:flex;
@@ -477,7 +478,14 @@ font-size:15px;
     padding: 40px 40px;
     margin-top:30px;
 }
-
+.curriculum-flex h2{
+    margin-top:0px;
+    font-size:20px;
+}
+.curriculum-flex p{
+    font-size: 15px;
+    line-height:30px;
+}
 /*footer*/
 .site-footer{
     background-color: #6EC7D9;

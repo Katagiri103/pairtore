@@ -374,7 +374,19 @@
                     </div>
                 </div>
             </div>
-            
+        </div>
+        <div class="student-voice">
+            <h1 class="font-color-blue">生徒の声</h1>
+            <h2>藤本華奈さん</h2>
+            <h3>KANA FUJIMOTO</h3>
+            <div class="student-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+            </div>
+            <p>
+                
+            </p>
         </div>
 
         
