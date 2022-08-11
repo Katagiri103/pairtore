@@ -120,46 +120,48 @@
             </div>
         </div>
     </section>
-    <div class="concept">
-        <div>
-            <h1>コンセプト</h1>
-            <h2>「マンツーマン」×「実践型」×「低価格」</h2>
-            <p>
-                ペアトレではすぐに即戦力のトレーナーとして活躍できるように、現場研修やロールプレイングなどの<br>
-                実践トレーニングも重視し、社会で活躍できるトレーナー育成に取り組みます。
-            </p>
+    <section class="concept-container">
+        <div class="concept-main">
+            <div class="concept-title">
+                <h1>コンセプト</h1>
+                <h2>「マンツーマン」×「実践型」×「低価格」</h2>
+                <p>
+                    ペアトレではすぐに即戦力のトレーナーとして活躍できるように、現場研修やロールプレイングなどの<br>
+                    実践トレーニングも重視し、社会で活躍できるトレーナー育成に取り組みます。
+                </p>
+            </div>
+            <div class="concept-body">
+                <div class="concept1">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/concept1.png')); ?>" alt="">
+                    <h3>マンツーマン指導</h3>
+                    <p>
+                        講師1人対多数だとどうしてもスキルの定着
+                        に差が出ます。ペアトレでは1on1の指導のため
+                        一人一人に合わせて授業を行います。
+                    </p>
+                </div>
+                <div class="concept2">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/concept2.png')); ?>" alt="">
+                    <h3>完全実践型</h3>
+                    <p>
+                        アウトプットが講義の5割。インプットした
+                        知識をその場でアウトプットしながら、実践
+                        で使える生きたスキルを身につけます。
+                    </p>
+                </div>
+                <div class="concept3">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/concept3.png')); ?>" alt="">
+                    <h3>低価格</h3>
+                    <p>
+                        専門学校では200～300万、他社トレー
+                        ナースクールでは平均50万円はする授業料を、
+                        ペアトレでは広告費を極力かけない事により、
+                        常識を覆す20万という価格を実現しております。
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="concept-body">
-            <div class="concept1">
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/concept-image1.jpeg')); ?>" alt="">
-                <h3>マンツーマン指導</h3>
-                <p>
-                    講師1人対多数だとどうしてもスキルの定着<br>
-                    に差が出ます。ペアトレでは1on1の指導のため<br>
-                    一人一人に合わせて授業を行います。
-                </p>
-            </div>
-            <div class="concept2">
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/concept-image2.jpeg')); ?>" alt="">
-                <h3>完全実践型</h3>
-                <p>
-                    アウトプットが講義の5割。インプットした<br>
-                    知識をその場でアウトプットしながら、実践<br>
-                    で使える生きたスキルを身につけます。
-                </p>
-            </div>
-            <div class="concept3">
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/concept-image3.jpeg')); ?>" alt="">
-                <h3>低価格</h3>
-                <p>
-                    専門学校では200～300万、他社トレー<br>
-                    ナースクールでは平均50万円はする授業料を、<br>
-                    ペアトレでは広告費を極力かけない事により、<br>
-                    常識を覆す20万という価格を実現しております。
-                </p>
-            </div>
-        </div>
-    </div>
+    </section>
     <div class="course-introduction">
         <h1>コース紹介</h1>
         <p>
@@ -442,4 +444,4 @@
     </div>
 </main>
 
- <?php get_footer(); ?>     
+<?php get_footer(); ?>

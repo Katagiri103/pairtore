@@ -276,12 +276,30 @@ Theme Name: pairtore
   color: #48c9da;
 }
 
-.concept {
+.concept-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: 750px;
-  margin: 0px 180px;
 }
 
-.concept h1 {
+.concept-main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.concept-title {
+  position: relative;
+  width: 80%;
+}
+
+.concept-title > h1 {
   font-size: 60px;
   color: #48c9da;
   border-left: solid 20px #48c9da;
@@ -289,55 +307,65 @@ Theme Name: pairtore
   font-weight: bolder;
 }
 
-.concept h2 {
-  margin: 30px 20px;
+.concept-title > h2 {
+  margin: 2% 2%;
   color: #48c9da;
   font-size: 32px;
   border-bottom: solid 4px #48c9da;
   font-weight: bolder;
 }
 
-.concept p {
+.concept-title > p {
+  margin: 2% 2%;
   font-size: 18px;
   line-height: 25px;
   font-weight: bold;
 }
 
 .concept-body {
+  position: relative;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   margin-top: 20px;
+  width: 80%;
 }
 
 .concept-body img {
-  width: 270px;
-  height: 180px;
+  width: 100%;
 }
 
 .concept-body h3 {
-  width: 270px;
-  font-size: 27px;
+  width: 100%;
+  font-size: 28px;
   background-color: #48c9da;
   color: white;
   font-weight: bolder;
   text-align: center;
-  padding-top: 10px;
+  padding: 3% 0;
 }
 
 .concept-body p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 25px;
   margin-top: 20px;
 }
 
 .concept1 {
+  position: relative;
+  width: 30%;
   margin: 0px 18px;
 }
 
 .concept2 {
+  position: relative;
+  width: 30%;
   margin: 0px 18px;
 }
 
 .concept3 {
+  position: relative;
+  width: 30%;
   margin: 0px 18px;
 }
 
@@ -686,120 +714,117 @@ Theme Name: pairtore
   line-height: 30px;
 }
 .student-voice {
-    margin: 50px 180px;
+  margin: 50px 180px;
 }
 .student-voice h1 {
-  
   font-size: 60px;
   border-left: solid 20px #6ec7d9;
   padding-left: 20px;
   font-weight: bolder;
 }
 .student-voice h2 {
-    margin-top:30px;
-    font-size: 50px;
-    margin-left:50px;
+  margin-top: 30px;
+  font-size: 50px;
+  margin-left: 50px;
 }
 .student-voice h3 {
-    margin: 20px 50px;
-    font-size: 30px;
+  margin: 20px 50px;
+  font-size: 30px;
 }
-.student-img{
-    display:flex;
-    margin-left:50px;
-    height: 220px;
-    
+.student-img {
+  display: flex;
+  margin-left: 50px;
+  height: 220px;
 }
-.student-img img{
-    margin: 0px 5px;
+.student-img img {
+  margin: 0px 5px;
 }
 .student-voice p {
-    margin-left: 50px;
-    margin-top: 20px;
-    font-size: 20px;
-    line-height: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
 }
-.difference{
-    margin: 0px 180px;
-    height: 700px;
-    background-color:red;
+.difference {
+  margin: 0px 180px;
+  height: 700px;
+  background-color: red;
 }
-.difference h1{
+.difference h1 {
   font-size: 60px;
   border-left: solid 20px #6ec7d9;
   padding-left: 20px;
   font-weight: bolder;
-  color:#6ec7d9;
+  color: #6ec7d9;
 }
-.access{
-    padding: 0px 180px;
-    padding-top:50px;
-    background-color: #EDF7FF;
-    height: 500px;
+.access {
+  padding: 0px 180px;
+  padding-top: 50px;
+  background-color: #edf7ff;
+  height: 500px;
 }
-.access h1{
+.access h1 {
   font-size: 60px;
   border-left: solid 20px #6ec7d9;
   padding-left: 20px;
   font-weight: bolder;
-  color:#6ec7d9;
+  color: #6ec7d9;
 }
-.access-body{
-    display:flex;
-    margin-top:30px;
+.access-body {
+  display: flex;
+  margin-top: 30px;
 }
-.access-body img{
-    margin-left: 30px;
-    width:400px;
+.access-body img {
+  margin-left: 30px;
+  width: 400px;
 }
-.access-body p{
-    margin-top:20px;
-    margin-left:30px;
-    font-size: 15px;
-    
+.access-body p {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 15px;
 }
 /*footer*/
 .site-footer {
   background-color: #48c9da;
   padding: 0px 200px;
-  height:300px;
+  height: 300px;
 }
-.site-footer h1{
-    font-size:30px;
-    color: white;
-    border-bottom: solid 2px white;
-    text-align:center;
-    padding-top:40px;
-    padding-bottom: 20px;
+.site-footer h1 {
+  font-size: 30px;
+  color: white;
+  border-bottom: solid 2px white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
-.site-footer img{
-    width: 400px;
+.site-footer img {
+  width: 400px;
 }
-.site-footer h2{
-    color:white;
-    text-align: center;
-    font-size:35px;
+.site-footer h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
 }
-.site-footer-body{
-    display:flex;
+.site-footer-body {
+  display: flex;
 }
-.site-footer-body button{
-    margin: 20px 20px;
-    display       : inline-block;
-    border-radius : 69px;          /* 角丸       */
-    font-size     : 22px;        /* 文字サイズ */
-    text-align    : center;      /* 文字位置   */
-    cursor        : pointer;     /* カーソル   */
-    padding       : 40px 100px;   /* 余白       */
-    background    : #ffffff;     /* 背景色     */
-    color         : #999999;     /* 文字色     */
-    line-height   : 1em;         /* 1行の高さ  */
-    opacity       : 0.9;         /* 透明度     */
-    transition    : .3s;         /* なめらか変化 */
-    box-shadow    : 1px 1px 4px #666666;  /* 影の設定 */
-    font-weight: bolder;
-  }
-  .button:hover {
-    box-shadow    : none;        /* カーソル時の影消去 */
-    opacity       : 1;           /* カーソル時透明度 */
-  }
+.site-footer-body button {
+  margin: 20px 20px;
+  display: inline-block;
+  border-radius: 69px; /* 角丸       */
+  font-size: 22px; /* 文字サイズ */
+  text-align: center; /* 文字位置   */
+  cursor: pointer; /* カーソル   */
+  padding: 40px 100px; /* 余白       */
+  background: #ffffff; /* 背景色     */
+  color: #999999; /* 文字色     */
+  line-height: 1em; /* 1行の高さ  */
+  opacity: 0.9; /* 透明度     */
+  transition: 0.3s; /* なめらか変化 */
+  box-shadow: 1px 1px 4px #666666; /* 影の設定 */
+  font-weight: bolder;
+}
+.button:hover {
+  box-shadow: none; /* カーソル時の影消去 */
+  opacity: 1; /* カーソル時透明度 */
+}
