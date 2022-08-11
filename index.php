@@ -28,6 +28,9 @@
             </div>
         </div>
     </section>
+    <section class="introduction-arrow">
+        <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction_arrow.png')); ?>">
+    </section>
     <div class="trainer-info">
         <img src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info-image.jpeg')); ?>" alt="">
         <p>
