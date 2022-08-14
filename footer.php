@@ -8,13 +8,13 @@
                     <h2>TEL 000-0000-0000</h2>
                 </div>
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('customer'))); ?>"><button>申込みはこちら▷</button></a>
-                
             </div>
         </div>
     </section>
 </footer>
 
-    <!-- Script -->
-    <script src="js/script.js"></script>
+<!-- Script -->
+<script src="js/script.js"></script>
 </body>
+
 </html>

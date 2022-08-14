@@ -3,7 +3,8 @@
 <main class="main-contents">
     <section class="top-container">
         <div class="top-main">
-            <img src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo.png')); ?>">
+            <img class="pc-logo" src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo.png')); ?>">
+            <img class="sp-logo" src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo-sp.png')); ?>">
         </div>
     </section>
     <section class="introduction-container">
@@ -18,11 +19,13 @@
                 <h2>1on1型のパーソナルトレーナー養成スクール</h2>
             </div>
             <div class="introduction-body">
+                <!-- 仮置き -->
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction-sp-img.jpeg')); ?>">
                 <p>
-                    ペアトレとは、<span class="yellow">アウトプットが5割を占める超実践型の<br>
+                    ペアトレとは、<span class="yellow">アウトプットが5割を占める超実践型の
                         1on1（マンツーマン）パーソナルトレーナー養成スクール</span>です。<br><br>
-                    一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、<br>
-                    1on1制度を導入し一つ一つ丁寧に指導していくスタイルにする事により、<br>
+                    一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、
+                    1on1制度を導入し一つ一つ丁寧に指導していくスタイルにする事により、
                     知識とスキルの定着率を大幅に上げることに成功しています。
                 </p>
             </div>
@@ -127,8 +130,10 @@
             </div>
             <div class="concept-body">
                 <div class="concept1">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/concept1.png')); ?>" alt="">
-                    <h3>マンツーマン指導</h3>
+                    <div class="concept-body-title">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/concept1.png')); ?>" alt="">
+                        <h3>マンツーマン指導</h3>
+                    </div>
                     <p>
                         講師1人対多数だとどうしてもスキルの定着
                         に差が出ます。ペアトレでは1on1の指導のため
@@ -136,8 +141,10 @@
                     </p>
                 </div>
                 <div class="concept2">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/concept2.png')); ?>" alt="">
-                    <h3>完全実践型</h3>
+                    <div class="concept-body-title">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/concept2.png')); ?>" alt="">
+                        <h3>完全実践型</h3>
+                    </div>
                     <p>
                         アウトプットが講義の5割。インプットした
                         知識をその場でアウトプットしながら、実践
@@ -145,8 +152,10 @@
                     </p>
                 </div>
                 <div class="concept3">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/concept3.png')); ?>" alt="">
-                    <h3>低価格</h3>
+                    <div class="concept-body-title">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/concept3.png')); ?>" alt="">
+                        <h3>低価格</h3>
+                    </div>
                     <p>
                         専門学校では200～300万、他社トレー
                         ナースクールでは平均50万円はする授業料を、
@@ -165,7 +174,7 @@
             <div class="course-body">
                 <p>
                     ペアトレでは、即戦力で活躍できる<br>
-                    パーソナルトレーナーになるために2つのコースを用意しています。
+                    パーソナルトレーナーになるために2つのコースを用意しています。<br class="pc-none"><br class="pc-none">
                 </p>
                 <div class="course-cell">
                     <div class="course1">
@@ -193,7 +202,10 @@
                 </div>
                 <div class="course-bottom">
                     <div class="course-bottom-content">
-                        <h1>&#92;&nbsp;ペアトレは、こんな人におすすめします！/</h1>
+                        <h1>
+                            <span class="sp-none">&#92;&nbsp;ペアトレは、こんな人におすすめします！/</span>
+                            <span class="pc-none">ペアトレは、<br>&#92;&nbsp;こんな人におすすめします！/</span>
+                        </h1>
                         <p>●&nbsp;即パーソナルトレーナーとして働きたい</p>
                         <p>●&nbsp;パーソナルトレーナーになりたいが、価格が高くて通えない</p>
                         <p>●&nbsp;仕事が不規則で決まった曜日に通えない</p>
@@ -209,7 +221,7 @@
     <section class="feature-container">
         <div class="feature-main">
             <div class="feature-title">
-                <h1>ペアトレの特徴</h1>
+                <h1>ペアトレの特徴<br class="pc-none"><br class="pc-none"></h1>
             </div>
             <div class="feature-body">
                 <p>
@@ -226,19 +238,22 @@
     </section>
     <section class="feature-detail-container1 feature-detail">
         <div class="feature-detail-main1">
-            <div>
+            <div class="sp-none">
                 <h1>01</h1>
             </div>
-            <div>
+            <div class="feature-detail1-body-main">
                 <div class="feature-detail1-body">
-                    <h2>
-                        講師は全員<br>
-                        <span class="font-color-blue">現役有資格パーソナルトレーナー</span>
-                    </h2>
+                    <div class="feature-detail-body-title">
+                        <h1 class="pc-none">01</h1>
+                        <h2>
+                            講師は全員<br>
+                            <span class="feature-detail-body-title-span">現役有資格パーソナルトレーナー</span>
+                        </h2>
+                    </div>
                     <p>
-                        最前線で活躍している「現役のプロ」だからこそ、「今どのようなスキルが求めら<br>
-                        れているのか」「どのような知識が必要なのか」といったリアルな内容を皆さん<br>
-                        にお伝えすることができます。講師のアシスタントとして、セッションの現場に<br>
+                        最前線で活躍している「現役のプロ」だからこそ、「今どのようなスキルが求めら<br class="sp-none">
+                        れているのか」「どのような知識が必要なのか」といったリアルな内容を皆さん<br class="sp-none">
+                        にお伝えすることができます。講師のアシスタントとして、セッションの現場に<br class="sp-none">
                         同行することが可能な場合もあります。
                     </p>
                 </div>
@@ -250,7 +265,7 @@
                             ■　資格<br>
                             ・リトモスアシスタントマスタートレーナー<br>
                             ・プロジェクションワークアウト<br>
-                            プログラムディレクター<br>
+                            ・プログラムディレクター<br>
                             ・フィクスドコンディション人材育成業務<br>
                             ・国際救急救命資格
                         </p>
@@ -261,9 +276,9 @@
                         <p>
                             ■　資格<br>
                             ・日本トレーニング指導者協会認定<br>
-                            上級トレーニング指導者　JATI-ATI<br>
+                            ・上級トレーニング指導者　JATI-ATI<br>
                             ・日本コアコンディショニング協会認定<br>
-                            ベーシックインストラクター<br>
+                            ・ベーシックインストラクター<br>
                             ・赤十字ベーシックライフサポーター
                         </p>
                     </div>
@@ -273,12 +288,18 @@
     </section>
     <section class="feature-detail-container2 feature-detail">
         <div class="feature-detail-main2">
-            <div>
+            <div class="sp-none">
                 <h1>02</h1>
             </div>
-            <div class="feature-detail2-body">
-                <div>
-                    <h2><span class="font-color-blue">マンツーマン</span>（1on1）の授業</h2>
+            <div class="feature-detail2-body-main">
+                <div class="feature-detail2-body">
+                    <div class="feature-detail-body-title">
+                        <h1 class="pc-none">02</h1>
+                        <h2>
+                            <span class="feature-detail-body-title-span">マンツーマン</span>
+                            （1on1）の授業
+                        </h2>
+                    </div>
                     <p>
                         マンツーマンで実際にジムに来て学習します。<br>
                         しっかりとその人に合った指導を行うので着実に<br>
@@ -290,20 +311,20 @@
                     </p>
                     <img src="<?php echo esc_url(get_theme_file_uri('/images/feature02.jpeg')); ?>" alt="">
                 </div>
-                <div>
-
-                </div>
             </div>
         </div>
     </section>
     <section class="feature-detail-container3 feature-detail">
         <div class="feature-detail-main3">
-            <div>
+            <div class="sp-none">
                 <h1>03</h1>
             </div>
-            <div class="feature-detail3-body">
-                <div>
-                    <h2>実践を前提とした<br><span class="font-color-blue">アウトプット中心の学習</span></h2>
+            <div class="feature-detail3-body-main">
+                <div class="feature-detail3-body">
+                    <div class="feature-detail-body-title">
+                        <h1 class="pc-none">03</h1>
+                        <h2>実践を前提とした<br><span class="feature-detail-body-title-span">アウトプット中心の学習</span></h2>
+                    </div>
                     <p>
                         パーソナルトレーナーは知識や実技を学ぶだけではなく、<br>
                         トレーニングメニュー構成やストレッチという工程などもあります。<br>
@@ -320,12 +341,15 @@
     </section>
     <section class="feature-detail-container4 feature-detail">
         <div class="feature-detail-main4">
-            <div>
+            <div class="sp-none">
                 <h1>04</h1>
             </div>
-            <div class="feature-detail4-body">
-                <div>
-                    <h2>手厚い進路サポート<br>提携ジムで<span class="font-color-blue">すぐに働く事も可能</span>！</h2>
+            <div class="feature-detail4-body-main">
+                <div class="feature-detail4-body">
+                    <div class="feature-detail-body-title">
+                        <h1 class="pc-none">04</h1>
+                        <h2>手厚い進路サポート<br>提携ジムで<span class="feature-detail-body-title-span">すぐに働く事も可能</span>！</h2>
+                    </div>
                     <p>
                         卒業後は、提携先のパーソナルジムですぐに仕事に就くことが<br>
                         できます。正社員雇用や業務委託など柔軟に対応して<br>
@@ -341,7 +365,7 @@
         <div class="curriculum-main">
             <div class="curriculum-title">
                 <h1>カリキュラム</h1>
-                <h2>実践的なカリキュラムでパーソナルトレーナーへ。</h2>
+                <h2>実践的なカリキュラムでパーソナルトレーナーへ。<br class="pc-none"><br class="pc-none"></h2>
                 <p>
                     2ヶ月を通して初心者からでも着実にスキルを身につけていき、<br>
                     実際にパーソナルトレーナーとして現場に立てる実践的なカリキュラム
@@ -367,7 +391,8 @@
                         8:中間テスト
                     </p>
                 </div>
-                <div class="curriculum-arrow"><img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum_arrow.png')); ?>"></div>
+                <!-- <div class="curriculum-arrow-top pc-none"></div> -->
+                <div class="curriculum-arrow sp-none"><img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum_arrow.png')); ?>"></div>
                 <div class="curriculum-right">
                     <div class="curriculum-body-title">
                         <h3>Practice -実践ステージ-<br>2ヶ月目</h3>
@@ -422,7 +447,7 @@
     </div>
     <section class="student-voice-container">
         <div class="student-voice-main">
-            <h1 class="font-color-blue">生徒の声</h1>
+            <h1 class="font-color-blue">生徒の声<br class="pc-none"><br class="pc-none"></h1>
             <h2>藤本華奈さん</h2>
             <h3>KANA FUJIMOTO</h3>
             <div class="student-img">
@@ -441,29 +466,36 @@
     </section>
     <section class="difference-container">
         <div class="difference-main">
-            <h1>他社との違い</h1>
+            <h1>他社との違い<br class="pc-none"><br class="pc-none"></h1>
             <!-- 写真をもらっていれる予定 -->
-            <img src="<?php echo esc_url(get_theme_file_uri('/images/grid.png')); ?>" alt="">
+            <div class="difference-grid">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/grid.png')); ?>" alt="">
+            </div>
         </div>
     </section>
     <section class="access-container">
         <div class="access-main">
             <h1>アクセス</h1>
             <div class="access-body">
-                <iframe class="access-body-left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8185534175386!2d139.70010582019947!3d35.65684182507095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5a103a3e15%3A0xb899aa7b427b9179!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yZ4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1660205913473!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="access-body-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8185534175386!2d139.70010582019947!3d35.65684182507095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5a103a3e15%3A0xb899aa7b427b9179!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yZ4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1660205913473!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
                 <div class="access-body-right">
                     <img src="<?php echo esc_url(get_theme_file_uri('/images/access.jpeg')); ?>" alt="">
-                    <p>
-                        【所在地】 <br>
-                        &nbsp;〒150-0031<br>
-                        &nbsp;東京都渋谷区桜丘町9-16<br>
-                        &nbsp;幸ビル501<br><br>
-                        【最寄駅】<br>
-                        &nbsp;渋谷駅 徒歩6分
-                    </p>
+                    <div class="access-addres">
+                        <p>
+                            【所在地】 <br>
+                            &nbsp;〒150-0031<br>
+                            &nbsp;東京都渋谷区桜丘町9-16<br>
+                            &nbsp;幸ビル501<br>
+                        </p>
+                        <p>
+                            【最寄駅】<br>
+                            &nbsp;渋谷駅 徒歩6分
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 </main>
 
