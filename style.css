@@ -177,7 +177,7 @@ Theme Name: pairtore
 }
 
 .trainer-info-body > p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.8;
   margin-top: 3%;
   padding: 0 2%;
@@ -198,7 +198,7 @@ Theme Name: pairtore
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 1620px;
+  height: 1720px;
 }
 
 .gleeting-main {
@@ -321,7 +321,7 @@ Theme Name: pairtore
 
 .gleeting-profile-body {
   margin-top: 3%;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
   background-color: #ecf7ff;
   box-shadow: 0 0 15px 15px #ecf7ff;
@@ -338,7 +338,7 @@ Theme Name: pairtore
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 920px;
+  height: 980px;
 }
 
 .concept-main {
@@ -402,7 +402,7 @@ Theme Name: pairtore
 }
 
 .concept-body p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   margin-top: 5%;
 }
@@ -431,7 +431,7 @@ Theme Name: pairtore
   justify-content: center;
   align-items: center;
   background-color: #48c9da;
-  height: 1620px;
+  height: 1780px;
 }
 
 .course-introduction-main {
@@ -814,8 +814,7 @@ Theme Name: pairtore
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 2000px;
-  display: flex;
+  height: 2120px;
   background-color: #48c9da;
 }
 
@@ -984,7 +983,7 @@ Theme Name: pairtore
 }
 
 .student-voice-container {
-  height: 780px;
+  height: 860px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -1032,7 +1031,7 @@ Theme Name: pairtore
   width: auto;
   max-width: 80%;
   height: auto;
-  max-height: 240px;
+  max-height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1050,7 +1049,7 @@ Theme Name: pairtore
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 780px;
+  height: 860px;
 }
 
 .difference-main {
