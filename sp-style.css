@@ -5,6 +5,32 @@ Theme Name: pairtore
 
 /*body*/
 
+@media screen and (min-width: 1440px) and (max-width: 1980px) {
+  .trainer-info-container {
+    height: 760px;
+  }
+
+  .trainer-info-body > p {
+    font-size: 18px;
+  }
+
+  .gleeting-container {
+    height: 1440px;
+  }
+
+  .gleeting-profile-body {
+    font-size: 14px;
+  }
+
+  .gleeting-body {
+    font-size: 18px;
+  }
+
+  .concept-body p {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   /*ここにスマホ用スタイルを記述*/
 
