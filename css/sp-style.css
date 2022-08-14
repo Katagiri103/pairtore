@@ -112,6 +112,34 @@ Theme Name: pairtore
     margin: 5% 5%;
   
 }
+.gleeting-container{
+    background-color: #afdfeb;
+    width: 100%;
+    padding: 5% 5%;
+
+}
+.gleeting-main{
+    padding: 5% 5%;
+    background-color: white;
+    width: 100%;
+}
+.gleeting-title h1{
+    color:#48c9da;
+    font-size:25px;
+    font-weight:bolder;
+}
+.gleeting-title h2{
+    color:#48c9da;
+    font-size: 15px;
+    border-bottom: solid 2px #48c9da;
+    padding: 3% 0;
+}
+.gleeting-image img{
+    width: 200px;
+}
+.gleeting-self-content{
+    display: none;
+}
 
 
 
