@@ -17,6 +17,10 @@
             <div class="introduction-intro">
                 <h2>1on1型のパーソナルトレーナー養成スクール</h2>
             </div>
+            <div class="introduction-sp-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction-sp-img.jpeg')); ?>" alt="">
+
+            </div>
             <div class="introduction-body">
                 <p>
                     ペアトレとは、<span class="yellow">アウトプットが5割を占める超実践型の<br>
