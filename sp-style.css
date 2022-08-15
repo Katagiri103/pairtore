@@ -155,7 +155,7 @@ Theme Name: pairtore
     background-size: cover;
     padding: 5% 5%;
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-blend-mode: lighten;
   }
 
@@ -202,8 +202,8 @@ Theme Name: pairtore
   }
 
   .trainer-info-body > p {
-    font-size: 14px;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 2.0;
     margin-top: 3%;
     padding: 0;
     width: 90%;
@@ -223,7 +223,7 @@ Theme Name: pairtore
     background-color: #afdfeb;
     width: 100%;
     padding: 5% 5%;
-    height: 1620px;
+    height: 1500px;
   }
 
   .gleeting-main {
@@ -300,6 +300,7 @@ Theme Name: pairtore
   .concept-container {
     background-color: #afdfeb;
     height: 1720px;
+    padding-bottom: 30%;
   }
 
   .concept-main {
@@ -402,7 +403,7 @@ Theme Name: pairtore
   }
 
   .course-introduction-container {
-    height: 1745px;
+    height: 1900px;
   }
 
   .course-introduction-main {
@@ -496,10 +497,11 @@ Theme Name: pairtore
   .course-bottom-content > p {
     font-size: 14px;
     line-height: 1.8;
+    font-weight: bolder;
   }
 
   .feature-container {
-    height: 520px;
+    height: 450px;
   }
 
   .feature-title {
