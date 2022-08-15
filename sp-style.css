@@ -5,7 +5,7 @@ Theme Name: pairtore
 
 /*body*/
 
-@media screen and (min-width: 1440px) and (max-width: 1980px) {
+/* @media screen and (min-width: 1440px) and (max-width: 1980px) {
   .trainer-info-container {
     height: 760px;
   }
@@ -29,7 +29,7 @@ Theme Name: pairtore
   .concept-body p {
     font-size: 14px;
   }
-}
+} */
 
 @media screen and (max-width: 480px) {
   /*ここにスマホ用スタイルを記述*/
@@ -108,12 +108,7 @@ Theme Name: pairtore
   }
 
   .introduction-intro {
-    position: relative;
     width: 100%;
-    font-size: 14px;
-    font-weight: bolder;
-    color: #48c9da;
-    background-color: white;
     margin: auto;
     justify-content: center;
     padding: 3% 3%;
@@ -122,8 +117,7 @@ Theme Name: pairtore
   }
 
   .introduction-intro > h2 {
-    line-height: 1.5;
-    text-align: center;
+    font-size: 14px;
   }
 
   .introduction-body {
@@ -203,7 +197,7 @@ Theme Name: pairtore
 
   .trainer-info-body > p {
     font-size: 16px;
-    line-height: 2.0;
+    line-height: 2;
     margin-top: 3%;
     padding: 0;
     width: 90%;
@@ -292,9 +286,12 @@ Theme Name: pairtore
 
   .gleeting-body {
     width: 100%;
+    margin-top: 10%;
+  }
+
+  .gleeting-body > p {
     font-size: 14px;
     line-height: 1.6;
-    margin-top: 10%;
   }
 
   .concept-container {
@@ -1002,8 +999,9 @@ Theme Name: pairtore
   }
 
   .site-footer-body h2 {
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 5%;
+    letter-spacing: 3px;
   }
 
   .site-footer-body img {
