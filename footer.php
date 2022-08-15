@@ -7,7 +7,9 @@
                     <img class="footer-logo" src="<?php echo esc_url(get_theme_file_uri('/images/footer-logo.png')); ?>" alt="<?php bloginfo('name'); ?>">
                     <h2>TEL 000-0000-0000</h2>
                 </div>
-                <a href="<?php echo esc_url(get_permalink(get_page_by_path('customer'))); ?>"><button>申込みはこちら▷</button></a>
+                <div>
+                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('customer'))); ?>'">お申込みはこちら▷</button>
+                </div>
             </div>
         </div>
     </section>

@@ -1180,7 +1180,7 @@ Theme Name: pairtore
   width: 80%;
 }
 
-.site-footer h1 {
+.footer-main > h1 {
   font-size: 30px;
   color: white;
   border-bottom: solid 2px white;
@@ -1189,35 +1189,47 @@ Theme Name: pairtore
   padding-bottom: 15px;
   padding-left: 250px;
   padding-right: 250px;
+  letter-spacing: 3px;
 }
 
-.site-footer img {
-  width: 400px;
+.site-footer-body img {
+  width: 90%;
 }
 
-.site-footer h2 {
+.site-footer-body h2 {
   color: white;
   text-align: center;
-  font-size: 35px;
+  font-size: 36px;
+  margin-top: 2%;
+  letter-spacing: 5px;
 }
 
 .site-footer-body {
+  position: relative;
   display: flex;
-  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  width: 50%;
+}
+
+.site-footer-body > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
 }
 
 .site-footer-body button {
-  margin: 20px 20px;
   display: inline-block;
   border-radius: 69px; /* 角丸       */
   font-size: 22px; /* 文字サイズ */
-  text-align: center; /* 文字位置   */
   cursor: pointer; /* カーソル   */
-  padding: 40px 100px; /* 余白       */
+  padding: 10% 20%; /* 余白       */
   background: #ffffff; /* 背景色     */
   color: #999999; /* 文字色     */
-  line-height: 1em; /* 1行の高さ  */
-  opacity: 0.9; /* 透明度     */
   transition: 0.3s; /* なめらか変化 */
   box-shadow: 1px 1px 4px #666666; /* 影の設定 */
   font-weight: bolder;
