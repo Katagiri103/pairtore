@@ -422,10 +422,10 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
                     </div>
                     <div>
-                        <h2>
+                        <h3>
                             未経験でもつまづかない<br>
                             ステップアップ型カリキュラム
-                        </h2>
+                        </h3>
                         <p>
                             ペアトレでは未経験から始める方でも、<br>
                             つまづかないカリキュラムになっています。<br>
@@ -440,10 +440,10 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
                     </div>
                     <div>
-                        <h2>
+                        <h3>
                             わからないことは講義時や<br>
                             公式LINE@でいつでも質問できる
-                        </h2>
+                        </h3>
                         <p>
                             課題や宿題はできるようになるまで何度でも講師がフィードバックします。<br>
                             オフライン授業なので、やってみてわからないことは<br>
