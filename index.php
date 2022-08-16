@@ -383,14 +383,14 @@
                         てマンツーマン授業を通して学習します。<br>
                         毎回小テストがございます。<br><br>
                         【 学習内容 】<br>
-                        1:オリエンテーション、ヒアリング<br>
-                        2:生理学・栄養学<br>
-                        3:基礎解剖学（下肢）<br>
-                        4:基礎解剖学（体幹)<br>
-                        5:基礎解剖学（体幹・上肢）<br>
-                        6:肩こり・猫背・巻き肩<br>
-                        7:腰痛・脚痩せ<br>
-                        8:中間テスト
+                        1:&ensp;オリエンテーション、ヒアリング<br>
+                        2:&ensp;生理学・栄養学<br>
+                        3:&ensp;基礎解剖学（下肢）<br>
+                        4:&ensp;基礎解剖学（体幹)<br>
+                        5:&ensp;基礎解剖学（体幹・上肢）<br>
+                        6:&ensp;肩こり・猫背・巻き肩<br>
+                        7:&ensp;腰痛・脚痩せ<br>
+                        8:&ensp;中間テスト
                     </p>
                 </div>
                 <!-- <div class="curriculum-arrow-top pc-none"></div> -->
@@ -404,35 +404,41 @@
                         ら、実際に現場で使える生きたトレーナースキル<br>
                         やコミュニケーションを身に付けます。<br><br>
                         【 学習内容 】<br>
-                        9:下肢種目＋実践<br>
-                        10:下肢種目＋実践<br>
-                        11:胸種目＋実践<br>
-                        12:上腕三頭筋＋実践<br>
-                        13:上腕二頭筋＋実践<br>
-                        14:食事管理＋カウンセリング<br>
-                        15:ロープレ＋実践プログラム設計<br>
-                        16:最終テスト
+                        &ensp;9:&ensp;下肢種目＋実践<br>
+                        10:&ensp;下肢種目＋実践<br>
+                        11:&ensp;胸種目＋実践<br>
+                        12:&ensp;上腕三頭筋＋実践<br>
+                        13:&ensp;上腕二頭筋＋実践<br>
+                        14:&ensp;食事管理＋カウンセリング<br>
+                        15:&ensp;ロープレ＋実践プログラム設計<br>
+                        16:&ensp;最終テスト
                     </p>
                 </div>
             </div>
             <div class="curriculum-content">
                 <h1>カリキュラムの内容</h1>
                 <div class="curriculum-content-body">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
+                    <div class="curriculum-content-body-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
+                    </div>
                     <div>
                         <h2>
                             未経験でもつまづかない<br>
                             ステップアップ型カリキュラム
                         </h2>
                         <p>
-                            ペアトレでは未経験から始める方でも、つまづかないカリキュラムになっています。<br>
-                            基礎ステージでまず基本を身につけることで、その後の学習をスムーズに進めることができます。<br>
+                            ペアトレでは未経験から始める方でも、<br>
+                            つまづかないカリキュラムになっています。<br>
+                            基礎ステージでまず基本を身につけることで、<br>
+                            その後の学習をスムーズに進めることができます。<br>
                             またわからないことはいつでも質問して疑問解消することでスムーズに進めていくことが可能です。
                         </p>
                     </div>
                 </div>
                 <div class="curriculum-content-body">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+                    <div class="curriculum-content-body-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+                    </div>
                     <div>
                         <h2>
                             わからないことは講義時や<br>
@@ -440,7 +446,8 @@
                         </h2>
                         <p>
                             課題や宿題はできるようになるまで何度でも講師がフィードバックします。<br>
-                            オフライン授業なので、やってみてわからないことはその場で聞ける、見本を見せてもらえる環境をご用意しています。
+                            オフライン授業なので、やってみてわからないことは<br>
+                            その場で聞ける、見本を見せてもらえる環境をご用意しています。
                         </p>
                     </div>
                 </div>
