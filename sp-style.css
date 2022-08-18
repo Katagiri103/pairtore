@@ -536,6 +536,7 @@ Theme Name: pairtore
     width: 90%;
     background-color: white;
     padding: 5% 5%;
+    
   }
 
   .feature-detail1-body {
@@ -552,7 +553,7 @@ Theme Name: pairtore
     background-color: #48c9da;
     width: 119%;
     padding: 2% 5%;
-    margin-left: -13%;
+    margin-left: -16%;
   }
 
   .feature-detail-body-title-span {
@@ -600,7 +601,7 @@ Theme Name: pairtore
     align-items: flex-start;
     width: 90%;
     background-color: white;
-    padding: 3% 5%;
+    padding: 5% 5%;
   }
 
   .feature-detail-main2 h1 {
@@ -725,7 +726,7 @@ Theme Name: pairtore
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 2200px;
+    height: 2400px;
     display: flex;
     background-color: #48c9da;
   }
@@ -842,9 +843,10 @@ Theme Name: pairtore
     line-height: 1.6;
   }
 
-  .curriculum-content img {
-    width: 280px;
-    height: 160px;
+  .curriculum-content-body img {
+    width: 100%;
+    position: relative;
+    height: auto;
   }
 
   .curriculum-content-body > div {

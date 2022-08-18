@@ -418,9 +418,7 @@
             <div class="curriculum-content">
                 <h1>カリキュラムの内容</h1>
                 <div class="curriculum-content-body">
-                    <div class="curriculum-content-body-img">
-                        <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
-                    </div>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
                     <div>
                         <h3>
                             未経験でもつまづかない<br>
@@ -436,9 +434,7 @@
                     </div>
                 </div>
                 <div class="curriculum-content-body">
-                    <div class="curriculum-content-body-img">
-                        <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
-                    </div>
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
                     <div>
                         <h3>
                             わからないことは講義時や<br>
