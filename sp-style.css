@@ -31,6 +31,28 @@ Theme Name: pairtore
   }
 } */
 
+@media screen and (max-width: 1620px) {
+  .curriculum-content-body-img > img {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .curriculum-content-body-img > img {
+    width: 280px;
+  }
+
+  .access-body-left > iframe {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .access-body-left > iframe {
+    height: 350px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   /*ここにスマホ用スタイルを記述*/
 
@@ -536,7 +558,6 @@ Theme Name: pairtore
     width: 90%;
     background-color: white;
     padding: 5% 5%;
-    
   }
 
   .feature-detail1-body {

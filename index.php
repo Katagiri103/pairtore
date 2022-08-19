@@ -418,7 +418,9 @@
             <div class="curriculum-content">
                 <h1>カリキュラムの内容</h1>
                 <div class="curriculum-content-body">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
+                    <div class="curriculum-content-body-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content1.jpeg')); ?>" alt="">
+                    </div>
                     <div>
                         <h3>
                             未経験でもつまづかない<br>
@@ -434,7 +436,9 @@
                     </div>
                 </div>
                 <div class="curriculum-content-body">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+                    <div class="curriculum-content-body-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
+                    </div>
                     <div>
                         <h3>
                             わからないことは講義時や<br>
@@ -483,7 +487,7 @@
             <h1>アクセス</h1>
             <div class="access-body">
                 <div class="access-body-left">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8185534175386!2d139.70010582019947!3d35.65684182507095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5a103a3e15%3A0xb899aa7b427b9179!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yZ4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1660205913473!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8185534175386!2d139.70010582019947!3d35.65684182507095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5a103a3e15%3A0xb899aa7b427b9179!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yZ4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1660205913473!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="access-body-right">
                     <img src="<?php echo esc_url(get_theme_file_uri('/images/access.jpeg')); ?>" alt="">
