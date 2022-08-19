@@ -24,8 +24,8 @@
                 <p>
                     ペアトレとは、<span class="yellow">アウトプットが5割を占める超実践型の<br>
                         1on1（マンツーマン）パーソナルトレーナー養成スクール</span>です。<br><br>
-                    一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、
-                    1on1制度を導入し一つ一つ丁寧に指導していくスタイルにする事により、
+                    一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、<br>
+                    1on1制度を導入し一つ一つ丁寧に指導していくスタイルにする事により、<br>
                     知識とスキルの定着率を大幅に上げることに成功しています。
                 </p>
             </div>
@@ -42,7 +42,7 @@
             <div class="trainer-info-body">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info-img.png')); ?>">
                 <p>
-                    パーソナルトレーナーとは、トレーニング指導の専門職業で、一般の方の健康増進や
+                    パーソナルトレーナーとは、トレーニング指導の専門職業で、一般の方の健康増進や<br>
                     アスリートの競技力向上などを目的にマンツーマンでエクササイズ、トレーニング指導、栄養指導などを行う指導者のことです。<br><br>
 
                     トレーニングに関する知識、経験だけではなく、栄養や身体の仕組みに関する知識も必要とされ、
@@ -65,7 +65,6 @@
                             <p class="gleeting-self-name">田口 優喜</p>
                             <p class="gleeting-self-spell">TAGUCHI YUUKI</p>
                         </div>
-                        <img src="<?php echo esc_url(get_theme_file_uri('/images/gleeting-self-image.jpeg')); ?>" alt="">
                     </div>
                     <div class="gleeting-image">
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/gleeting-image.jpeg')); ?>" alt="">
@@ -136,7 +135,7 @@
                 <div class="concept1">
                     <div class="concept-body-title">
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/concept1.png')); ?>" alt="">
-                        <h3>マンツーマン指導</h3>
+                        <h3>マンツーマン</h3>
                     </div>
                     <p>
                         講師1人対多数だとどうしてもスキルの定着
@@ -186,10 +185,10 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/course1.png')); ?>" alt="">
                         <p>
                             入学金<br>
-                            33,000円（税込）<br>
+                            <span class="font-color-blue">33,000円</span>（税込）<br>
                             <span style="font-size: 48px">+</span><br>
                             授業料<br>
-                            220,000円（税込）
+                            <span class="font-color-blue">220,000円</span>（税込）
                         </p>
                     </div>
                     <div class="course2">
@@ -197,10 +196,10 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/course2.png')); ?>" alt="">
                         <p>
                             入学金<br>
-                            33,000円（税込）<br>
+                            <span class="font-color-blue">33,000円</span>（税込）<br>
                             <span style="font-size: 48px">+</span><br>
                             授業料<br>
-                            165,000円（税込）
+                            <span class="font-color-blue">165,000円</span>（税込）
                         </p>
                     </div>
                 </div>
@@ -228,15 +227,13 @@
                 <h1>ペアトレの特徴<br class="pc-none"><br class="pc-none"></h1>
             </div>
             <div class="feature-body">
-                <p>
-                    ①&nbsp;現役パーソナルトレーナーから直接マンツーマン指導で学べる<br>
-                    ②&nbsp;知識、実技だけでなくそれを伝えるアウトプット術なども学べる<br>
-                    ③&nbsp;最短2ヶ月で卒業後に即トレーナーとして仕事ができる<br>
-                    ④&nbsp;いつでも入学可能でじっくりと好きな時間に通える<br>
-                    ⑤&nbsp;在学中に実践に携われる<br>
-                    ⑥&nbsp;業界最安価格<br>
-                    ⑦&nbsp;とにかく実践で使えるハイレベルな授業と手厚いサポート
-                </p>
+                <p>①&nbsp;現役パーソナルトレーナーから直接マンツーマン指導で学べる</p>
+                <p>②&nbsp;知識、実技だけでなくそれを伝えるアウトプット術なども学べる</p>
+                <p>③&nbsp;最短2ヶ月で卒業後に即トレーナーとして仕事ができる</p>
+                <p>④&nbsp;いつでも入学可能でじっくりと好きな時間に通える</p>
+                <p>⑤&nbsp;在学中に実践に携われる</p>
+                <p>⑥&nbsp;業界最安価格</p>
+                <p>⑦&nbsp;とにかく実践で使えるハイレベルな授業と手厚いサポート</p>
             </div>
         </div>
     </section>
@@ -378,20 +375,23 @@
                     <div class="curriculum-body-title">
                         <h3>Basics -基礎ステージ-<br>1ヶ月目</h3>
                     </div>
-                    <p>
-                        トレーナーの基本となる座学（解剖学等）につい<br>
-                        てマンツーマン授業を通して学習します。<br>
+                    <p class="curriculum-body-intro">
+                        トレーナーの基本となる座学（解剖学等）についてマンツーマン授業を通して学習します。<br>
                         毎回小テストがございます。<br><br>
-                        【 学習内容 】<br>
-                        1:&ensp;オリエンテーション、ヒアリング<br>
-                        2:&ensp;生理学・栄養学<br>
-                        3:&ensp;基礎解剖学（下肢）<br>
-                        4:&ensp;基礎解剖学（体幹)<br>
-                        5:&ensp;基礎解剖学（体幹・上肢）<br>
-                        6:&ensp;肩こり・猫背・巻き肩<br>
-                        7:&ensp;腰痛・脚痩せ<br>
-                        8:&ensp;中間テスト
                     </p>
+                    <div class="curriculum-body-study">
+                        <p class="curriculum-body-study-title">【 学習内容 】</p>
+                        <p class="curriculum-body-study-main">
+                            1:&ensp;オリエンテーション、ヒアリング<br>
+                            2:&ensp;生理学・栄養学<br>
+                            3:&ensp;基礎解剖学（下肢）<br>
+                            4:&ensp;基礎解剖学（体幹)<br>
+                            5:&ensp;基礎解剖学（体幹・上肢）<br>
+                            6:&ensp;肩こり・猫背・巻き肩<br>
+                            7:&ensp;腰痛・脚痩せ<br>
+                            8:&ensp;中間テスト
+                        </p>
+                    </div>
                 </div>
                 <!-- <div class="curriculum-arrow-top pc-none"></div> -->
                 <div class="curriculum-arrow sp-none"><img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum_arrow.png')); ?>"></div>
@@ -399,20 +399,22 @@
                     <div class="curriculum-body-title">
                         <h3>Practice -実践ステージ-<br>2ヶ月目</h3>
                     </div>
-                    <p>
-                        身につけた知識から実技やロープレをしなが<br>
-                        ら、実際に現場で使える生きたトレーナースキル<br>
-                        やコミュニケーションを身に付けます。<br><br>
-                        【 学習内容 】<br>
-                        &ensp;9:&ensp;下肢種目＋実践<br>
-                        10:&ensp;下肢種目＋実践<br>
-                        11:&ensp;胸種目＋実践<br>
-                        12:&ensp;上腕三頭筋＋実践<br>
-                        13:&ensp;上腕二頭筋＋実践<br>
-                        14:&ensp;食事管理＋カウンセリング<br>
-                        15:&ensp;ロープレ＋実践プログラム設計<br>
-                        16:&ensp;最終テスト
+                    <p class="curriculum-body-intro">
+                        身につけた知識から実技やロープレをしながら、実際に現場で使える生きたトレーナースキルやコミュニケーションを身に付けます。<br><br>
                     </p>
+                    <div class="curriculum-body-study">
+                        <p class="curriculum-body-study-title">【 学習内容 】</p>
+                        <p class="curriculum-body-study-main">
+                            &ensp;9:&ensp;下肢種目＋実践<br>
+                            10:&ensp;下肢種目＋実践<br>
+                            11:&ensp;胸種目＋実践<br>
+                            12:&ensp;上腕三頭筋＋実践<br>
+                            13:&ensp;上腕二頭筋＋実践<br>
+                            14:&ensp;食事管理＋カウンセリング<br>
+                            15:&ensp;ロープレ＋実践プログラム設計<br>
+                            16:&ensp;最終テスト
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="curriculum-content">
@@ -474,11 +476,13 @@
         </div>
     </section>
     <section class="difference-container">
-        <div class="difference-main">
-            <h1>他社との違い<br class="pc-none"><br class="pc-none"></h1>
-            <!-- 写真をもらっていれる予定 -->
-            <div class="difference-grid">
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/grid.png')); ?>" alt="">
+        <div class="difference-main-wrap">
+            <div class="difference-main">
+                <h1>他社との違い<br class="pc-none"><br class="pc-none"></h1>
+                <!-- 写真をもらっていれる予定 -->
+                <div class="difference-grid">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/grid.png')); ?>" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -490,7 +494,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8185534175386!2d139.70010582019947!3d35.65684182507095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5a103a3e15%3A0xb899aa7b427b9179!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yZ4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1660205913473!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="access-body-right">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/access.jpeg')); ?>" alt="">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/access.png')); ?>" alt="">
                     <div class="access-addres">
                         <p>
                             【所在地】 <br>

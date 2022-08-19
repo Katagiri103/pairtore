@@ -35,6 +35,10 @@ Theme Name: pairtore
   .curriculum-content-body-img > img {
     width: 280px;
   }
+
+  .access-body-left > iframe {
+    height: 450px;
+  }
 }
 
 @media screen and (max-width: 1440px) {
