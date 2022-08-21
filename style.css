@@ -139,6 +139,47 @@ p {
   letter-spacing: 5px;
 }
 
+.introduction-application {
+  position: relative;
+  width: 80%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introduction-application-tel > h3 {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.introduction-application-tel {
+  margin-top: 3%;
+}
+
+.introduction-application-tel > p {
+  color: white;
+  text-align: center;
+}
+
+.introduction-application-btn {
+  text-align: center;
+}
+
+.introduction-application-btn > button {
+  display: inline-block;
+  border-radius: 30px; /* 角丸       */
+  font-size: clamp(1.2rem, 1vw + 0.75rem, 2.2rem); /* 文字サイズ */
+  cursor: pointer; /* カーソル   */
+  padding: 3% 10%; /* 余白       */
+  background: #ffffff; /* 背景色     */
+  color: #999999; /* 文字色     */
+  transition: 0.3s; /* なめらか変化 */
+  box-shadow: 1px 1px 4px #666666; /* 影の設定 */
+  font-weight: bolder;
+}
+
 .yellow {
   color: yellow;
 }
@@ -462,6 +503,47 @@ p {
   margin: 0px 18px;
 }
 
+.concept3-application {
+  position: relative;
+  width: 80%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.concept3-application-tel > h3 {
+  color: #48c9da;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.concept3-application-tel {
+  margin-top: 3%;
+}
+
+.concept3-application-tel > p {
+  color: #48c9da;
+  text-align: center;
+}
+
+.concept3-application-btn {
+  text-align: center;
+}
+
+.concept3-application-btn > button {
+  display: inline-block;
+  border-radius: 30px; /* 角丸       */
+  font-size: clamp(1.2rem, 1vw + 0.75rem, 2.2rem); /* 文字サイズ */
+  cursor: pointer; /* カーソル   */
+  padding: 3% 10%; /* 余白       */
+  background: #48c9da; /* 背景色     */
+  color: white; /* 文字色     */
+  transition: 0.3s; /* なめらか変化 */
+  box-shadow: 1px 1px 4px #666666; /* 影の設定 */
+  font-weight: bolder;
+}
+
 .course-introduction-container {
   position: relative;
   display: flex;
@@ -586,6 +668,47 @@ p {
   border-bottom: yellow solid 10px;
   margin-bottom: 3%;
   letter-spacing: 2px;
+}
+
+.course-application {
+  position: relative;
+  width: 80%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.course-application-tel > h3 {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.course-application-tel {
+  margin-top: 3%;
+}
+
+.course-application-tel > p {
+  color: white;
+  text-align: center;
+}
+
+.course-application-btn {
+  text-align: center;
+}
+
+.course-application-btn > button {
+  display: inline-block;
+  border-radius: 30px; /* 角丸       */
+  font-size: clamp(1.2rem, 1vw + 0.75rem, 2.2rem); /* 文字サイズ */
+  cursor: pointer; /* カーソル   */
+  padding: 3% 10%; /* 余白       */
+  background: #ffffff; /* 背景色     */
+  color: #999999; /* 文字色     */
+  transition: 0.3s; /* なめらか変化 */
+  box-shadow: 1px 1px 4px #666666; /* 影の設定 */
+  font-weight: bolder;
 }
 
 .feature-container {
@@ -1077,6 +1200,47 @@ p {
   height: calc(1.5em * 7);
 }
 
+.curriculum-application {
+  position: relative;
+  width: 80%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.curriculum-application-tel > h3 {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.curriculum-application-tel {
+  margin-top: 3%;
+}
+
+.curriculum-application-tel > p {
+  color: white;
+  text-align: center;
+}
+
+.curriculum-application-btn {
+  text-align: center;
+}
+
+.curriculum-application-btn > button {
+  display: inline-block;
+  border-radius: 30px; /* 角丸       */
+  font-size: clamp(1.2rem, 1vw + 0.75rem, 2.2rem); /* 文字サイズ */
+  cursor: pointer; /* カーソル   */
+  padding: 3% 10%; /* 余白       */
+  background: #ffffff; /* 背景色     */
+  color: #999999; /* 文字色     */
+  transition: 0.3s; /* なめらか変化 */
+  box-shadow: 1px 1px 4px #666666; /* 影の設定 */
+  font-weight: bolder;
+}
+
 .student-voice-container {
   padding: 5% 0;
   position: relative;
@@ -1193,6 +1357,47 @@ p {
 .difference-main img {
   margin-top: 40px;
   width: 80%;
+}
+
+.difference-application {
+  position: relative;
+  width: 80%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.difference-application-tel > h3 {
+  color: #48c9da;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.difference-application-tel {
+  margin-top: 3%;
+}
+
+.difference-application-tel > p {
+  color: #48c9da;
+  text-align: center;
+}
+
+.difference-application-btn {
+  text-align: center;
+}
+
+.difference-application-btn > button {
+  display: inline-block;
+  border-radius: 30px; /* 角丸       */
+  font-size: clamp(1.2rem, 1vw + 0.75rem, 2.2rem); /* 文字サイズ */
+  cursor: pointer; /* カーソル   */
+  padding: 3% 10%; /* 余白       */
+  background: #48c9da; /* 背景色     */
+  color: white; /* 文字色     */
+  transition: 0.3s; /* なめらか変化 */
+  box-shadow: 1px 1px 4px #666666; /* 影の設定 */
+  font-weight: bolder;
 }
 
 .access-container {

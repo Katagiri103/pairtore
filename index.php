@@ -29,6 +29,15 @@
                     知識とスキルの定着率を大幅に上げることに成功しています。
                 </p>
             </div>
+            <div class="introduction-application">
+                <div class="introduction-application-btn">
+                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                </div>
+                <div class="introduction-application-tel">
+                    <p>お電話のお問い合わせはこちらから</p>
+                    <h3>TEL 03-6805-6704</h3>
+                </div>
+            </div>
         </div>
     </section>
     <section class="introduction-arrow">
@@ -167,6 +176,15 @@
                     </p>
                 </div>
             </div>
+            <div class="concept3-application">
+                <div class="concept3-application-btn">
+                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                </div>
+                <div class="concept3-application-tel">
+                    <p>お電話のお問い合わせはこちらから</p>
+                    <h3>TEL 03-6805-6704</h3>
+                </div>
+            </div>
         </div>
     </section>
     <section class="course-introduction-container">
@@ -216,6 +234,15 @@
                         <p>●&nbsp;独学でボディメイクをしてきたが、活きたトレーニングスキルの習得を必要と感じている</p>
                         <p>●&nbsp;一対一なら良いのだけど、スクールとかそういう団体はちょっと苦手…</p>
                         <p>●&nbsp;副業としてパーソナルトレーナーとして稼ぎたい</p>
+                    </div>
+                </div>
+                <div class="course-application">
+                    <div class="course-application-btn">
+                        <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                    </div>
+                    <div class="course-application-tel">
+                        <p>お電話のお問い合わせはこちらから</p>
+                        <h3>TEL 03-6805-6704</h3>
                     </div>
                 </div>
             </div>
@@ -454,6 +481,15 @@
                     </div>
                 </div>
             </div>
+            <div class="curriculum-application">
+                <div class="curriculum-application-btn">
+                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                </div>
+                <div class="curriculum-application-tel">
+                    <p>お電話のお問い合わせはこちらから</p>
+                    <h3>TEL 03-6805-6704</h3>
+                </div>
+            </div>
         </div>
     </div>
     <section class="student-voice-container">
@@ -482,6 +518,15 @@
                 <!-- 写真をもらっていれる予定 -->
                 <div class="difference-grid">
                     <img src="<?php echo esc_url(get_theme_file_uri('/images/grid.png')); ?>" alt="">
+                </div>
+                <div class="concept3-application">
+                    <div class="concept3-application-btn">
+                        <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                    </div>
+                    <div class="concept3-application-tel">
+                        <p>お電話のお問い合わせはこちらから</p>
+                        <h3>TEL 03-6805-6704</h3>
+                    </div>
                 </div>
             </div>
         </div>

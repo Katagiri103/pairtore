@@ -8,7 +8,7 @@
                     <h3>TEL 03-6805-6704</h3>
                 </div>
                 <div>
-                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('customer'))); ?>'">お申込みはこちら▶</button>
+                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">お申込みはこちら▶</button>
                 </div>
             </div>
         </div>
