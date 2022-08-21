@@ -112,6 +112,7 @@ p {
   width: 80%;
   background-color: white;
   margin-top: 3%;
+  border-radius: 40px;
 }
 
 .introduction-intro > h2 {
@@ -631,8 +632,8 @@ p {
   font-size: clamp(1.6rem, 1vw + 1.5rem, 3.2rem);
   line-height: 1.5;
   margin-top: 1%;
-  padding-left: 1em;
-  text-indent: -1em;
+  padding-left: 1.2em;
+  text-indent: -1.2em;
 }
 
 .feature-detail {
@@ -949,7 +950,7 @@ p {
   position: absolute;
   z-index: 99;
   width: 10%;
-  top: 5%;
+  top: 7%;
 }
 
 .curriculum-arrow > img {
@@ -1323,7 +1324,7 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 2%;
-  width: 50%;
+  width: 70%;
 }
 
 .site-footer-body > div {
@@ -1351,4 +1352,13 @@ p {
 .button:hover {
   box-shadow: none; /* カーソル時の影消去 */
   opacity: 1; /* カーソル時透明度 */
+}
+
+.copyright {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 1px;
 }

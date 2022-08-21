@@ -224,7 +224,7 @@
     <section class="feature-container">
         <div class="feature-main">
             <div class="feature-title">
-                <h1>ペアトレの特徴<br class="pc-none"><br class="pc-none"></h1>
+                <h1>ペアトレの特徴</h1>
             </div>
             <div class="feature-body">
                 <p>①&nbsp;現役パーソナルトレーナーから直接マンツーマン指導で学べる</p>
@@ -364,7 +364,7 @@
         <div class="curriculum-main">
             <div class="curriculum-title">
                 <h1>カリキュラム</h1>
-                <h2>実践的なカリキュラムでパーソナルトレーナーへ。<br class="pc-none"><br class="pc-none"></h2>
+                <h2>実践的なカリキュラムでパーソナルトレーナーへ。</h2>
                 <p>
                     2ヶ月を通して初心者からでも着実にスキルを身につけていき、<br>
                     実際にパーソナルトレーナーとして現場に立てる実践的なカリキュラム
@@ -458,7 +458,7 @@
     </div>
     <section class="student-voice-container">
         <div class="student-voice-main">
-            <h1 class="font-color-blue">生徒の声<br class="pc-none"><br class="pc-none"></h1>
+            <h1 class="font-color-blue">生徒の声</h1>
             <h2>藤本華奈さん</h2>
             <h3>KANA FUJIMOTO</h3>
             <div class="student-img">
@@ -478,7 +478,7 @@
     <section class="difference-container">
         <div class="difference-main-wrap">
             <div class="difference-main">
-                <h1>他社との違い<br class="pc-none"><br class="pc-none"></h1>
+                <h1>他社との違い</h1>
                 <!-- 写真をもらっていれる予定 -->
                 <div class="difference-grid">
                     <img src="<?php echo esc_url(get_theme_file_uri('/images/grid.png')); ?>" alt="">

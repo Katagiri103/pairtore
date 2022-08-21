@@ -60,6 +60,22 @@ Theme Name: pairtore
 @media screen and (max-width: 480px) {
   /*ここにスマホ用スタイルを記述*/
 
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
   .pc-none {
     display: block;
   }
@@ -78,6 +94,7 @@ Theme Name: pairtore
     align-items: center;
     height: 100px;
     min-height: 100px;
+    min-width: 320px;
   }
 
   .top-main {
@@ -86,6 +103,7 @@ Theme Name: pairtore
     justify-content: center;
     align-items: center;
     width: 50%;
+    min-width: 320px;
   }
 
   .pc-logo {
@@ -97,7 +115,7 @@ Theme Name: pairtore
   }
 
   .top-main > img {
-    width: 100%;
+    width: 90%;
   }
 
   .introduction-container {
@@ -106,12 +124,13 @@ Theme Name: pairtore
     justify-content: center;
     align-items: center;
     background-color: #48c9da;
-    height: 920px;
     width: 100%;
+    min-width: 320px;
   }
 
   .introduction-main {
     width: 90%;
+    min-width: 320px;
   }
 
   .introduction-title {
@@ -123,18 +142,17 @@ Theme Name: pairtore
   }
 
   .introduction-title > h1 > img {
-    width: 250px;
+    width: 70%;
   }
 
   .introduction-title h1 {
-    font-size: 24px;
     font-weight: bold;
     color: white;
-    letter-spacing: 5px;
+    padding: 0 2%;
   }
 
   .introduction-intro {
-    width: 100%;
+    width: 90%;
     margin: auto;
     justify-content: center;
     padding: 3% 3%;
@@ -143,11 +161,15 @@ Theme Name: pairtore
   }
 
   .introduction-intro > h2 {
-    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 1px;
   }
 
   .introduction-body {
-    width: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .introduction-body > img {
@@ -156,9 +178,8 @@ Theme Name: pairtore
   }
 
   .introduction-body > p {
-    font-size: 20px;
-    line-height: 1.6;
     margin-top: 5%;
+    letter-spacing: 2px;
   }
 
   .yellow {
@@ -173,17 +194,17 @@ Theme Name: pairtore
     background: url(./images/top-background.jpeg) no-repeat
       rgba(255, 255, 255, 0.5);
     background-size: cover;
-    padding: 5% 5%;
     width: 100%;
-    height: 450px;
     background-blend-mode: lighten;
+    min-width: 320px;
   }
 
   .trainer-info-main {
     background-color: white;
     padding: 5% 5%;
     line-height: 30px;
-    width: 100%;
+    width: 90%;
+    min-width: 300px;
   }
 
   .trainer-info-title {
@@ -196,13 +217,12 @@ Theme Name: pairtore
   }
 
   .trainer-info-title > h1 {
-    font-size: 20px;
     color: #48c9da;
     font-weight: bolder;
     border-bottom: solid 0px;
-    width: 90%;
-    line-height: 1.2;
+    width: 95%;
     margin: 3% 0;
+    font-size: 18px;
   }
 
   .trainer-info-body {
@@ -222,16 +242,12 @@ Theme Name: pairtore
   }
 
   .trainer-info-body > p {
-    font-size: 16px;
-    line-height: 2;
-    margin-top: 3%;
     padding: 0;
-    width: 90%;
+    width: 95%;
   }
 
   .trainer-info-main span {
     color: #48c9da;
-    font-size: 20px;
     font-weight: bolder;
   }
 
@@ -243,7 +259,7 @@ Theme Name: pairtore
     background-color: #afdfeb;
     width: 100%;
     padding: 5% 5%;
-    height: 1500px;
+    min-width: 320px;
   }
 
   .gleeting-main {
@@ -251,6 +267,7 @@ Theme Name: pairtore
     background-color: white;
     width: 100%;
     border-radius: 15px;
+    min-width: 320px;
   }
 
   .gleeting-title {
@@ -262,7 +279,6 @@ Theme Name: pairtore
 
   .gleeting-title h1 {
     color: #48c9da;
-    font-size: 20px;
     font-weight: bolder;
     border-left: none;
     padding-left: 0;
@@ -270,10 +286,10 @@ Theme Name: pairtore
 
   .gleeting-title h2 {
     color: #48c9da;
-    font-size: 13px;
+    font-size: 12px;
     border-bottom: solid 2px #48c9da;
     padding: 3% 0;
-    margin: 5% 0;
+    margin: 0;
   }
 
   .gleeting-self-body {
@@ -284,10 +300,15 @@ Theme Name: pairtore
   .gleeting-self {
     width: 100%;
     flex-direction: row-reverse;
+    margin-top: 5%;
+  }
+
+  .gleeting-image {
+    margin: 0;
   }
 
   .gleeting-image img {
-    width: 200px;
+    width: 100%;
   }
 
   .gleeting-self-content > img {
@@ -295,7 +316,8 @@ Theme Name: pairtore
   }
 
   .gleeting-self-title {
-    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 2px;
   }
 
   .gleeting-self-name {
@@ -303,7 +325,8 @@ Theme Name: pairtore
   }
 
   .gleeting-self-spell {
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 1px;
   }
 
   .gleeting-profile {
@@ -316,14 +339,11 @@ Theme Name: pairtore
   }
 
   .gleeting-body > p {
-    font-size: 14px;
-    line-height: 1.6;
   }
 
   .concept-container {
     background-color: #afdfeb;
-    height: 1720px;
-    padding-bottom: 30%;
+    min-width: 320px;
   }
 
   .concept-main {
@@ -331,6 +351,7 @@ Theme Name: pairtore
     padding: 5% 3%;
     background-color: white;
     border-radius: 15px;
+    min-width: 320px;
   }
 
   .concept-title {
@@ -338,21 +359,19 @@ Theme Name: pairtore
   }
 
   .concept-title > h1 {
-    font-size: 20px;
     border: none;
     padding-left: 0;
   }
 
   .concept-title > h2 {
     margin: 5% 2%;
-    font-size: 15px;
     border-bottom: solid 2px #48c9da;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
 
   .concept-title > p {
     margin: 3% 2%;
-    font-size: 14px;
-    line-height: 1.6;
     font-weight: normal;
   }
 
@@ -409,7 +428,6 @@ Theme Name: pairtore
 
   .concept-body h3 {
     width: 90%;
-    font-size: 22px;
     background-color: white;
     color: #48c9da;
     padding: 3% 0;
@@ -418,21 +436,20 @@ Theme Name: pairtore
   }
 
   .concept-body p {
-    font-size: 14px;
-    line-height: 1.8;
     margin: 5% 0;
     color: white;
     width: 80%;
   }
 
   .course-introduction-container {
-    height: 1900px;
+    min-width: 320px;
   }
 
   .course-introduction-main {
     width: 90%;
     padding: 0 0;
     border-radius: 15px;
+    min-width: 320px;
   }
 
   .course-introduction-title {
@@ -441,7 +458,6 @@ Theme Name: pairtore
   }
 
   .course-introduction-title > h1 {
-    font-size: 20px;
     border: none;
     padding-left: 0;
   }
@@ -452,10 +468,9 @@ Theme Name: pairtore
 
   .course-body > p {
     margin: 3% 0;
-    font-size: 14px;
-    line-height: 1.4;
     margin: 0 5%;
     border-bottom: 1px solid white;
+    font-size: 12px;
   }
 
   .course-cell {
@@ -472,6 +487,7 @@ Theme Name: pairtore
     margin: 5% 0;
     background-color: white;
     border-radius: 15px;
+    width: 90%;
   }
 
   .course2 {
@@ -482,12 +498,12 @@ Theme Name: pairtore
     margin: 5% 0;
     background-color: white;
     border-radius: 15px;
+    width: 90%;
   }
 
   .course-cell h2 {
     background-color: #48c9da;
     text-align: center;
-    font-size: 22px;
     padding: 2% 0;
     border-radius: 40px;
     font-weight: normal;
@@ -497,8 +513,6 @@ Theme Name: pairtore
   }
 
   .course-cell p {
-    font-size: 18px;
-    line-height: 1.4;
   }
 
   .course-cell img {
@@ -514,44 +528,47 @@ Theme Name: pairtore
   }
 
   .course-bottom-content > h1 {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5%;
   }
 
   .course-bottom-content > p {
-    font-size: 14px;
-    line-height: 1.8;
     font-weight: bolder;
   }
 
   .feature-container {
-    height: 450px;
+    min-width: 320px;
+  }
+
+  .feature-main {
+    min-width: 320px;
+    width: 90%;
   }
 
   .feature-title {
-    width: 100%;
+    width: 90%;
   }
 
   .feature-title > h1 {
-    font-size: 20px;
     border-left: none;
     border-bottom: 2px solid #48c9da;
     padding-left: 0;
   }
 
   .feature-body {
-    width: 100%;
+    width: 90%;
   }
 
   .feature-body > p {
     margin: 3% 0;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 14px;
   }
 
   .feature-detail-container1 {
     justify-content: center;
     align-items: center;
-    height: 1420px;
+    min-width: 320px;
   }
 
   .feature-detail-main1 {
@@ -562,6 +579,11 @@ Theme Name: pairtore
     width: 90%;
     background-color: white;
     padding: 5% 5%;
+    min-width: 320px;
+  }
+
+  .feature-detail1-intro div {
+    width: 90%;
   }
 
   .feature-detail1-body {
@@ -577,7 +599,7 @@ Theme Name: pairtore
     align-items: center;
     background-color: #48c9da;
     width: 119%;
-    padding: 2% 5%;
+    padding: 2% 2% 2% 10%;
     margin-left: -16%;
   }
 
@@ -586,21 +608,19 @@ Theme Name: pairtore
   }
 
   .feature-detail-main1 h1 {
-    font-size: 56px;
+    font-size: 42px;
     color: white;
   }
 
   .feature-detail-main1 h2 {
-    font-size: 18px;
     margin-top: 0;
     color: white;
     margin-left: 2%;
+    font-size: 16px;
   }
 
   .feature-detail-main1 p {
-    font-size: 14px;
     margin: 5% 3%;
-    line-height: 1.6;
   }
 
   .feature-detail1-intro {
@@ -609,14 +629,13 @@ Theme Name: pairtore
   }
 
   .feature-detail1-intro p {
-    font-size: 14px;
     margin: 5% 0;
   }
 
   .feature-detail-container2 {
     justify-content: center;
     align-items: center;
-    height: 630px;
+    min-width: 320px;
   }
 
   .feature-detail-main2 {
@@ -627,24 +646,23 @@ Theme Name: pairtore
     width: 90%;
     background-color: white;
     padding: 5% 5%;
+    min-width: 320px;
   }
 
   .feature-detail-main2 h1 {
-    font-size: 56px;
+    font-size: 42px;
     color: white;
   }
 
   .feature-detail-main2 h2 {
-    font-size: 18px;
     margin-top: 0;
     color: white;
     margin-left: 2%;
+    font-size: 16px;
   }
 
   .feature-detail-main2 p {
-    font-size: 14px;
     margin: 5% 3%;
-    line-height: 1.6;
   }
 
   .feature-detail2-body {
@@ -657,10 +675,14 @@ Theme Name: pairtore
     margin-top: 20px;
   }
 
+  .feature-detail2-body-main {
+    width: 100%;
+  }
+
   .feature-detail-container3 {
     justify-content: center;
     align-items: center;
-    height: 630px;
+    min-width: 320px;
   }
 
   .feature-detail-main3 {
@@ -671,28 +693,31 @@ Theme Name: pairtore
     width: 90%;
     background-color: white;
     padding: 3% 5%;
+    min-width: 320px;
   }
 
   .feature-detail-main3 h1 {
-    font-size: 56px;
+    font-size: 42px;
     color: white;
   }
 
   .feature-detail-main3 h2 {
-    font-size: 18px;
     margin-top: 0;
     color: white;
     margin-left: 2%;
+    font-size: 16px;
   }
 
   .feature-detail-main3 p {
-    font-size: 14px;
     margin: 5% 3%;
-    line-height: 1.6;
   }
 
   .feature-detail3-body {
     margin-left: 0;
+  }
+
+  .feature-detail3-body-main {
+    width: 100%;
   }
 
   .feature-detail3-body img {
@@ -704,7 +729,7 @@ Theme Name: pairtore
   .feature-detail-container4 {
     justify-content: center;
     align-items: center;
-    height: 630px;
+    min-width: 320px;
   }
 
   .feature-detail-main4 {
@@ -715,28 +740,31 @@ Theme Name: pairtore
     width: 90%;
     background-color: white;
     padding: 3% 5%;
+    min-width: 320px;
   }
 
   .feature-detail-main4 h1 {
-    font-size: 56px;
+    font-size: 42px;
     color: white;
   }
 
   .feature-detail-main4 h2 {
-    font-size: 18px;
     margin-top: 0;
     color: white;
     margin-left: 2%;
+    font-size: 16px;
   }
 
   .feature-detail-main4 p {
-    font-size: 14px;
     margin: 5% 3%;
-    line-height: 1.6;
   }
 
   .feature-detail4-body {
     margin-left: 0;
+  }
+
+  .feature-detail4-body-main {
+    width: 100%;
   }
 
   .feature-detail4-body img {
@@ -751,13 +779,14 @@ Theme Name: pairtore
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 2400px;
+    min-width: 320px;
     display: flex;
     background-color: #48c9da;
   }
 
   .curriculum-main {
     width: 90%;
+    min-width: 320px;
   }
 
   .curriculum-title {
@@ -766,7 +795,6 @@ Theme Name: pairtore
   }
 
   .curriculum-title > h1 {
-    font-size: 20px;
     color: white;
     border-left: none;
     padding-left: 0;
@@ -776,17 +804,16 @@ Theme Name: pairtore
   .curriculum-title > h2 {
     padding-left: 0;
     color: white;
-    font-size: 14px;
-    margin-top: 30px;
     border-bottom: solid 2px white;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 5%;
   }
 
   .curriculum-title > p {
     padding-left: 0;
     color: white;
-    font-size: 14px;
     margin-top: 25px;
-    line-height: 1.6;
   }
 
   .curriculum-body {
@@ -799,6 +826,7 @@ Theme Name: pairtore
 
   .curriculum-left {
     width: 100%;
+    border-right: none;
   }
 
   .curriculum-left h3 {
@@ -806,7 +834,6 @@ Theme Name: pairtore
   }
 
   .curriculum-left p {
-    font-size: 14px;
   }
 
   /* .curriculum-arrow-top {
@@ -819,14 +846,14 @@ Theme Name: pairtore
 
   .curriculum-right {
     width: 100%;
+    border-left: none;
+    margin-top: 5%;
   }
 
   .curriculum-right h3 {
-    font-size: 18px;
   }
 
   .curriculum-right p {
-    font-size: 14px;
   }
 
   .curriculum-content {
@@ -834,7 +861,6 @@ Theme Name: pairtore
   }
 
   .curriculum-content > h1 {
-    font-size: 20px;
     color: white;
     border-left: none;
     border-bottom: solid 2px white;
@@ -855,17 +881,17 @@ Theme Name: pairtore
 
   .curriculum-content-body h2 {
     margin-bottom: 3%;
-    font-size: 18px;
     font-weight: bold;
-    line-height: 1.4;
+    text-align: center;
+  }
+
+  .curriculum-content-body h3 {
     text-align: center;
   }
 
   .curriculum-content-body p {
-    font-size: 14px;
-    line-height: 1.6;
-    margin: 5% 3%;
-    line-height: 1.6;
+    height: auto;
+    margin-bottom: 5%;
   }
 
   .curriculum-content-body img {
@@ -876,18 +902,19 @@ Theme Name: pairtore
 
   .curriculum-content-body > div {
     margin-left: 0;
+    width: 100%;
   }
 
   .student-voice-container {
-    height: 620px;
+    min-width: 320px;
   }
 
   .student-voice-main {
     width: 90%;
+    min-width: 320px;
   }
 
   .student-voice-main h1 {
-    font-size: 20px;
     border-left: none;
     border-bottom: solid 2px #6ec7d9;
     font-weight: bolder;
@@ -895,12 +922,10 @@ Theme Name: pairtore
   }
 
   .student-voice-main h2 {
-    font-size: 22px;
     width: 90%;
   }
 
   .student-voice-main h3 {
-    font-size: 18px;
     width: 90%;
   }
 
@@ -914,21 +939,19 @@ Theme Name: pairtore
   }
 
   .student-voice-main p {
-    font-size: 14px;
-    line-height: 1.6;
     width: 90%;
   }
 
   .difference-container {
-    height: 680px;
+    min-width: 320px;
   }
 
   .difference-main {
     width: 90%;
+    min-width: 320px;
   }
 
   .difference-main h1 {
-    font-size: 20px;
     border-left: none;
     border-bottom: solid 2px #6ec7d9;
     padding-left: 0;
@@ -946,15 +969,15 @@ Theme Name: pairtore
   }
 
   .access-container {
-    height: 780px;
+    min-width: 320px;
   }
 
   .access-main {
     width: 90%;
+    min-width: 320px;
   }
 
   .access-main > h1 {
-    font-size: 20px;
     border-left: none;
     border-bottom: solid 2px #6ec7d9;
     width: 90%;
@@ -995,38 +1018,36 @@ Theme Name: pairtore
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 0;
-    font-size: 14px;
-    line-height: 1.4;
     width: 50%;
   }
 
   /*footer*/
   .footer-container {
-    height: 400px;
+    min-width: 320px;
+    padding: 5% 0;
   }
 
   .footer-main {
     width: 90%;
+    min-width: 320px;
   }
 
   .site-footer h1 {
-    font-size: 18px;
     color: white;
     border-bottom: solid 2px white;
     text-align: center;
     padding: 0 5%;
     letter-spacing: 2px;
+    margin-top: 5%;
   }
 
   .site-footer-body {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 30px;
     width: 90%;
   }
 
   .site-footer-body h2 {
-    font-size: 26px;
     margin-top: 5%;
     letter-spacing: 3px;
   }
