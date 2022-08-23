@@ -8,7 +8,7 @@
         </div>
     </section>
     <section class="introduction-container">
-        <div class="introduction-main">
+        <div class="container-main">
             <div class="introduction-title">
                 <h1>
                     <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction-logo.png')); ?>">
@@ -29,7 +29,7 @@
             </div>
             <div class="introduction-application">
                 <div class="introduction-application-btn">
-                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
                 </div>
                 <div class="introduction-application-tel">
                     <p>お電話のお問い合わせはこちらから</p>
@@ -41,7 +41,7 @@
     <section class="introduction-arrow">
         <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction_arrow.png')); ?>">
     </section>
-    <section class="trainer-info-container">
+    <!-- <section class="trainer-info-container">
         <div class="trainer-info-main">
             <div class="trainer-info-title">
                 <h1>パーソナルトレーナーとは？</h1>
@@ -57,9 +57,9 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="gleeting-container">
-        <div class="gleeting-main">
+        <div class="container-main gleeting-main">
             <div class="gleeting-title">
                 <h1>代表挨拶</h1>
                 <h2>社会で即活躍できるパートナルトレーナーを輩出する</h2>
@@ -122,7 +122,7 @@
         </div>
     </section>
     <section class="concept-container">
-        <div class="concept-main">
+        <div class="container-main concept-main">
             <div class="concept-title">
                 <h1>コンセプト</h1>
                 <h2>「マンツーマン」×「実践型」×「低価格」</h2>
@@ -169,7 +169,7 @@
             </div>
             <div class="concept3-application">
                 <div class="concept3-application-btn">
-                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
                 </div>
                 <div class="concept3-application-tel">
                     <p>お電話のお問い合わせはこちらから</p>
@@ -179,7 +179,7 @@
         </div>
     </section>
     <section class="course-introduction-container">
-        <div class="course-introduction-main">
+        <div class="container-main">
             <div class="course-introduction-title">
                 <h1>コース紹介</h1>
             </div>
@@ -189,7 +189,7 @@
                 </p>
                 <div class="course-cell">
                     <div class="course1">
-                        <h2>マンツーマンコース</h2>
+                        <h3>マンツーマンコース</h3>
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/course1.png')); ?>" alt="">
                         <p>
                             入学金<br>
@@ -200,7 +200,7 @@
                         </p>
                     </div>
                     <div class="course2">
-                        <h2>オンライン+マンツーコース</h2>
+                        <h3>オンライン+マンツーコース</h3>
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/course2.png')); ?>" alt="">
                         <p>
                             入学金<br>
@@ -228,7 +228,7 @@
                 </div>
                 <div class="course-application">
                     <div class="course-application-btn">
-                        <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                        <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
                     </div>
                     <div class="course-application-tel">
                         <p>お電話のお問い合わせはこちらから</p>
@@ -239,7 +239,7 @@
         </div>
     </section>
     <section class="feature-container">
-        <div class="feature-main">
+        <div class="container-main">
             <div class="feature-title">
                 <h1>ペアトレの特徴</h1>
             </div>
@@ -255,9 +255,9 @@
         </div>
     </section>
     <section class="feature-detail-container1 feature-detail">
-        <div class="feature-detail-main1">
+        <div class="container-main feature-detail-main1">
             <div class="sp-none">
-                <h1>01</h1>
+                <h1 class="feature-detail-h1">01</h1>
             </div>
             <div class="feature-detail1-body-main">
                 <div class="feature-detail1-body">
@@ -279,35 +279,19 @@
                     <div>
                         <h3><span class="font-color-blue">Taguchi Yuuki</span></h3>
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/feature01-taguchi.jpeg')); ?>" alt="">
-                        <ul>
-                            <li>■&emsp;資格<br>
-                            <li>・リトモスアシスタントマスタートレーナー<br></li>
-                            <li>・プロジェクションワークアウト<br></li>
-                            <li>・プログラムディレクター<br></li>
-                            <li>・フィクスドコンディション人材育成業務<br></li>
-                            <li>・国際救急救命資格</li>
-                        </ul>
                     </div>
                     <div>
                         <h3><span class="font-color-blue">Komai Masanori</span></h3>
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/feature01-komai.jpeg')); ?>" alt="">
-                        <ul>
-                            <li>■&emsp;資格</li>
-                            <li>・日本トレーニング指導者協会認定</li>
-                            <li>・上級トレーニング指導者　JATI-ATI</li>
-                            <li>・日本コアコンディショニング協会認定</li>
-                            <li>・ベーシックインストラクター</li>
-                            <li>・赤十字ベーシックライフサポーター</li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="feature-detail-container2 feature-detail">
-        <div class="feature-detail-main2">
+        <div class="container-main feature-detail-main2">
             <div class="sp-none">
-                <h1>02</h1>
+                <h1 class="feature-detail-h1">02</h1>
             </div>
             <div class="feature-detail2-body-main">
                 <div class="feature-detail2-body">
@@ -330,9 +314,9 @@
         </div>
     </section>
     <section class="feature-detail-container3 feature-detail">
-        <div class="feature-detail-main3">
+        <div class="container-main feature-detail-main3">
             <div class="sp-none">
-                <h1>03</h1>
+                <h1 class="feature-detail-h1">03</h1>
             </div>
             <div class="feature-detail3-body-main">
                 <div class="feature-detail3-body">
@@ -352,9 +336,9 @@
         </div>
     </section>
     <section class="feature-detail-container4 feature-detail">
-        <div class="feature-detail-main4">
+        <div class="container-main feature-detail-main4">
             <div class="sp-none">
-                <h1>04</h1>
+                <h1 class="feature-detail-h1">04</h1>
             </div>
             <div class="feature-detail4-body-main">
                 <div class="feature-detail4-body">
@@ -373,7 +357,7 @@
         </div>
     </section>
     <div class="curriculum-container">
-        <div class="curriculum-main">
+        <div class="container-main">
             <div class="curriculum-title">
                 <h1>カリキュラム</h1>
                 <h2>実践的なカリキュラムでパーソナルトレーナーへ</h2>
@@ -447,7 +431,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="curriculum-content-body">
+                <!-- <div class="curriculum-content-body">
                     <div class="curriculum-content-body-img">
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/curriculum-content2.jpeg')); ?>" alt="">
                     </div>
@@ -461,11 +445,11 @@
                             オフライン授業なので、やってみてわからないことは<br class="sp-none">その場で聞ける、見本を見せてもらえる環境をご用意しています。
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="curriculum-application">
                 <div class="curriculum-application-btn">
-                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
                 </div>
                 <div class="curriculum-application-tel">
                     <p>お電話のお問い合わせはこちらから</p>
@@ -475,10 +459,10 @@
         </div>
     </div>
     <section class="student-voice-container">
-        <div class="student-voice-main">
+        <div class="container-main student-voice-main">
             <h1 class="font-color-blue">生徒の声</h1>
             <h2>藤本華奈さん</h2>
-            <h3>KANA FUJIMOTO</h3>
+            <h3>HARUNA FUJIMOTO</h3>
             <div class="student-img">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/student1.jpeg')); ?>" alt="">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/student2.jpeg')); ?>" alt="">
@@ -495,7 +479,7 @@
     </section>
     <section class="difference-container">
         <div class="difference-main-wrap">
-            <div class="difference-main">
+            <div class="container-main">
                 <h1>他社との違い</h1>
                 <!-- 写真をもらっていれる予定 -->
                 <div class="difference-grid">
@@ -503,7 +487,7 @@
                 </div>
                 <div class="difference-application">
                     <div class="difference-application-btn">
-                        <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら▶</button>
+                        <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
                     </div>
                     <div class="difference-application-tel">
                         <p>お電話のお問い合わせはこちらから</p>
@@ -514,7 +498,7 @@
         </div>
     </section>
     <section class="access-container">
-        <div class="access-main">
+        <div class="container-main">
             <h1>アクセス</h1>
             <div class="access-body">
                 <div class="access-body-left">
