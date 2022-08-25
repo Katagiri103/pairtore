@@ -4,7 +4,7 @@
     <section class="top-container">
         <div class="top-main">
             <img class="pc-logo" src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo.png')); ?>">
-            <img class="sp-logo" src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo-sp.png')); ?>">
+            <!-- <img class="sp-logo" src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo-sp.png')); ?>"> -->
         </div>
         <div class="top-view">
             <img class="pc-logo" src="<?php echo esc_url(get_theme_file_uri('/images/top-main.jpg')); ?>">
@@ -26,8 +26,6 @@
                 </div>
             </div>
             <div class="introduction-body">
-                <!-- 仮置き -->
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/introduction-sp-img.jpeg')); ?>">
                 <p class="introduction-body-summary">ペアトレとは、<span class="yellow">アウトプットが5割を占める超実践型の<br class="sp-none"> 1on1（マンツーマン）パーソナルトレーナー養成スクール</span>です。</p>
                 <p class="introduction-body-detail"> 一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、1on1制度を導入し一つ一つ丁寧に指導していくスタイルにする事により、知識とスキルの定着率を大幅に上げることに成功しています。</p>
             </div>
@@ -42,17 +40,13 @@
             </div> -->
             <div class="introduction-trainer-info">
                 <div class="introduction-trainer-info-img">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info.png')); ?>">
+                    <img class="sp-none" src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info.png')); ?>">
+                    <img class="pc-none" src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info-sp.png')); ?>">
+                    <h3 class="pc-none">パーソナルトレーナーとは？</h3>
                 </div>
                 <div class="introduction-trainer-info-body">
                     <p>
-                        パーソナルトレーナーとは、トレーニング指導の専門職業で、<br>
-                        一般の方の健康増進やアスリートの競技力向上などを目的に<br>
-                        マンツーマンでエクササイズ、トレーニング指導、<br>
-                        栄養指導などを行う指導者のことです。<br>
-                        トレーニングに関する知識、経験だけではなく、<br>
-                        栄養や身体の仕組みに関する知識も必要とされ、<br>
-                        自身の鍛錬も大切な要素となります。
+                        パーソナルトレーナーとは、トレーニング指導の専門職業で、<br class="sp-none">一般の方の健康増進やアスリートの競技力向上などを目的に<br class="sp-none">マンツーマンでエクササイズ、トレーニング指導、<br class="sp-none">栄養指導などを行う指導者のことです。<br class="sp-none">トレーニングに関する知識、経験だけではなく、<br class="sp-none">栄養や身体の仕組みに関する知識も必要とされ、<br class="sp-none">自身の鍛錬も大切な要素となります。
                     </p>
                 </div>
             </div>
@@ -69,7 +63,7 @@
                     <p class="leader-pro-headline-name">田口 優喜</p>
                     <p class="leader-pro-headline-spell">TAGUCHI YUUKI</p>
                 </div>
-                <div class="leader-prof-content">
+                <div class="leader-prof-content sp-none">
                     <p class="leader-prof-body-title">
                         PROFILE
                     </p>
@@ -82,6 +76,18 @@
                     </p>
                 </div>
             </div>
+            <div class="leader-prof-content pc-none">
+                <p class="leader-prof-body-title">
+                    PROFILE
+                </p>
+                <p class="leader-prof-body-content">
+                    幼少期は日本壮心流 (剣詩舞) から10代からはK.I.Eミュージカルスクールにてバレエ・JAZZ・声楽を習い、20歳からフィットネスの仕事に従事する。<br>
+                    単独でAmazonプライムの番組などにもインストラクターとして出演したり、adidasアカデミーにて上海、メキシコでもインストラクターとして従事。<br>
+                    パーソナルトレーニングの他にも幅広い指導スキルを持ち、ヨガ、バレエ、ダンス、エアロビクスなどのインストラクターとしても活動中。<br>
+                    フィットネス指導歴は12年に及び、グループレッスンを含めると述べ約10万人以上の指導に携わっている。<br>
+                    最近では、バチェラーにも出演した黄 皓氏 が代表を務めるMIRROR FIT.(ミラーフィット) のインストラクターも務めるなど、精力的にトレーニング指導を行なっている。<br>
+                </p>
+            </div>
         </div>
     </section>
     <section class="gleeting-container">
@@ -91,22 +97,20 @@
             </div>
             <div class="gleeting-body">
                 <div class="gleeting-body-content">
-                    <h2>社会で即活躍できるパートナルトレーナーを輩出する</h2>
+                    <h2>社会で即活躍できる<br class="pc-none">パーソナルトレーナーを輩出する</h2>
                     <p>
 
-                        パーソナルトレーナー人口が伸び続けている昨今ですが、<br>
-                        一概に資格を取ればトレーナーとして安泰、知識があれば<br>トレーナーとして優秀というわけではありません。<br><br>
+                        パーソナルトレーナー人口が伸び続けている昨今ですが、<br class="sp-none">一概に資格を取ればトレーナーとして安泰、知識があれば<br class="sp-none">トレーナーとして優秀というわけではありません。<br><br>
                         お客様にその知識をどう伝えるのか。<br>その伝え方、ワードチョイスひとつとってもお客様の理解に差が出ます。<br>
                         <span class="font-color-blue">“できる”と“教える”とでは全く身に着けるスキルが違うのです。</span><br><br>
                         パーソナルトレーナーには需要力と供給力この2つの力が求められます。<br>
                         <span class="font-color-blue">需要力 = お客様が求めるもの、目的、悩み、ニーズを正確に把握する力<br>
                             供給力 = その把握した事実に対して、１番の最適な解決策を提案し、指導する力</span><br>
-                        常に時代は変化しており、それに伴いお客様のニーズも多様化しています。<br>そのそれぞれのニーズに対して<br>
-                        即座に適切な解決策の提案ができる<br>トレーナーこそが、「社会で即活躍できるパーソナルトレーナー」です。<br><br>
+                        常に時代は変化しており、それに伴いお客様のニーズも多様化しています。<br>そのそれぞれのニーズに対して<br class="sp-none">即座に適切な解決策の提案ができる<br class="sp-none">トレーナーこそが、「社会で即活躍できるパーソナルトレーナー」です。<br><br>
                         当スクールが他社に比べて<br><span class="font-color-blue">①圧倒的にコストが安く ②マンツーマン指導</span>を徹底しているのには2つ理由があります。<br>
                         1つ目は金額という障壁をなくすことにより<br>学ぶハードルが低くなり、トレーナー人口の拡大に繋げるため。<br>
-                        2つ目はパーソナルトレーナーという対人の適応性が<br>問われる仕事の構造を追求した結果、最適解は<br>マンツーマン指導にたどり着くと考えたためです。<br>
-                        本質的な教育、指導の提供こそが社会的意義になると<br>信じて、私たちは今日も真伨に業界の課題と向き合って参ります。<br>
+                        2つ目はパーソナルトレーナーという対人の適応性が<br class="sp-none">問われる仕事の構造を追求した結果、最適解は<br class="sp-none">マンツーマン指導にたどり着くと考えたためです。<br>
+                        本質的な教育、指導の提供こそが社会的意義になると<br class="sp-none">信じて、私たちは今日も真伨に業界の課題と向き合って参ります。<br>
                     </p>
                 </div>
             </div>
@@ -205,7 +209,7 @@
     </section>
     <section class="feature-detail-container1 feature-detail">
         <div class="container-main feature-detail-main1">
-            <div class="feature-detail-border-right"></div>
+            <div class="feature-detail-border-right sp-none"></div>
             <div class="feature-detail-title sp-none">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/feature-detail-title1.png')); ?>">
             </div>
@@ -238,7 +242,7 @@
     </section>
     <section class="feature-detail-container2 feature-detail">
         <div class="container-main feature-detail-main2">
-            <div class="feature-detail-border-left"></div>
+            <div class="feature-detail-border-left sp-none"></div>
             <div class="feature-detail-title sp-none">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/feature-detail-title2.png')); ?>">
             </div>
@@ -255,7 +259,7 @@
                         マンツーマンで実際に渋谷のジムに来て学習します。<br>
                         しっかりとその人に合った指導を行うので着実にスキルを身に着けることができます。<br>
                         わからない事は随時質問できるので、集団レッスンの何倍ものスピードで成長できます。<br>
-                        また、曜日が固定されていない予約制なので、仕事が不規則で<br>決まった曜日に通えない人にもオススメです。
+                        また、曜日が固定されていない予約制なので、仕事が不規則で<br class="sp-none">決まった曜日に通えない人にもオススメです。
                     </p>
                     <img src="<?php echo esc_url(get_theme_file_uri('/images/feature02.jpeg')); ?>" alt="">
                 </div>
@@ -264,7 +268,7 @@
     </section>
     <section class="feature-detail-container3 feature-detail">
         <div class="container-main feature-detail-main3">
-            <div class="feature-detail-border-right"></div>
+            <div class="feature-detail-border-right sp-none"></div>
             <div class="feature-detail-title sp-none">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/feature-detail-title3.png')); ?>">
             </div>
@@ -287,7 +291,7 @@
     </section>
     <section class="feature-detail-container4 feature-detail">
         <div class="container-main feature-detail-main4">
-            <div class="feature-detail-border-left"></div>
+            <div class="feature-detail-border-left sp-none"></div>
             <div class="feature-detail-title sp-none">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/feature-detail-title4.png')); ?>">
             </div>
@@ -314,8 +318,7 @@
                 <h1>カリキュラム</h1>
                 <h2>実践的なカリキュラムでパーソナルトレーナーへ</h2>
                 <p>
-                    2ヶ月を通して初心者からでも着実にスキルを身につけていき、<br>
-                    実際にパーソナルトレーナーとして現場に立てる実践的なカリキュラム
+                    2ヶ月を通して初心者からでも着実にスキルを身につけていき、<br class="sp-none">実際にパーソナルトレーナーとして現場に立てる実践的なカリキュラム
                 </p>
             </div>
             <div class="curriculum-body">
@@ -437,7 +440,7 @@
             </div>
             <div class="course-body">
                 <p>
-                    ペアトレでは、即戦力で活躍できる<br class="sp-none">パーソナルトレーナーになるために2つのコースを用意しています。<br class="pc-none"><br class="pc-none">
+                    ペアトレでは、即戦力で活躍できる<br>パーソナルトレーナーになるために<br class="pc-none">2つのコースを用意しています。<br>
                 </p>
                 <div class="course-cell">
                     <div class="course1">
@@ -517,13 +520,13 @@
                     <div class="access-addres">
                         <p>
                             【所在地】 <br>
-                            &nbsp;〒150-0031<br>
-                            &nbsp;東京都渋谷区桜丘町9-16<br>
-                            &nbsp;幸ビル501<br>
+                            〒150-0031<br>
+                            東京都渋谷区<br class="pc-none">桜丘町9-16<br>
+                            幸ビル501<br>
                         </p>
                         <p>
                             【最寄駅】<br>
-                            &nbsp;渋谷駅 徒歩6分
+                            渋谷駅 徒歩6分
                         </p>
                     </div>
                 </div>
