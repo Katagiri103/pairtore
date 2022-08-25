@@ -146,6 +146,49 @@ textarea {
   font-weight: bold;
 }
 
+.wpcf7-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: 2%;
+}
+
+.wpcf7-form-control-wrap {
+  width: 100%;
+}
+
+.wpcf7-list-item {
+  margin: 0;
+}
+.wpcf7-list-item > input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+.checkform {
+  display: block;
+  margin: 0;
+  font-weight: bold;
+  z-index: 1;
+  color: #4d4d4d;
+  font-size: 18px;
+  margin-bottom: 3%;
+}
+.checkform > p:nth-child(2) {
+  display: flex;
+  margin-left: -4%;
+}
+
+.must {
+  background: #ff6aaf;
+  color: #fff;
+  padding: 1px 3px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
 @media (max-width: 1200px) {
   h1 {
     margin: 0;
@@ -182,11 +225,32 @@ textarea {
   }
 
   .contact-form .wpcf7-submit {
-    padding: 3% 0;
-    width: 50%;
+    padding: 0 0;
+    width: 40%;
   }
 
   .contact-form .input-block {
     padding: 3% 0;
+  }
+
+  .contact-form .input-block label {
+    font-size: 1.2rem;
+  }
+
+  .checkform {
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+  }
+
+  .must {
+    padding: 1px 3px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-left: 5px;
+  }
+
+  .wpcf7-list-item > input {
+    width: 10px;
+    height: 10px;
   }
 }

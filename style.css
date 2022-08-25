@@ -51,7 +51,7 @@ p {
 
 .headline-left {
   position: absolute;
-  left: 3%;
+  left: 3.5%;
   content: "";
   border: none;
   border-top: solid 18px transparent;
@@ -60,7 +60,7 @@ p {
 
 .headline-right {
   position: absolute;
-  right: 3%;
+  right: 3.5%;
   content: "";
   border: none;
   border-top: solid 18px transparent;
