@@ -8,6 +8,16 @@
                     <h3>TEL 03-6805-6704</h3>
                 </div>
                 <div>
+                    <div class="sns-icon">
+                        <a href="https://lin.ee/sx7GiAZ">
+                            <img src="<?php echo esc_url(get_theme_file_uri('/images/line-icon.png')); ?>">
+                            <span>公式LINE</span>
+                        </a>
+                        <a href="https://www.instagram.com/pair_training_school/">
+                            <img src="<?php echo esc_url(get_theme_file_uri('/images/instagram-icon.png')); ?>">
+                            <span>公式Instagram</span>
+                        </a>
+                    </div>
                     <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">お申込みはこちら</button>
                 </div>
             </div>

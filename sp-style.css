@@ -47,9 +47,33 @@ Theme Name: pairtore
   }
 }
 
+@media screen and (max-width: 1270px) {
+  .introduction-container {
+    margin-top: -5%;
+  }
+}
+
 @media screen and (max-width: 1160px) {
+  .introduction-container {
+    margin-top: -15%;
+  }
+
+  .top-main {
+    margin-top: 0;
+  }
+
   .access-body-left > iframe {
     height: 350px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .introduction-container {
+    margin-top: -25%;
+  }
+
+  .top-main {
+    margin-top: -10%;
   }
 }
 
@@ -253,6 +277,29 @@ Theme Name: pairtore
     margin: 5% 5%;
   }
 
+  .leader-pro-self-title {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .leader-pro-self-name {
+    font-size: 20px;
+  }
+
+  .leader-pro-self-spell {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .gleeting-profile {
+    display: none;
+  }
+
+  .leader-prof-body-content {
+    width: 100%;
+    margin-top: 10%;
+  }
+
   .gleeting-container {
     background-color: #afdfeb;
     width: 100%;
@@ -274,66 +321,43 @@ Theme Name: pairtore
     font-weight: bold;
   }
 
-  .gleeting-title h1 {
+  .gleeting-title > h1 {
     color: #48c9da;
     font-weight: bolder;
     border-left: none;
     padding-left: 0;
   }
 
-  .gleeting-title h2 {
+  /* .gleeting-title h2 {
     color: #48c9da;
     font-size: 12px;
     border-bottom: solid 2px #48c9da;
     padding: 3% 0;
     margin: 0;
-  }
+  } */
 
-  .gleeting-self-body {
+  /* .gleeting-self-body {
     width: 100%;
     flex-direction: column;
-  }
+  } */
 
-  .gleeting-self {
+  /* .gleeting-self {
     width: 100%;
     flex-direction: row-reverse;
     margin-top: 5%;
-  }
+  } */
 
-  .gleeting-image {
+  /* .gleeting-image {
     margin: 0;
   }
 
   .gleeting-image img {
     width: 100%;
-  }
+  } */
 
-  .gleeting-self-content > img {
+  /* .gleeting-self-content > img {
     display: none;
-  }
-
-  .gleeting-self-title {
-    font-size: 12px;
-    letter-spacing: 2px;
-  }
-
-  .gleeting-self-name {
-    font-size: 20px;
-  }
-
-  .gleeting-self-spell {
-    font-size: 10px;
-    letter-spacing: 1px;
-  }
-
-  .gleeting-profile {
-    display: none;
-  }
-
-  .gleeting-body {
-    width: 100%;
-    margin-top: 10%;
-  }
+  } */
 
   .gleeting-body > p {
   }
@@ -359,7 +383,7 @@ Theme Name: pairtore
     padding-left: 0;
   }
 
-  .concept-title > h2 {
+  /* .concept-title > h2 {
     margin: 5% 2%;
     border-bottom: solid 2px #48c9da;
     font-size: 14px;
@@ -369,7 +393,7 @@ Theme Name: pairtore
   .concept-title > p {
     margin: 3% 2%;
     font-weight: normal;
-  }
+  } */
 
   .concept-body {
     width: 100%;
@@ -378,6 +402,18 @@ Theme Name: pairtore
 
   .concept-body img {
     width: 90%;
+  }
+
+  .concept-body-intro > h2 {
+    margin: 5% 2%;
+    border-bottom: solid 2px #48c9da;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .concept-body-intro > p {
+    margin: 3% 2%;
+    font-weight: normal;
   }
 
   .concept-body-title {
@@ -507,19 +543,16 @@ Theme Name: pairtore
     color: white;
   }
 
-  .course-cell p {
-  }
-
   .course-cell img {
     width: 90%;
   }
 
-  .course-bottom {
+  /* .course-bottom {
     width: 100%;
-  }
+  } */
 
-  .course-bottom-content {
-    /* padding: 10% 10%; */
+  /* .course-bottom-content {
+    padding: 10% 10%;
   }
 
   .course-bottom-content > h1 {
@@ -530,7 +563,7 @@ Theme Name: pairtore
 
   .course-bottom-content > p {
     font-weight: bolder;
-  }
+  } */
 
   .feature-container {
     min-width: 300px;
