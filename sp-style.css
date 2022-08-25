@@ -83,6 +83,25 @@ Theme Name: pairtore
     min-width: 300px;
   }
 
+  .application-wrap {
+    width: 100px;
+    padding: 3% 0% 3% 3%;
+    bottom: auto;
+    top: 5%;
+  }
+
+  .application-link {
+    font-size: 1rem;
+  }
+
+  .application-tel > p {
+    font-size: 1rem;
+  }
+
+  .application-tel > h3 {
+    font-size: 1rem;
+  }
+
   /*body*/
   .top-container {
     height: auto;

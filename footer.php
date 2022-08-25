@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer fadeHideTriggerApplication">
     <section class="footer-container">
         <div class="footer-main">
             <h2>お気軽にお問い合わせください</h2>
@@ -27,7 +27,6 @@
 </footer>
 
 <!-- Script -->
-<script src="js/script.js"></script>
 </body>
 
 </html>

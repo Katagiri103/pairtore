@@ -1,6 +1,16 @@
 <?php get_header(); ?>
 
 <main class="main-contents">
+    <div class="application-wrap">
+        <!-- <div class="application-btn">
+            <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
+        </div> -->
+        <a class="application-link" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">今すぐお申込みはこちら</a>
+        <div class="application-tel">
+            <p>お電話は<br class="pc-none">こちらから</p>
+            <h3>TEL <br class="pc-none">03-6805-6704</h3>
+        </div>
+    </div>
     <section class="top-container">
         <div class="top-main">
             <img class="pc-logo" src="<?php echo esc_url(get_theme_file_uri('/images/pairtore-logo.png')); ?>">
@@ -10,7 +20,7 @@
             <img class="pc-logo" src="<?php echo esc_url(get_theme_file_uri('/images/top-main.jpg')); ?>">
         </div>
     </section>
-    <section class="introduction-container">
+    <section class="introduction-container fadeShowTriggerApplication">
         <div class="container-main">
             <div class="introduction-title">
                 <div class="introduction-title-circle">
