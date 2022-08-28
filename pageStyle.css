@@ -23,7 +23,6 @@
 }
 
 h1 {
-  padding: 5% 0;
   text-align: center;
   color: #4d4d4d;
   font-weight: bold;
@@ -99,7 +98,7 @@ textarea {
   border: solid 1px #48c9da;
   width: 100%;
   height: 3rem;
-  padding: 1.5rem;
+  padding: 5%;
   position: relative;
   margin-bottom: 4rem;
   transition: all 0.3s ease-out;
@@ -107,6 +106,7 @@ textarea {
 
 .wpcf7-form-control-wrap > textarea {
   height: 15rem;
+  font-weight: normal;
 }
 
 .contact-submit {
@@ -191,10 +191,6 @@ textarea {
 }
 
 @media (max-width: 1200px) {
-  h1 {
-    margin: 0;
-    padding-top: 5%;
-  }
 }
 
 @media (max-width: 1000px) {
