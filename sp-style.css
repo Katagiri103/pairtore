@@ -1246,6 +1246,7 @@ Theme Name: pairtore
     display: flex;
     width: 95%;
     margin-top: -5%;
+    min-width: 300px;
   }
 
   .site-footer-body h2 {
