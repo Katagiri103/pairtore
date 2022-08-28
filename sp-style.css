@@ -231,7 +231,7 @@ Theme Name: pairtore
     width: 100%;
     min-width: 75px;
     left: 0;
-    padding: 5%;
+    padding: 5% 2% 5% 0%;
     background-color: white;
     border-radius: 60px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
@@ -1021,6 +1021,8 @@ Theme Name: pairtore
 
   .curriculum-content-title > h1 {
     width: 83%;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
   }
 
   .curriculum-content > h1 {
@@ -1095,6 +1097,7 @@ Theme Name: pairtore
     width: 40%;
     font-size: 1.2rem;
     background: linear-gradient(-135deg, transparent 5px, #48c9da 0) top right;
+    letter-spacing: 2px;
   }
 
   .student-voice-main h3 {
@@ -1228,8 +1231,9 @@ Theme Name: pairtore
   }
 
   .footer-title > h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     width: 83%;
+    letter-spacing: 2px;
   }
 
   .sns-icon {
