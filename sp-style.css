@@ -77,13 +77,14 @@ Theme Name: pairtore
 
   .application-wrap {
     width: 100px;
-    padding: 3% 0% 3% 3%;
+    padding: 1% 0;
     bottom: auto;
     top: 5%;
   }
 
   .application-link {
     font-size: 1rem;
+    letter-spacing: 1px;
   }
 
   .application-tel > p {

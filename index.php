@@ -2,7 +2,7 @@
 
 <main class="main-contents">
     <div class="application-wrap">
-        <a class="application-link" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">今すぐお申込みはこちら</a>
+        <a class="application-link" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">今すぐ<br class="pc-none">お申込みは<br class="pc-none">こちら</a>
         <!-- <div class="application-tel">
             <p>お電話は<br class="pc-none">こちらから</p>
             <h3>TEL <br class="pc-none">03-6805-6704</h3>
