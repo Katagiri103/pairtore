@@ -843,6 +843,7 @@ p {
   border-bottom: 2px solid #000;
   transform: rotate(-45deg);
   margin-bottom: 7px;
+  margin-right: 2%;
 }
 
 .course-introduction-container {

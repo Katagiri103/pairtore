@@ -583,7 +583,6 @@ Theme Name: pairtore
     /* padding-left: 1.6rem;
     text-indent: -1.6rem; */
     align-items: flex-start;
-    text-indent: -0.5rem;
   }
 
   .recommend-point {
@@ -595,7 +594,7 @@ Theme Name: pairtore
     transform: rotate(-45deg);
     margin-bottom: 0;
     margin-top: 6px;
-    margin-right: 1%;
+    margin-right: 1.5%;
   }
 
   .course-introduction-container {
@@ -699,8 +698,8 @@ Theme Name: pairtore
 
   .feature-body > p {
     font-size: 1.2rem;
-    padding-left: 2rem;
-    text-indent: -2rem;
+    padding-left: 1.8em;
+    text-indent: -1.8em;
     line-height: 1.5;
   }
 

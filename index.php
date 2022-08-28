@@ -176,13 +176,13 @@
             </div>
             <div class="recommend-content-wrap">
                 <div class="recommend-content">
-                    <p><span class="recommend-point"></span>&nbsp;0から知識をつけて即パーソナルトレーナーとして働きたい</p>
-                    <p><span class="recommend-point"></span>&nbsp;パーソナルトレーナーになりたいのでスクールに通いたいが、価格が高くて通えない</p>
-                    <p><span class="recommend-point"></span>&nbsp;運動に関わる仕事がしたいが、まず何をしたら良いかわからない</p>
-                    <p><span class="recommend-point"></span>&nbsp;スクールに通いたいが、仕事が不規則で決まった曜日に通えない</p>
-                    <p><span class="recommend-point"></span>&nbsp;独学でボディメイクの知識を付けてきたので、それを生かして仕事にしたい</p>
-                    <p><span class="recommend-point"></span>&nbsp;パーソナルトレーナーの仕事に就き、後々は独立して自分のお店を持ちたい</p>
-                    <p><span class="recommend-point"></span>&nbsp;副業でパーソナルトレーナーとして仕事をしていきたい</p>
+                    <p><span class="recommend-point"></span>0から知識をつけて即パーソナルトレーナーとして働きたい</p>
+                    <p><span class="recommend-point"></span>パーソナルトレーナーになりたいのでスクールに通いたいが、価格が高くて通えない</p>
+                    <p><span class="recommend-point"></span>運動に関わる仕事がしたいが、まず何をしたら良いかわからない</p>
+                    <p><span class="recommend-point"></span>スクールに通いたいが、仕事が不規則で決まった曜日に通えない</p>
+                    <p><span class="recommend-point"></span>独学でボディメイクの知識を付けてきたので、それを生かして仕事にしたい</p>
+                    <p><span class="recommend-point"></span>パーソナルトレーナーの仕事に就き、後々は独立して自分のお店を持ちたい</p>
+                    <p><span class="recommend-point"></span>副業でパーソナルトレーナーとして仕事をしていきたい</p>
                 </div>
             </div>
         </div>
