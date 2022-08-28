@@ -75,7 +75,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  background-color: yellow;
+  border: solid 5px white;
   padding: 1%;
   z-index: 99;
   border-top-left-radius: 30px;
@@ -113,7 +114,7 @@ p {
   font-weight: bold;
   cursor: pointer;
   text-align: center;
-  text-decoration: underline;
+  color: #48c9da;
 }
 
 .application-btn > button {
@@ -134,7 +135,7 @@ p {
 .top-container {
   position: relative;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 90vh;
@@ -152,9 +153,9 @@ p {
   width: 60%;
   background: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 1) 50%,
-    rgba(255, 255, 255, 0.1) 100%
+    rgba(255, 255, 255, 0) 100%
   );
   margin-top: 10%;
 }
@@ -559,30 +560,49 @@ p {
   position: relative;
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
   width: 100%;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+  padding: 5%;
+}
+
+.gleeting-body-title {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.gleeting-body-title > h2 {
+  color: #48c9da;
+  text-align: center;
+  border-bottom: solid 3px #48c9da;
+  font-weight: bold;
+  width: 90%;
 }
 
 .gleeting-body-content {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 80%;
-  padding: 3% 0;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 90%;
+  padding-top: 3%;
 }
 
-.gleeting-body-content > h2 {
-  color: #48c9da;
-  text-align: center;
-  border-bottom: solid 3px #48c9da;
-  font-weight: bold;
+.leader-message {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.leader-message > img {
+  width: 100%;
 }
 
 .gleeting-body-content > p {
   text-align: center;
-  margin-top: 3%;
+  width: 75%;
+  font-size: 1.5rem;
 }
 
 .font-color-blue {
@@ -810,6 +830,21 @@ p {
   border: dashed 3px #48c9da;
 }
 
+.recommend-content > p {
+  display: flex;
+  align-items: center;
+}
+
+.recommend-point {
+  display: block;
+  width: 15px;
+  height: 8px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transform: rotate(-45deg);
+  margin-bottom: 7px;
+}
+
 .course-introduction-container {
   position: relative;
   display: flex;
@@ -899,8 +934,12 @@ p {
   font-size: clamp(1.6rem, 1vw + 1rem, 2.8rem);
   font-weight: bold;
   padding: 10% 0;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   box-shadow: 0 0px 5px 0 rgb(0, 0, 0, 0.5);
+}
+
+.tax-included {
+  font-size: 1.6rem;
 }
 
 .course1 {
@@ -1048,11 +1087,12 @@ p {
 }
 
 .feature-body > p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 2;
-  padding-left: 1.2em;
-  text-indent: -1.2em;
+  padding-left: 3em;
+  text-indent: -3em;
   color: white;
+  font-weight: bold;
 }
 
 .feature-detail {
@@ -1794,7 +1834,7 @@ p {
 .access-body-left > iframe {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 300px;
 }
 
 .access-body-right {
@@ -1815,6 +1855,7 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-direction: column;
   width: 100%;
   flex-grow: 1;
 }
@@ -1847,32 +1888,59 @@ p {
   min-width: 960px;
 }
 
-.footer-main > h2 {
-  color: white;
-  border-bottom: solid 2px white;
-  text-align: center;
-  padding: 0% 5% 0% 5%;
-  letter-spacing: 2px;
-}
-
 .site-footer-body img {
-  width: 90%;
+  width: 100%;
 }
 
 .site-footer-body h3 {
-  color: white;
+  color: #48c9da;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 10%;
   letter-spacing: 5px;
+  font-weight: bold;
 }
 
 .site-footer-body {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2%;
   width: 70%;
+  min-width: 765px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  padding: 5% 5% 2% 5%;
+  margin-top: -4rem;
+  align-self: center;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 50%);
+}
+
+.footer-title {
+  position: relative;
+  width: 80%;
+  min-width: 920px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-title > h2 {
+  color: #48c9da;
+  line-height: 2;
+  letter-spacing: 3px;
+  font-weight: bold;
+  background-color: #ecf7ff;
+  box-shadow: 0 3px 7px 0 rgb(0 0 0 / 80%);
+  text-align: center;
+  z-index: 10;
+  width: 60%;
+}
+
+.footer-title > .headline-left {
+  left: 18.6%;
+}
+
+.footer-title > .headline-right {
+  right: 18.6%;
 }
 
 .site-footer-body > div {
@@ -1887,11 +1955,11 @@ p {
 .site-footer-body button {
   display: inline-block;
   border-radius: 69px;
-  font-size: clamp(1.2rem, 1vw + 0.75rem, 2.2rem);
+  font-size: 2rem;
   cursor: pointer;
   padding: 5% 20%;
-  background: #ffffff;
-  color: #999999;
+  background: #48c9da;
+  color: white;
   transition: 0.3s;
   box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.5);
   font-weight: bolder;

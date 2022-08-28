@@ -24,9 +24,12 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -webkit-tap-highlight-color: transparent; /* 3*/
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
+  /* font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
     "Hiragino Sans", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
-    Meiryo, sans-serif;
+    Meiryo, sans-serif; */
+  font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro",
+    "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
   color: #4d4d4d;
 }
 

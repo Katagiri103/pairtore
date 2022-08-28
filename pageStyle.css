@@ -63,6 +63,7 @@ textarea {
 
 .contact-form .input-block input {
   margin-bottom: 1rem;
+  font-weight: normal;
 }
 
 .contact-form .input-block label {

@@ -9,5 +9,6 @@ function add_files()
     wp_enqueue_style('main-style', get_stylesheet_uri());
     //スマホレスポンシブ用のCSS
     wp_enqueue_style('sp-style', get_theme_file_uri('/sp-style.css'));
+    wp_enqueue_style('pageStyle', get_theme_file_uri('/pageStyle.css'));
 }
 add_action('wp_enqueue_scripts', 'add_files');

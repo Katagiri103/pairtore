@@ -2,14 +2,11 @@
 
 <main class="main-contents">
     <div class="application-wrap">
-        <!-- <div class="application-btn">
-            <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
-        </div> -->
         <a class="application-link" href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">今すぐお申込みはこちら</a>
-        <div class="application-tel">
+        <!-- <div class="application-tel">
             <p>お電話は<br class="pc-none">こちらから</p>
             <h3>TEL <br class="pc-none">03-6805-6704</h3>
-        </div>
+        </div> -->
     </div>
     <section class="top-container">
         <div class="top-main">
@@ -36,18 +33,9 @@
                 </div>
             </div>
             <div class="introduction-body">
-                <p class="introduction-body-summary">ペアトレとは、<span class="yellow">アウトプットが5割を占める超実践型の<br class="sp-none"> 1on1（マンツーマン）パーソナルトレーナー養成スクール</span>です。</p>
-                <p class="introduction-body-detail"> 一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、1on1制度を導入し一つ一つ丁寧に指導していくスタイルにする事により、知識とスキルの定着率を大幅に上げることに成功しています。</p>
+                <p class="introduction-body-summary">ペアトレとは、<span class="yellow">アウトプットが5割以上を占める超実践型の<br class="sp-none">1on1型 (マンツーマン) パーソナルトレーナー育成スクール</span>です。</p>
+                <p class="introduction-body-detail">一般的なトレーナースクールのように一人の講師に大人数の生徒を募るのではなく、マンツーマンで一つ一つ丁寧に指導しながらも、学んだ事を生徒自らアウトプットを行ない、実践していくスタイルにする事により、知識やスキルの定着率を従来よりも大幅に上げることに成功しています。</p>
             </div>
-            <!-- <div class="introduction-application">
-                <div class="introduction-application-btn">
-                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
-                </div>
-                <div class="introduction-application-tel">
-                    <p>お電話のお問い合わせはこちらから</p>
-                    <h3>TEL 03-6805-6704</h3>
-                </div>
-            </div> -->
             <div class="introduction-trainer-info">
                 <div class="introduction-trainer-info-img">
                     <img class="sp-none" src="<?php echo esc_url(get_theme_file_uri('/images/trainer-info.png')); ?>">
@@ -106,10 +94,17 @@
                 <h1>代表挨拶</h1>
             </div>
             <div class="gleeting-body">
+                <div class="gleeting-body-title">
+                    <div class="leader-message pc-none">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/leader-message.jpg')); ?>">
+                    </div>
+                    <h2>社会で即活躍できる<br class="pc-none">パーソナルトレーナーを<br class="pc-none">輩出する</h2>
+                </div>
                 <div class="gleeting-body-content">
-                    <h2>社会で即活躍できる<br class="pc-none">パーソナルトレーナーを輩出する</h2>
+                    <div class="leader-message sp-none">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/images/leader-message.jpg')); ?>">
+                    </div>
                     <p>
-
                         パーソナルトレーナー人口が伸び続けている昨今ですが、<br class="sp-none">一概に資格を取ればトレーナーとして安泰、知識があれば<br class="sp-none">トレーナーとして優秀というわけではありません。<br><br>
                         お客様にその知識をどう伝えるのか。<br>その伝え方、ワードチョイスひとつとってもお客様の理解に差が出ます。<br>
                         <span class="font-color-blue">“できる”と“教える”とでは全く身に着けるスキルが違うのです。</span><br><br>
@@ -120,7 +115,7 @@
                         当スクールが他社に比べて<br><span class="font-color-blue">①圧倒的にコストが安く ②マンツーマン指導</span>を徹底しているのには2つ理由があります。<br>
                         1つ目は金額という障壁をなくすことにより<br>学ぶハードルが低くなり、トレーナー人口の拡大に繋げるため。<br>
                         2つ目はパーソナルトレーナーという対人の適応性が<br class="sp-none">問われる仕事の構造を追求した結果、最適解は<br class="sp-none">マンツーマン指導にたどり着くと考えたためです。<br>
-                        本質的な教育、指導の提供こそが社会的意義になると<br class="sp-none">信じて、私たちは今日も真伨に業界の課題と向き合って参ります。<br>
+                        本質的な教育、指導の提供こそが社会的意義になると<br class="sp-none">信じて、私たちは今日も真摯に業界の課題と向き合って参ります。<br>
                     </p>
                 </div>
             </div>
@@ -168,15 +163,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="concept3-application">
-                <div class="concept3-application-btn">
-                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
-                </div>
-                <div class="concept3-application-tel">
-                    <p>お電話のお問い合わせはこちらから</p>
-                    <h3>TEL 03-6805-6704</h3>
-                </div>
-            </div> -->
         </div>
     </section>
     <section class="recommend-container">
@@ -190,13 +176,13 @@
             </div>
             <div class="recommend-content-wrap">
                 <div class="recommend-content">
-                    <p><span class="recommend-point">●</span>&nbsp;0から知識をつけて即パーソナルトレーナーとして働きたい</p>
-                    <p><span class="recommend-point">●</span>&nbsp;パーソナルトレーナーになりたいのでスクールに通いたいが、価格が高くて通えない</p>
-                    <p><span class="recommend-point">●</span>&nbsp;運動に関わる仕事がしたいが、まず何をしたら良いかわからない</p>
-                    <p><span class="recommend-point">●</span>&nbsp;スクールに通いたいが、仕事が不規則で決まった曜日に通えない</p>
-                    <p><span class="recommend-point">●</span>&nbsp;独学でボディメイクの知識を付けてきたので、それを生かして仕事にしたい</p>
-                    <p><span class="recommend-point">●</span>&nbsp;パーソナルトレーナーの仕事に就き、後々は独立して自分のお店を持ちたい</p>
-                    <p><span class="recommend-point">●</span>&nbsp;副業でパーソナルトレーナーとして仕事をしていきたい</p>
+                    <p><span class="recommend-point"></span>&nbsp;0から知識をつけて即パーソナルトレーナーとして働きたい</p>
+                    <p><span class="recommend-point"></span>&nbsp;パーソナルトレーナーになりたいのでスクールに通いたいが、価格が高くて通えない</p>
+                    <p><span class="recommend-point"></span>&nbsp;運動に関わる仕事がしたいが、まず何をしたら良いかわからない</p>
+                    <p><span class="recommend-point"></span>&nbsp;スクールに通いたいが、仕事が不規則で決まった曜日に通えない</p>
+                    <p><span class="recommend-point"></span>&nbsp;独学でボディメイクの知識を付けてきたので、それを生かして仕事にしたい</p>
+                    <p><span class="recommend-point"></span>&nbsp;パーソナルトレーナーの仕事に就き、後々は独立して自分のお店を持ちたい</p>
+                    <p><span class="recommend-point"></span>&nbsp;副業でパーソナルトレーナーとして仕事をしていきたい</p>
                 </div>
             </div>
         </div>
@@ -207,13 +193,13 @@
                 <h1>ペアトレの特徴</h1>
             </div>
             <div class="feature-body">
-                <p>①&nbsp;現役パーソナルトレーナーから直接マンツーマン指導で学べる</p>
-                <p>②&nbsp;知識、実技だけでなくそれを伝えるアウトプット術なども学べる</p>
-                <p>③&nbsp;最短2ヶ月で卒業後に即トレーナーとして仕事ができる</p>
-                <p>④&nbsp;いつでも入学可能でじっくりと好きな時間に通える</p>
-                <p>⑤&nbsp;在学中に実践に携われる</p>
-                <p>⑥&nbsp;業界最安価格</p>
-                <p>⑦&nbsp;とにかく実践で使えるハイレベルな授業と手厚いサポート</p>
+                <p>❶&nbsp;現役パーソナルトレーナーから直接マンツーマン指導で学べる</p>
+                <p>❷&nbsp;知識、実技だけでなくそれを伝えるアウトプット術なども学べる</p>
+                <p>❸&nbsp;最短2ヶ月で卒業後に即トレーナーとして仕事ができる</p>
+                <p>❹&nbsp;いつでも入学可能でじっくりと好きな時間に通える</p>
+                <p>❺&nbsp;在学中に実践に携われる</p>
+                <p>❻&nbsp;業界最安価格</p>
+                <p>❼&nbsp;とにかく実践で使えるハイレベルな授業と手厚いサポート</p>
             </div>
         </div>
     </section>
@@ -326,9 +312,9 @@
         <div class="container-main">
             <div class="curriculum-title">
                 <h1>カリキュラム</h1>
-                <h2>実践的なカリキュラムでパーソナルトレーナーへ</h2>
+                <h2>実践的なカリキュラムで<br class="pc-none">パーソナルトレーナーへ</h2>
                 <p>
-                    2ヶ月を通して初心者からでも着実にスキルを身につけていき、<br class="sp-none">実際にパーソナルトレーナーとして現場に立てる実践的なカリキュラム
+                    2ヶ月を通して初心者からでも<br class="pc-none">着実にスキルを身につけていき、<br>実際にパーソナルトレーナーとして<br class="pc-none">現場に立てる実践的なカリキュラム
                 </p>
             </div>
             <div class="curriculum-body">
@@ -343,7 +329,7 @@
                     </div>
                     <div class="curriculum-body-content">
                         <p class="curriculum-body-intro">
-                            トレーナーの基本となる座学（解剖学等）についてマンツーマン授業を通して学習します。<br>
+                            トレーナーの基本となる<br class="pc-none">座学（解剖学等）について<br class="pc-none">マンツーマン授業を通して学習します。<br>
                             毎回小テストがございます。<br><br>
                         </p>
                         <div class="curriculum-body-study">
@@ -374,7 +360,7 @@
                     </div>
                     <div class="curriculum-body-content">
                         <p class="curriculum-body-intro">
-                            身につけた知識から実技やロープレをしながら、実際に現場で使える生きたトレーナースキルやコミュニケーションを身に付けます。<br><br>
+                            身につけた知識から<br class="pc-none">実技やロープレをしながら、<br class="pc-none">実際に現場で使える<br class="pc-none">生きたトレーナースキルや<br class="pc-none">コミュニケーションを身に付けます。<br><br>
                         </p>
                         <div class="curriculum-body-study">
                             <p class="curriculum-body-study-title">【 学習内容 】</p>
@@ -414,20 +400,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="curriculum-application">
-                <div class="curriculum-application-btn">
-                    <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
-                </div>
-                <div class="curriculum-application-tel">
-                    <p>お電話のお問い合わせはこちらから</p>
-                    <h3>TEL 03-6805-6704</h3>
-                </div>
-            </div> -->
         </div>
     </div>
     <section class="student-voice-container">
         <div class="container-main student-voice-main">
-            <h1 class="font-color-blue">生徒の声</h1>
+            <h1 class="font-color-blue">卒業生の声</h1>
             <!-- <h3>HARUNA FUJIMOTO</h3> -->
             <div class="student-name">
                 <h2>藤本華奈さん</h2>
@@ -435,7 +412,7 @@
             <div class="student-img">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/student1.png')); ?>" alt="">
                 <img src="<?php echo esc_url(get_theme_file_uri('/images/student2.png')); ?>" alt="">
-                <img src="<?php echo esc_url(get_theme_file_uri('/images/student3.png')); ?>" alt="">
+                <img src="<?php echo esc_url(get_theme_file_uri('/images/student3.jpg')); ?>" alt="">
             </div>
             <p>
                 私がこのスクールに興味を持ったきっかけは、自分のベストボディジャパンの大会出場の経歴を活かしたかったのと、元々自分がトレーニングが好きだったので、「それで仕事したい！」という理由からでした！そういう意味では、マンツーマンで丁寧に教えてもらえるし、何よりリーズナブル。本当にわかりやすく大満足のスクールでした。<br>
@@ -463,10 +440,10 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/course1.png')); ?>" alt="">
                         <p class="course-cell-content">
                             入学金<br>
-                            <span class="font-color-blue">33,000円</span>（税込）<br>
+                            <span class="font-color-blue">33,000円</span><span class="tax-included">（税込）</span><br>
                             <span style="font-size: 48px">+</span><br>
                             授業料<br>
-                            <span class="font-color-blue">220,000円</span>（税込）
+                            <span class="font-color-blue">220,000円</span><span class="tax-included">（税込）</span>
                         </p>
                     </div>
                     <div class="course2">
@@ -479,22 +456,13 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/course2.png')); ?>" alt="">
                         <p class="course-cell-content">
                             入学金<br>
-                            <span class="font-color-blue">33,000円</span>（税込）<br>
+                            <span class="font-color-blue">33,000円</span><span class="tax-included">（税込）</span><br>
                             <span style="font-size: 48px">+</span><br>
                             授業料<br>
-                            <span class="font-color-blue">165,000円</span>（税込）
+                            <span class="font-color-blue">165,000円</span><span class="tax-included">（税込）</span>
                         </p>
                     </div>
                 </div>
-                <!-- <div class="course-application">
-                    <div class="course-application-btn">
-                        <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
-                    </div>
-                    <div class="course-application-tel">
-                        <p>お電話のお問い合わせはこちらから</p>
-                        <h3>TEL 03-6805-6704</h3>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
@@ -504,17 +472,8 @@
                 <h1>他社との違い</h1>
                 <!-- 写真をもらっていれる予定 -->
                 <div class="difference-grid">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/grid.png')); ?>" alt="">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/difference_grid.png')); ?>" alt="">
                 </div>
-                <!-- <div class="difference-application">
-                    <div class="difference-application-btn">
-                        <button onclick="location.href='<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>'">今すぐお申込みはこちら</button>
-                    </div>
-                    <div class="difference-application-tel">
-                        <p>お電話のお問い合わせはこちらから</p>
-                        <h3>TEL 03-6805-6704</h3>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
@@ -526,7 +485,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8185534175386!2d139.70010582019947!3d35.65684182507095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5a103a3e15%3A0xb899aa7b427b9179!2z44CSMTUwLTAwMzEg5p2x5Lqs6YO95riL6LC35Yy65qGc5LiY55S677yZ4oiS77yR77yW!5e0!3m2!1sja!2sjp!4v1660205913473!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="access-body-right">
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/access.png')); ?>" alt="">
+                    <!-- <img src="<?php echo esc_url(get_theme_file_uri('/images/access.png')); ?>" alt=""> -->
                     <div class="access-addres">
                         <p>
                             【所在地】 <br>
