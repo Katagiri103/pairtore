@@ -104,7 +104,7 @@
                     <div class="leader-message sp-none">
                         <img src="<?php echo esc_url(get_theme_file_uri('/images/leader-message.jpg')); ?>">
                     </div>
-                    <p>
+                    <!-- <p>
                         パーソナルトレーナー人口が伸び続けている昨今ですが、<br class="sp-none">一概に資格を取ればトレーナーとして安泰、知識があれば<br class="sp-none">トレーナーとして優秀というわけではありません。<br><br>
                         お客様にその知識をどう伝えるのか。<br>その伝え方、ワードチョイスひとつとってもお客様の理解に差が出ます。<br>
                         <span class="font-color-blue">“できる”と“教える”とでは全く身に着けるスキルが違うのです。</span><br><br>
@@ -116,6 +116,21 @@
                         1つ目は金額という障壁をなくすことにより<br>学ぶハードルが低くなり、トレーナー人口の拡大に繋げるため。<br>
                         2つ目はパーソナルトレーナーという対人の適応性が<br class="sp-none">問われる仕事の構造を追求した結果、最適解は<br class="sp-none">マンツーマン指導にたどり着くと考えたためです。<br>
                         本質的な教育、指導の提供こそが社会的意義になると<br class="sp-none">信じて、私たちは今日も真摯に業界の課題と向き合って参ります。<br>
+                    </p> -->
+                    <p class="leader-message-first">
+                        パーソナルトレーナー人口が伸び続けている<br class="pc-none">昨今ですが、<br class="sp-none">一概に資格を取れば<br class="pc-none">トレーナーとして安泰、知識があれば<br>トレーナーとして優秀<br class="pc-none">というわけではありません。<br><br>
+                        お客様にその知識をどう伝えるのか。<br>その伝え方、ワードチョイスひとつとってもお客様の理解に差が出ます。<br>
+                        <span class="font-color-blue">“できる”と“教える”とでは<br class="pc-none">全く身に着けるスキルが違うのです。</span><br><br>
+                        パーソナルトレーナーには需要力と供給力<br class="pc-none">この2つの力が求められます。<br>
+                        <span class="font-color-blue">需要力 = お客様が求めるもの、<br class="pc-none">目的、悩み、ニーズを正確に把握する力<br>
+                            供給力 = その把握した事実に対して、<br class="pc-none">１番の最適な解決策を提案し、指導する力</span><br>
+                    </p>
+                    <p class="leader-message-seconds">
+                        常に時代は変化しており、それに伴い<br class="pc-none">お客様のニーズも多様化しています。<br>そのそれぞれのニーズに対して即座に<br class="pc-none">適切な解決策の提案ができる<br>トレーナーこそが、「社会で即活躍できる<br class="pc-none">パーソナルトレーナー」です。<br><br>
+                        当スクールが他社に比べて<br><span class="font-color-blue">①圧倒的にコストが安く②マンツーマン指導</span><br class="pc-none">を徹底しているのには2つ理由があります。<br>
+                        1つ目は金額という障壁をなくすことにより<br class="pc-none">学ぶハードルが低くなり、<br class="pc-none">トレーナー人口の拡大に繋げるため。<br>
+                        2つ目はパーソナルトレーナーという対人の<br class="pc-none">適応性が問われる仕事の<br class="pc-none">構造を追求した結果、<br>最適解はマンツーマン指導に<br class="pc-none">たどり着くと考えたためです。<br>
+                        本質的な教育、指導の提供こそが<br class="pc-none">社会的意義になると信じて、私たちは<br class="pc-none">今日も真摯に業界の課題と<br class="pc-none">向き合って参ります。
                     </p>
                 </div>
             </div>
@@ -219,8 +234,8 @@
                         </h2>
                     </div>
                     <p>
-                        最前線で活躍している「現役のプロ」だからこそ、「今どのようなスキルが求められているのか」「どのような知識が必要なのか」といったリアルな内容を皆さんにお伝えすることができます。<br>
-                        講師のアシスタントとして、セッションの現場に同行することが可能な場合もあります。
+                        最前線で活躍している「現役のプロ」だからこそ、<br class="sp-none">「今どのようなスキルが求められているのか」<br class="sp-none">「どのような知識が必要なのか」といったリアルな内容を<br class="sp-none">皆さんにお伝えすることができます。<br>
+                        講師のアシスタントとして、セッションの現場に<br class="sp-none">同行することが可能な場合もあります。
                     </p>
                 </div>
                 <div class="feature-detail1-intro">
@@ -253,11 +268,11 @@
                     </div>
                     <p>
                         マンツーマンで実際に渋谷のジムに来て学習します。<br>
-                        しっかりとその人に合った指導を行うので着実にスキルを身に着けることができます。<br>
-                        わからない事は随時質問できるので、集団レッスンの何倍ものスピードで成長できます。<br>
+                        しっかりとその人に合った指導を行うので着実にスキルを<br class="sp-none">身に着けることができます。<br>
+                        わからない事は随時質問できるので、集団レッスンの<br class="sp-none">何倍ものスピードで成長できます。<br>
                         また、曜日が固定されていない予約制なので、仕事が不規則で<br class="sp-none">決まった曜日に通えない人にもオススメです。
                     </p>
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature02.jpeg')); ?>" alt="">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature02_fix.jpeg')); ?>" alt="">
                 </div>
             </div>
         </div>
@@ -303,7 +318,7 @@
                         また独立支援制度もございます。<br>
                         マンツーマンのため、責任持って手厚くサポート致します。
                     </p>
-                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature04.jpeg')); ?>" alt="">
+                    <img src="<?php echo esc_url(get_theme_file_uri('/images/feature04_fix.jpeg')); ?>" alt="">
                 </div>
             </div>
         </div>

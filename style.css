@@ -560,6 +560,7 @@ p {
   position: relative;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
   width: 100%;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
@@ -578,6 +579,7 @@ p {
   border-bottom: solid 3px #48c9da;
   font-weight: bold;
   width: 90%;
+  font-size: clamp(1.8rem, 2vw + 1rem, 2.6em);
 }
 
 .gleeting-body-content {
@@ -587,6 +589,7 @@ p {
   align-items: flex-start;
   width: 90%;
   padding-top: 3%;
+  flex-wrap: wrap;
 }
 
 .leader-message {
@@ -601,8 +604,16 @@ p {
 
 .gleeting-body-content > p {
   text-align: center;
-  width: 75%;
   font-size: 1.5rem;
+}
+
+.leader-message-first {
+  width: 75%;
+}
+
+.leader-message-seconds {
+  width: 100%;
+  padding-top: 3%;
 }
 
 .font-color-blue {
@@ -662,7 +673,7 @@ p {
 .concept-body {
   position: relative;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column;
   width: 100%;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
@@ -1082,8 +1093,8 @@ p {
 
 .feature-body {
   position: relative;
-  width: 60%;
-  min-width: 650px;
+  width: 70%;
+  min-width: 670px;
   margin-top: 3%;
 }
 
@@ -1198,6 +1209,9 @@ p {
 .feature-detail1-intro div {
   margin: 0px 20px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feature-detail-container2 {
