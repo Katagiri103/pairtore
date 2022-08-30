@@ -160,7 +160,7 @@
                     </div>
                     <div class="concept2">
                         <div class="concept-body-title">
-                            <img src="<?php echo esc_url(get_theme_file_uri('/images/concept2.png')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('/images/concept2.jpg')); ?>" alt="">
                             <h3>完全実践型</h3>
                         </div>
                         <p>
