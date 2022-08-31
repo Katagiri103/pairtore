@@ -1,0 +1,110 @@
+.privacy-cantainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 960px;
+  background: url(./images/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  padding: 5% 0;
+}
+
+.privacy-main {
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5% 0;
+}
+
+.privacy-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5% 0;
+}
+
+.privacy-title > h1 {
+  width: 100%;
+}
+
+.privacy-contents {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+}
+
+.privacy-intro {
+  font-size: 1.4rem;
+}
+
+.privacy-body-title {
+  font-size: 2rem;
+  padding-top: 3%;
+}
+
+.privacy-body-content {
+  font-size: 1.4rem;
+}
+
+.privacy-body-content-list {
+  padding-left: 2.4rem;
+  font-size: 1.4rem;
+}
+
+.privacy-body-content-list > li {
+  list-style: decimal;
+}
+
+.privacy-body-content-list > li > ul {
+  padding-left: 2.4rem;
+  font-size: 1.4rem;
+}
+
+.privacy-body-content-list > li > ul > li {
+  list-style: disc;
+}
+
+@media screen and (max-width: 480px) {
+  .privacy-cantainer {
+    min-width: 300px;
+  }
+
+  .privacy-title > h1 {
+    font-size: 2rem;
+  }
+
+  .privacy-contents {
+    width: 90%;
+  }
+
+  .privacy-intro {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .privacy-body-title {
+    font-size: 1.5rem;
+    padding-top: 5%;
+    letter-spacing: 1px;
+  }
+
+  .privacy-body-content {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .privacy-body-content-list {
+    padding-left: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .privacy-body-content-list > li > ul {
+    padding-left: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+}

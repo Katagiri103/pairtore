@@ -17,8 +17,10 @@
             ?>
         </div>
     </div>
-    <div class="back-home">
+    <nav class="back-home">
         <a href="<?php echo esc_url(home_url('/')); ?>">トップ画面へ戻る</a>
-    </div>
+        <a href="<?php echo esc_url(home_url('/privacy')); ?>" target="_blank">プライバシーポリシー</a>
+    </nav>
 </section>
+<div class="copyright">copyright ©️ FreeAL CO, Ltd. All rights reserved.</div>
 <!-- 下記が追記するコード -->

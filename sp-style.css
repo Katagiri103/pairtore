@@ -1281,6 +1281,10 @@ Theme Name: pairtore
     font-size: 1.1rem;
     letter-spacing: 1px;
   }
+
+  .copyright {
+    font-size: 1rem;
+  }
 }
 
 /* footer */
