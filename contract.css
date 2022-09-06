@@ -82,7 +82,7 @@ textarea {
   z-index: 1;
   color: #4d4d4d;
   font-size: 18px;
-  line-height: 10px;
+  line-height: 1.2;
 }
 
 .contact-form .input-block .wpcf7-form-control-wrap {
